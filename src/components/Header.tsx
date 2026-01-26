@@ -45,8 +45,16 @@ const Header = () => {
           onClick={() => scrollToSection("hero")}
           className="flex flex-col items-start cursor-pointer group"
         >
+          {/* Mobile name */}
           <span
-            className="font-cormorant text-charcoal text-[13px] sm:text-base md:text-xl lg:text-2xl tracking-widest"
+            className="font-cormorant text-charcoal text-[13px] sm:text-sm tracking-widest md:hidden"
+            style={{ letterSpacing: "0.1em" }}
+          >
+            OLIMPIA MOLDOVEANU
+          </span>
+          {/* Desktop name - original */}
+          <span
+            className="font-cormorant text-charcoal text-xl md:text-2xl tracking-widest hidden md:block"
             style={{ letterSpacing: "0.1em" }}
           >
             OLIMPIA MOLDOVEANU
@@ -59,7 +67,7 @@ const Header = () => {
           >
             Coaching Transformator
           </span>
-          {/* Desktop tagline - full */}
+          {/* Desktop tagline - original */}
           <span
             className="font-montserrat text-gri-mediu text-[10px] md:text-xs tracking-widest uppercase hidden md:block"
             style={{ letterSpacing: "0.15em" }}
