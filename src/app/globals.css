@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Montserrat:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FAF7F5;
+  color: #3A3A3A;
+  line-height: 1.8;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF7F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #EAC4C4;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF6A;
+}
+
+/* Custom Classes */
+@layer components {
+  .btn-primary {
+    @apply bg-auriu text-white px-8 py-3.5 rounded-button font-montserrat font-medium
+           transition-all duration-300 ease-in-out hover:bg-opacity-90 hover:shadow-md;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent border-2 border-auriu text-auriu px-8 py-3 rounded-button
+           font-montserrat font-medium transition-all duration-300 ease-in-out
+           hover:bg-auriu hover:text-white;
+  }
+
+  .section-padding {
+    @apply py-20 md:py-section px-4 md:px-8 lg:px-16;
+  }
+
+  .card {
+    @apply bg-white rounded-card p-8 border border-gri-deschis transition-all duration-300
+           hover:shadow-card;
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, #3A3A3A 0%, #6B6B6B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+/* Focus States for Accessibility */
+*:focus-visible {
+  outline: 2px solid #D4AF6A;
+  outline-offset: 2px;
+}
+
+/* Form Inputs */
+input, textarea, select {
+  @apply w-full border border-gri-deschis rounded-lg px-4 py-3 bg-white
+         transition-all duration-200 focus:border-auriu focus:ring-1 focus:ring-auriu
+         focus:outline-none;
+}
+
+input::placeholder, textarea::placeholder {
+  @apply text-gri-mediu;
+}
+
+/* Selection */
+::selection {
+  background-color: #EAC4C4;
+  color: #3A3A3A;
+}
