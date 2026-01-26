@@ -46,17 +46,17 @@ const Header = () => {
           className="flex flex-col items-start cursor-pointer group"
         >
           <span
-            className="font-cormorant text-charcoal text-xl md:text-2xl tracking-widest"
+            className="font-cormorant text-charcoal text-sm sm:text-lg md:text-2xl tracking-widest"
             style={{ letterSpacing: "0.1em" }}
           >
             OLIMPIA MOLDOVEANU
           </span>
-          <span className="w-full h-px bg-auriu my-1"></span>
+          <span className="w-full h-px bg-auriu my-0.5 md:my-1"></span>
           <span
-            className="font-montserrat text-gri-mediu text-[10px] md:text-xs tracking-widest uppercase"
-            style={{ letterSpacing: "0.15em" }}
+            className="font-montserrat text-gri-mediu text-[8px] sm:text-[9px] md:text-xs tracking-widest uppercase hidden xs:block"
+            style={{ letterSpacing: "0.1em" }}
           >
-            Coaching Transformator prin Legile Universale
+            Coaching Transformator
           </span>
         </button>
 
