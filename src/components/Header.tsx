@@ -40,36 +40,40 @@ const Header = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between">
-        {/* Logo */}
+        {/* Logo - Mobile */}
         <button
           onClick={() => scrollToSection("hero")}
-          className="flex flex-col items-start cursor-pointer group"
+          className="flex flex-col items-start cursor-pointer group md:hidden"
         >
-          {/* Mobile name */}
           <span
-            className="font-cormorant text-charcoal text-[13px] sm:text-sm tracking-widest md:hidden"
+            className="font-cormorant text-charcoal text-[13px] sm:text-sm tracking-widest"
             style={{ letterSpacing: "0.1em" }}
           >
             OLIMPIA MOLDOVEANU
           </span>
-          {/* Desktop name - original */}
+          <span className="w-full h-px bg-auriu my-0.5"></span>
           <span
-            className="font-cormorant text-charcoal text-xl md:text-2xl tracking-widest hidden md:block"
-            style={{ letterSpacing: "0.1em" }}
-          >
-            OLIMPIA MOLDOVEANU
-          </span>
-          <span className="w-full h-px bg-auriu my-0.5 md:my-1"></span>
-          {/* Mobile tagline - shorter */}
-          <span
-            className="font-montserrat text-gri-mediu text-[7px] sm:text-[8px] tracking-widest uppercase md:hidden"
+            className="font-montserrat text-gri-mediu text-[7px] sm:text-[8px] tracking-widest uppercase"
             style={{ letterSpacing: "0.08em" }}
           >
             Coaching Transformator
           </span>
-          {/* Desktop tagline - original */}
+        </button>
+
+        {/* Logo - Desktop (ORIGINAL) */}
+        <button
+          onClick={() => scrollToSection("hero")}
+          className="hidden md:flex flex-col items-start cursor-pointer group"
+        >
           <span
-            className="font-montserrat text-gri-mediu text-[10px] md:text-xs tracking-widest uppercase hidden md:block"
+            className="font-cormorant text-charcoal text-xl md:text-2xl tracking-widest"
+            style={{ letterSpacing: "0.1em" }}
+          >
+            OLIMPIA MOLDOVEANU
+          </span>
+          <span className="w-full h-px bg-auriu my-1"></span>
+          <span
+            className="font-montserrat text-gri-mediu text-[10px] md:text-xs tracking-widest uppercase"
             style={{ letterSpacing: "0.15em" }}
           >
             Coaching Transformator prin Legile Universale
