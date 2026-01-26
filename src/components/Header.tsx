@@ -46,17 +46,25 @@ const Header = () => {
           className="flex flex-col items-start cursor-pointer group"
         >
           <span
-            className="font-cormorant text-charcoal text-sm sm:text-lg md:text-2xl tracking-widest"
+            className="font-cormorant text-charcoal text-[13px] sm:text-base md:text-xl lg:text-2xl tracking-widest"
             style={{ letterSpacing: "0.1em" }}
           >
             OLIMPIA MOLDOVEANU
           </span>
           <span className="w-full h-px bg-auriu my-0.5 md:my-1"></span>
+          {/* Mobile tagline - shorter */}
           <span
-            className="font-montserrat text-gri-mediu text-[8px] sm:text-[9px] md:text-xs tracking-widest uppercase hidden xs:block"
-            style={{ letterSpacing: "0.1em" }}
+            className="font-montserrat text-gri-mediu text-[7px] sm:text-[8px] tracking-widest uppercase md:hidden"
+            style={{ letterSpacing: "0.08em" }}
           >
             Coaching Transformator
+          </span>
+          {/* Desktop tagline - full */}
+          <span
+            className="font-montserrat text-gri-mediu text-[10px] md:text-xs tracking-widest uppercase hidden md:block"
+            style={{ letterSpacing: "0.15em" }}
+          >
+            Coaching Transformator prin Legile Universale
           </span>
         </button>
 
