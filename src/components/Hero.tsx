@@ -9,10 +9,10 @@ const Hero = () => {
   };
 
   const trustBadges = [
-    { icon: "✓", text: "Program structurat 36 săptămâni" },
-    { icon: "✓", text: "Sesiuni de grup + suport individual" },
-    { icon: "✓", text: "Sistem coerent (27 Legii Universale)" },
-    { icon: "✓", text: "Comunitate sigură și caldă" },
+    { icon: "✓", text: "Liniște în minte, nu doar inspirație" },
+    { icon: "✓", text: "Suport constant — nu te las singură" },
+    { icon: "✓", text: "Structură clară — știi ce urmează" },
+    { icon: "✓", text: "Fără presiune — în ritmul tău" },
   ];
 
   return (
@@ -23,27 +23,38 @@ const Hero = () => {
         background: "linear-gradient(180deg, #FAF7F5 0%, #FCF5F5 100%)",
       }}
     >
-      <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 w-full">
+      <div className="max-w-7xl mx-auto px-5 md:px-8 lg:px-16 w-full">
         <div className="grid lg:grid-cols-5 gap-12 lg:gap-16 items-center">
           {/* Text Content - 60% */}
-          <div className="lg:col-span-3 space-y-8">
+          <div className="lg:col-span-3 space-y-8 text-center md:text-left">
             {/* Main Heading */}
-            <h1 className="font-cormorant text-h1-mobile md:text-h1 text-charcoal">
+            <h1
+              className="font-cormorant text-h1-mobile md:text-h1 text-charcoal"
+              style={{ lineHeight: "1.6" }}
+            >
               „Nu mai am liniște în cap?"
               <br />
               <span className="text-gri-mediu">Nu ești singură.</span>
             </h1>
 
             {/* Subtitle */}
-            <p className="font-montserrat text-body-mobile md:text-body text-gri-mediu max-w-2xl leading-relaxed">
-              Te ghidez de la anxietate, frici și blocaje emoționale la pace
-              interioară și claritate — prin 27 Legii Universale, pași clari și
-              suport real. Fără promisiuni goale, fără presiune. Doar
-              transformare autentică, în ritm natural.
-            </p>
+            <div
+              className="font-montserrat text-body-mobile md:text-body text-gri-mediu max-w-2xl mx-auto md:mx-0"
+              style={{ lineHeight: "1.8" }}
+            >
+              <p className="mb-4">
+                Te ghidez de la anxietate, frici și oboseală emoțională la pace
+                interioară și claritate — cu pași clari, suport real și un sistem
+                coerent care funcționează.
+              </p>
+              <p>
+                Fără promisiuni goale, fără presiune. Doar transformare autentică,
+                în ritmul tău.
+              </p>
+            </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center md:justify-start">
               <button
                 onClick={() => scrollToSection("contact")}
                 className="btn-primary text-base"
@@ -59,13 +70,13 @@ const Hero = () => {
             </div>
 
             {/* Trust Badges */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-6">
+            <div className="grid grid-cols-1 gap-3 pt-6">
               {trustBadges.map((badge, index) => (
                 <div
                   key={index}
-                  className="flex items-center gap-3 text-gri-mediu"
+                  className="flex items-center gap-3 text-gri-mediu justify-center md:justify-start"
                 >
-                  <span className="text-verde-sage font-bold">{badge.icon}</span>
+                  <span className="text-verde-sage font-bold text-lg">{badge.icon}</span>
                   <span className="font-montserrat text-sm">{badge.text}</span>
                 </div>
               ))}
@@ -73,7 +84,7 @@ const Hero = () => {
           </div>
 
           {/* Visual Element - 40% */}
-          <div className="lg:col-span-2 flex justify-center lg:justify-end">
+          <div className="lg:col-span-2 flex justify-center lg:justify-end hidden md:flex">
             <div className="relative w-full max-w-md">
               {/* Decorative Circle Background */}
               <div className="absolute inset-0 bg-roz-pudrat/30 rounded-full blur-3xl"></div>
