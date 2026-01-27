@@ -109,7 +109,7 @@ const Problems = () => {
               <div className="mb-4">{card.icon}</div>
 
               {/* Title */}
-              <h3 className="font-cormorant text-2xl text-charcoal mb-4">
+              <h3 className="font-cormorant text-2xl text-charcoal mb-4 font-medium">
                 {card.title}
               </h3>
 
