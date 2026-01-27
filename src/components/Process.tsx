@@ -53,9 +53,6 @@ const Process = () => {
 
         {/* Process Steps */}
         <div className="relative">
-          {/* Connecting Line (Desktop) */}
-          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-0.5 bg-auriu/30 -translate-y-1/2 z-0"></div>
-
           {/* Steps Grid */}
           <div className="grid lg:grid-cols-3 gap-8 relative z-10">
             {steps.map((step, index) => (
