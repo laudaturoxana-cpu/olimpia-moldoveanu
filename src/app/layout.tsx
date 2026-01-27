@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import CookieConsent from "@/components/CookieConsent";
 
 export const metadata: Metadata = {
   title: "Olimpia Moldoveanu | Coaching Transformator prin Legile Universale",
@@ -36,6 +37,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         {children}
+        <CookieConsent />
       </body>
     </html>
   );
