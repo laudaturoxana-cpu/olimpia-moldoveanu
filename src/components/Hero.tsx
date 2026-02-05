@@ -1,5 +1,8 @@
 "use client";
 
+import { motion } from "framer-motion";
+import { EASE, DURATION } from "@/lib/animations";
+
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -18,7 +21,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center pt-32 pb-20 md:pt-40 md:pb-28"
+      className="min-h-screen flex items-center pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden"
       style={{
         background: "linear-gradient(180deg, #FAF7F5 0%, #FCF5F5 100%)",
       }}
@@ -28,19 +31,25 @@ const Hero = () => {
           {/* Text Content - 60% */}
           <div className="lg:col-span-3 space-y-8 text-center md:text-left">
             {/* Main Heading */}
-            <h1
+            <motion.h1
               className="font-cormorant text-h1-mobile md:text-h1 text-charcoal"
               style={{ lineHeight: "1.6" }}
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: DURATION.normal, ease: EASE, delay: 0.2 }}
             >
               „Nu mai am liniște în cap?"
               <br />
               <span className="text-gri-mediu">Nu ești singură.</span>
-            </h1>
+            </motion.h1>
 
             {/* Subtitle */}
-            <div
+            <motion.div
               className="font-montserrat text-body-mobile md:text-body text-gri-mediu max-w-2xl mx-auto md:mx-0"
               style={{ lineHeight: "1.8" }}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: DURATION.normal, ease: EASE, delay: 0.5 }}
             >
               <p className="mb-4">
                 Te ghidez de la anxietate, frici și oboseală emoțională la pace
@@ -51,58 +60,133 @@ const Hero = () => {
                 Fără promisiuni goale, fără presiune. Doar transformare autentică,
                 în ritmul tău.
               </p>
-            </div>
+            </motion.div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center md:justify-start">
-              <button
+            <motion.div
+              className="flex flex-col sm:flex-row gap-4 pt-4 justify-center md:justify-start"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: DURATION.normal, ease: EASE, delay: 0.7 }}
+            >
+              <motion.button
                 onClick={() => scrollToSection("contact")}
                 className="btn-primary text-base"
+                whileHover={{ scale: 1.03 }}
+                whileTap={{ scale: 0.97 }}
               >
                 Află cum te pot ajuta
-              </button>
-              <button
+              </motion.button>
+              <motion.button
                 onClick={() => scrollToSection("contact")}
                 className="btn-secondary text-base"
+                whileHover={{ scale: 1.03 }}
+                whileTap={{ scale: 0.97 }}
               >
                 Descarcă ghidul gratuit
-              </button>
-            </div>
+              </motion.button>
+            </motion.div>
 
             {/* Trust Badges */}
-            <div className="grid grid-cols-1 gap-3 pt-6">
+            <motion.div
+              className="grid grid-cols-1 gap-3 pt-6"
+              initial="hidden"
+              animate="visible"
+              variants={{
+                hidden: {},
+                visible: {
+                  transition: { staggerChildren: 0.1, delayChildren: 0.9 },
+                },
+              }}
+            >
               {trustBadges.map((badge, index) => (
-                <div
+                <motion.div
                   key={index}
                   className="flex items-center gap-3 text-gri-mediu justify-center md:justify-start"
+                  variants={{
+                    hidden: { opacity: 0, x: -20 },
+                    visible: {
+                      opacity: 1,
+                      x: 0,
+                      transition: { duration: DURATION.fast, ease: EASE },
+                    },
+                  }}
                 >
                   <span className="text-verde-sage font-bold text-lg">{badge.icon}</span>
                   <span className="font-montserrat text-sm">{badge.text}</span>
-                </div>
+                </motion.div>
               ))}
-            </div>
+            </motion.div>
           </div>
 
           {/* Visual Element - 40% */}
           <div className="lg:col-span-2 flex justify-center lg:justify-end hidden md:flex">
             <div className="relative w-full max-w-md">
               {/* Decorative Circle Background */}
-              <div className="absolute inset-0 bg-roz-pudrat/30 rounded-full blur-3xl"></div>
+              <motion.div
+                className="absolute inset-0 bg-roz-pudrat/30 rounded-full blur-3xl"
+                animate={{
+                  scale: [1, 1.05, 1],
+                  opacity: [0.3, 0.4, 0.3],
+                }}
+                transition={{
+                  duration: 8,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
+              />
 
               {/* Main Decorative Element */}
               <div className="relative aspect-square flex items-center justify-center">
                 {/* Outer Circle */}
-                <div className="absolute w-full h-full rounded-full border border-auriu/20"></div>
+                <motion.div
+                  className="absolute w-full h-full rounded-full border border-auriu/20"
+                  initial={{ scale: 0, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  transition={{ duration: 0.8, ease: EASE, delay: 0.3 }}
+                >
+                  <motion.div
+                    className="w-full h-full"
+                    animate={{ y: [0, -6, 0] }}
+                    transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+                  />
+                </motion.div>
 
                 {/* Middle Circle */}
-                <div className="absolute w-4/5 h-4/5 rounded-full border border-roz-pudrat/40"></div>
+                <motion.div
+                  className="absolute w-4/5 h-4/5 rounded-full border border-roz-pudrat/40"
+                  initial={{ scale: 0, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  transition={{ duration: 0.8, ease: EASE, delay: 0.5 }}
+                />
+                <motion.div
+                  className="absolute w-4/5 h-4/5"
+                  animate={{ y: [0, -8, 0] }}
+                  transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+                />
 
                 {/* Inner Circle */}
-                <div className="absolute w-3/5 h-3/5 rounded-full bg-gradient-to-br from-roz-pudrat/20 to-transparent"></div>
+                <motion.div
+                  className="absolute w-3/5 h-3/5 rounded-full bg-gradient-to-br from-roz-pudrat/20 to-transparent"
+                  initial={{ scale: 0, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  transition={{ duration: 0.8, ease: EASE, delay: 0.7 }}
+                />
 
                 {/* Center Element */}
-                <div className="relative z-10 text-center p-8">
-                  <div className="w-1 h-16 bg-auriu mx-auto mb-4"></div>
+                <motion.div
+                  className="relative z-10 text-center p-8"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: DURATION.slow, ease: EASE, delay: 1.0 }}
+                >
+                  <motion.div
+                    className="w-1 h-16 bg-auriu mx-auto mb-4"
+                    initial={{ scaleY: 0 }}
+                    animate={{ scaleY: 1 }}
+                    transition={{ duration: DURATION.slow, ease: EASE, delay: 1.1 }}
+                    style={{ transformOrigin: "top" }}
+                  />
                   <p className="font-cormorant text-2xl md:text-3xl text-charcoal italic leading-relaxed">
                     „Te țin de mână
                     <br />
@@ -110,8 +194,14 @@ const Hero = () => {
                     <br />
                     la tine"
                   </p>
-                  <div className="w-1 h-16 bg-auriu mx-auto mt-4"></div>
-                </div>
+                  <motion.div
+                    className="w-1 h-16 bg-auriu mx-auto mt-4"
+                    initial={{ scaleY: 0 }}
+                    animate={{ scaleY: 1 }}
+                    transition={{ duration: DURATION.slow, ease: EASE, delay: 1.3 }}
+                    style={{ transformOrigin: "bottom" }}
+                  />
+                </motion.div>
               </div>
             </div>
           </div>

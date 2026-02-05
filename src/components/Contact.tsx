@@ -1,6 +1,16 @@
 "use client";
 
 import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import {
+  fadeInUp,
+  fadeInLeft,
+  fadeInRight,
+  lineExpand,
+  staggerContainer,
+  staggerChild,
+  viewportConfig,
+} from "@/lib/animations";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -28,13 +38,8 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission - replace with actual form handling
-    // You can use Formspree, Netlify Forms, or your own backend
     try {
-      // For demo purposes, simulate a delay
       await new Promise((resolve) => setTimeout(resolve, 1500));
-
-      // Here you would typically send to your backend or form service
       console.log("Form submitted:", formData);
 
       setSubmitStatus("success");
@@ -49,7 +54,6 @@ const Contact = () => {
       setSubmitStatus("error");
     } finally {
       setIsSubmitting(false);
-      // Reset status after 5 seconds
       setTimeout(() => setSubmitStatus("idle"), 5000);
     }
   };
@@ -66,23 +70,50 @@ const Contact = () => {
     <section id="contact" className="section-padding bg-crem">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="font-cormorant text-h2-mobile md:text-h2 text-charcoal mb-4">
+        <motion.div
+          className="text-center mb-16"
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewportConfig}
+        >
+          <motion.h2
+            className="font-cormorant text-h2-mobile md:text-h2 text-charcoal mb-4"
+            variants={fadeInUp}
+          >
             Hai să vorbim
-          </h2>
-          <p className="font-montserrat text-gri-mediu max-w-xl mx-auto">
+          </motion.h2>
+          <motion.p
+            className="font-montserrat text-gri-mediu max-w-xl mx-auto"
+            variants={fadeInUp}
+          >
             Dacă simți că e momentul să începi — sunt aici să te ghidez.
-          </p>
-          <div className="w-16 h-0.5 bg-auriu mx-auto mt-6"></div>
-        </div>
+          </motion.p>
+          <motion.div
+            className="h-0.5 bg-auriu mx-auto mt-6"
+            variants={lineExpand}
+          />
+        </motion.div>
 
         {/* Contact Content */}
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
           {/* Contact Form */}
-          <div className="bg-white rounded-card p-8 md:p-10 border border-gri-deschis">
-            <form onSubmit={handleSubmit} className="space-y-6">
+          <motion.div
+            className="bg-white rounded-card p-8 md:p-10 border border-gri-deschis"
+            initial="hidden"
+            whileInView="visible"
+            viewport={viewportConfig}
+            variants={fadeInLeft}
+          >
+            <motion.form
+              onSubmit={handleSubmit}
+              className="space-y-6"
+              variants={staggerContainer(0.08)}
+              initial="hidden"
+              whileInView="visible"
+              viewport={viewportConfig}
+            >
               {/* Name */}
-              <div>
+              <motion.div variants={staggerChild}>
                 <label
                   htmlFor="name"
                   className="block font-montserrat text-sm font-medium text-charcoal mb-2"
@@ -99,10 +130,10 @@ const Contact = () => {
                   placeholder="Cum te cheamă?"
                   className="font-montserrat"
                 />
-              </div>
+              </motion.div>
 
               {/* Email */}
-              <div>
+              <motion.div variants={staggerChild}>
                 <label
                   htmlFor="email"
                   className="block font-montserrat text-sm font-medium text-charcoal mb-2"
@@ -119,10 +150,10 @@ const Contact = () => {
                   placeholder="Unde îți trimit răspunsul?"
                   className="font-montserrat"
                 />
-              </div>
+              </motion.div>
 
               {/* Phone */}
-              <div>
+              <motion.div variants={staggerChild}>
                 <label
                   htmlFor="phone"
                   className="block font-montserrat text-sm font-medium text-charcoal mb-2"
@@ -138,10 +169,10 @@ const Contact = () => {
                   placeholder="Opțional — dacă vrei să te sun"
                   className="font-montserrat"
                 />
-              </div>
+              </motion.div>
 
               {/* Service */}
-              <div>
+              <motion.div variants={staggerChild}>
                 <label
                   htmlFor="service"
                   className="block font-montserrat text-sm font-medium text-charcoal mb-2"
@@ -162,10 +193,10 @@ const Contact = () => {
                     </option>
                   ))}
                 </select>
-              </div>
+              </motion.div>
 
               {/* Message */}
-              <div>
+              <motion.div variants={staggerChild}>
                 <label
                   htmlFor="message"
                   className="block font-montserrat text-sm font-medium text-charcoal mb-2"
@@ -182,72 +213,94 @@ const Contact = () => {
                   placeholder="Spune-mi ce simți acum. Nu trebuie să fie perfect formulat — scrie ce îți vine."
                   className="font-montserrat resize-none"
                 />
-              </div>
+              </motion.div>
 
               {/* Submit Button */}
-              <button
-                type="submit"
-                disabled={isSubmitting}
-                className={`w-full btn-primary flex items-center justify-center gap-2 ${
-                  isSubmitting ? "opacity-70 cursor-not-allowed" : ""
-                }`}
-              >
-                {isSubmitting ? (
-                  <>
-                    <svg
-                      className="animate-spin h-5 w-5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                    >
-                      <circle
-                        className="opacity-25"
-                        cx="12"
-                        cy="12"
-                        r="10"
-                        stroke="currentColor"
-                        strokeWidth="4"
-                      />
-                      <path
-                        className="opacity-75"
-                        fill="currentColor"
-                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-                      />
-                    </svg>
-                    Se trimite...
-                  </>
-                ) : (
-                  "Trimite mesajul"
-                )}
-              </button>
+              <motion.div variants={staggerChild}>
+                <motion.button
+                  type="submit"
+                  disabled={isSubmitting}
+                  className={`w-full btn-primary flex items-center justify-center gap-2 ${
+                    isSubmitting ? "opacity-70 cursor-not-allowed" : ""
+                  }`}
+                  whileHover={!isSubmitting ? { scale: 1.02 } : undefined}
+                  whileTap={!isSubmitting ? { scale: 0.98 } : undefined}
+                >
+                  {isSubmitting ? (
+                    <>
+                      <svg
+                        className="animate-spin h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <circle
+                          className="opacity-25"
+                          cx="12"
+                          cy="12"
+                          r="10"
+                          stroke="currentColor"
+                          strokeWidth="4"
+                        />
+                        <path
+                          className="opacity-75"
+                          fill="currentColor"
+                          d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                        />
+                      </svg>
+                      Se trimite...
+                    </>
+                  ) : (
+                    "Trimite mesajul"
+                  )}
+                </motion.button>
+              </motion.div>
 
               {/* Status Messages */}
-              {submitStatus === "success" && (
-                <div className="p-4 bg-verde-sage/20 rounded-lg text-center">
-                  <p className="font-montserrat text-charcoal">
-                    Mulțumesc pentru mesaj! Îți răspund în maxim 24 de ore.
-                  </p>
-                </div>
-              )}
+              <AnimatePresence>
+                {submitStatus === "success" && (
+                  <motion.div
+                    className="p-4 bg-verde-sage/20 rounded-lg text-center"
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                  >
+                    <p className="font-montserrat text-charcoal">
+                      Mulțumesc pentru mesaj! Îți răspund în maxim 24 de ore.
+                    </p>
+                  </motion.div>
+                )}
 
-              {submitStatus === "error" && (
-                <div className="p-4 bg-roz-pudrat/30 rounded-lg text-center">
-                  <p className="font-montserrat text-charcoal">
-                    Ups, ceva nu a funcționat. Te rog încearcă din nou sau
-                    scrie-mi direct pe email.
-                  </p>
-                </div>
-              )}
+                {submitStatus === "error" && (
+                  <motion.div
+                    className="p-4 bg-roz-pudrat/30 rounded-lg text-center"
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                  >
+                    <p className="font-montserrat text-charcoal">
+                      Ups, ceva nu a funcționat. Te rog încearcă din nou sau
+                      scrie-mi direct pe email.
+                    </p>
+                  </motion.div>
+                )}
+              </AnimatePresence>
 
               {/* Privacy Note */}
               <p className="font-montserrat text-sm text-gri-mediu italic text-center">
                 Îți răspund personal în maxim 24 ore. E în regulă să nu știi de
                 unde să începi — de aici pornim.
               </p>
-            </form>
-          </div>
+            </motion.form>
+          </motion.div>
 
           {/* Contact Info */}
-          <div className="flex flex-col gap-8">
+          <motion.div
+            className="flex flex-col gap-8"
+            initial="hidden"
+            whileInView="visible"
+            viewport={viewportConfig}
+            variants={fadeInRight}
+          >
             {/* Info Card */}
             <div className="bg-roz-pudrat/20 rounded-card p-8 border-l-4 border-auriu">
               <h3 className="font-cormorant text-2xl text-charcoal mb-6">
@@ -313,7 +366,7 @@ const Contact = () => {
 
             {/* Encouragement Card */}
             <div className="bg-white rounded-card p-8 border border-gri-deschis flex-grow flex items-center">
-              <div className="text-center">
+              <div className="text-center w-full">
                 <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-auriu/10 flex items-center justify-center">
                   <span className="text-3xl">💜</span>
                 </div>
@@ -325,7 +378,7 @@ const Contact = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

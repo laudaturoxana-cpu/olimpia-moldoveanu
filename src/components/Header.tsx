@@ -1,6 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import { EASE, DURATION } from "@/lib/animations";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,18 +34,24 @@ const Header = () => {
   ];
 
   return (
-    <header
+    <motion.header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
           ? "bg-crem/95 backdrop-blur-sm shadow-header py-3"
           : "bg-transparent py-5"
       }`}
+      initial={{ y: -100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: DURATION.normal, ease: EASE }}
     >
       <div className="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between">
         {/* Logo - Mobile */}
-        <button
+        <motion.button
           onClick={() => scrollToSection("hero")}
           className="flex flex-col items-start cursor-pointer group md:hidden"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: DURATION.fast, ease: EASE, delay: 0.3 }}
         >
           <span
             className="font-cormorant text-charcoal text-[15px] sm:text-base tracking-widest"
@@ -58,12 +66,15 @@ const Header = () => {
           >
             Coaching Transformator prin Legile Universale
           </span>
-        </button>
+        </motion.button>
 
         {/* Logo - Desktop (ORIGINAL) */}
-        <button
+        <motion.button
           onClick={() => scrollToSection("hero")}
           className="hidden md:flex flex-col items-start cursor-pointer group"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: DURATION.fast, ease: EASE, delay: 0.3 }}
         >
           <span
             className="font-cormorant text-charcoal text-xl md:text-2xl tracking-widest"
@@ -78,28 +89,51 @@ const Header = () => {
           >
             Coaching Transformator prin Legile Universale
           </span>
-        </button>
+        </motion.button>
 
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center gap-8">
+        <motion.nav
+          className="hidden lg:flex items-center gap-8"
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {},
+            visible: {
+              transition: { staggerChildren: 0.08, delayChildren: 0.4 },
+            },
+          }}
+        >
           {navItems.map((item) => (
-            <button
+            <motion.button
               key={item.id}
               onClick={() => scrollToSection(item.id)}
               className="font-montserrat text-sm text-charcoal hover:text-auriu transition-colors duration-200"
+              variants={{
+                hidden: { opacity: 0, y: -10 },
+                visible: {
+                  opacity: 1,
+                  y: 0,
+                  transition: { duration: DURATION.fast, ease: EASE },
+                },
+              }}
             >
               {item.label}
-            </button>
+            </motion.button>
           ))}
-        </nav>
+        </motion.nav>
 
         {/* Desktop CTA */}
-        <button
+        <motion.button
           onClick={() => scrollToSection("contact")}
           className="hidden lg:block btn-primary text-sm"
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: DURATION.fast, ease: EASE, delay: 0.8 }}
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
         >
           Află cum te pot ajuta
-        </button>
+        </motion.button>
 
         {/* Mobile Menu Button */}
         <button
@@ -151,7 +185,7 @@ const Header = () => {
           </button>
         </nav>
       </div>
-    </header>
+    </motion.header>
   );
 };
 

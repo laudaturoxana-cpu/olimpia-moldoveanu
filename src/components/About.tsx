@@ -1,5 +1,15 @@
 "use client";
 
+import { motion } from "framer-motion";
+import {
+  fadeInUp,
+  fadeInLeft,
+  fadeInRight,
+  staggerContainer,
+  staggerChild,
+  viewportConfig,
+} from "@/lib/animations";
+
 const About = () => {
   const credentials = [
     {
@@ -31,7 +41,13 @@ const About = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-5 gap-12 lg:gap-16 items-center">
           {/* Image/Visual Area - 40% */}
-          <div className="lg:col-span-2 order-2 lg:order-1">
+          <motion.div
+            className="lg:col-span-2 order-2 lg:order-1"
+            initial="hidden"
+            whileInView="visible"
+            viewport={viewportConfig}
+            variants={fadeInLeft}
+          >
             <div className="relative">
               {/* Decorative Background */}
               <div className="absolute -inset-4 bg-roz-pudrat/20 rounded-3xl -rotate-3"></div>
@@ -55,12 +71,29 @@ const About = () => {
               </div>
 
               {/* Floating Accent */}
-              <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-verde-sage/20 rounded-full blur-xl"></div>
+              <motion.div
+                className="absolute -bottom-4 -right-4 w-20 h-20 bg-verde-sage/20 rounded-full blur-xl"
+                animate={{
+                  scale: [1, 1.2, 1],
+                  opacity: [0.2, 0.4, 0.2],
+                }}
+                transition={{
+                  duration: 5,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
+              />
             </div>
-          </div>
+          </motion.div>
 
           {/* Text Content - 60% */}
-          <div className="lg:col-span-3 order-1 lg:order-2">
+          <motion.div
+            className="lg:col-span-3 order-1 lg:order-2"
+            initial="hidden"
+            whileInView="visible"
+            viewport={viewportConfig}
+            variants={fadeInRight}
+          >
             {/* Section Title */}
             <h2 className="font-cormorant text-h2-mobile md:text-h2 text-charcoal mb-2">
               Bună, sunt Olimpia
@@ -110,10 +143,26 @@ const About = () => {
             </div>
 
             {/* Credentials Box */}
-            <div className="bg-white rounded-card p-8 border border-gri-deschis">
-              <div className="grid sm:grid-cols-2 gap-6">
+            <motion.div
+              className="bg-white rounded-card p-8 border border-gri-deschis"
+              initial="hidden"
+              whileInView="visible"
+              viewport={viewportConfig}
+              variants={fadeInUp}
+            >
+              <motion.div
+                className="grid sm:grid-cols-2 gap-6"
+                variants={staggerContainer(0.1)}
+                initial="hidden"
+                whileInView="visible"
+                viewport={viewportConfig}
+              >
                 {credentials.map((item, index) => (
-                  <div key={index} className="flex gap-4">
+                  <motion.div
+                    key={index}
+                    className="flex gap-4"
+                    variants={staggerChild}
+                  >
                     <span className="text-2xl flex-shrink-0">{item.icon}</span>
                     <div>
                       <p className="font-montserrat font-medium text-charcoal mb-1">
@@ -123,11 +172,11 @@ const About = () => {
                         {item.value}
                       </p>
                     </div>
-                  </div>
+                  </motion.div>
                 ))}
-              </div>
-            </div>
-          </div>
+              </motion.div>
+            </motion.div>
+          </motion.div>
         </div>
       </div>
     </section>

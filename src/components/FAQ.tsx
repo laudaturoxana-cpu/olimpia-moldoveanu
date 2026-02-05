@@ -1,6 +1,15 @@
 "use client";
 
 import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import {
+  fadeInUp,
+  lineExpand,
+  staggerContainer,
+  staggerChild,
+  viewportConfig,
+  EASE,
+} from "@/lib/animations";
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
@@ -46,23 +55,41 @@ const FAQ = () => {
     <section id="faq" className="section-padding bg-crem">
       <div className="max-w-3xl mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="font-cormorant text-h2-mobile md:text-h2 text-charcoal mb-4">
+        <motion.div
+          className="text-center mb-16"
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewportConfig}
+        >
+          <motion.h2
+            className="font-cormorant text-h2-mobile md:text-h2 text-charcoal mb-4"
+            variants={fadeInUp}
+          >
             Întrebări frecvente
-          </h2>
-          <div className="w-16 h-0.5 bg-auriu mx-auto"></div>
-        </div>
+          </motion.h2>
+          <motion.div
+            className="h-0.5 bg-auriu mx-auto"
+            variants={lineExpand}
+          />
+        </motion.div>
 
         {/* FAQ Accordion */}
-        <div className="space-y-4">
+        <motion.div
+          className="space-y-4"
+          variants={staggerContainer(0.1)}
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewportConfig}
+        >
           {faqs.map((faq, index) => (
-            <div
+            <motion.div
               key={index}
               className={`bg-white rounded-card border transition-all duration-300 ${
                 openIndex === index
                   ? "border-l-4 border-l-auriu border-t-gri-deschis border-r-gri-deschis border-b-gri-deschis shadow-sm"
                   : "border-gri-deschis hover:border-l-4 hover:border-l-auriu/50"
               }`}
+              variants={staggerChild}
             >
               {/* Question Header */}
               <button
@@ -95,21 +122,27 @@ const FAQ = () => {
                 </span>
               </button>
 
-              {/* Answer Content */}
-              <div
-                className={`overflow-hidden transition-all duration-300 ${
-                  openIndex === index ? "max-h-96" : "max-h-0"
-                }`}
-              >
-                <div className="px-6 pb-6">
-                  <p className="font-montserrat text-gri-mediu leading-relaxed">
-                    {faq.answer}
-                  </p>
-                </div>
-              </div>
-            </div>
+              {/* Answer Content with AnimatePresence */}
+              <AnimatePresence initial={false}>
+                {openIndex === index && (
+                  <motion.div
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: "auto", opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.3, ease: EASE }}
+                    className="overflow-hidden"
+                  >
+                    <div className="px-6 pb-6">
+                      <p className="font-montserrat text-gri-mediu leading-relaxed">
+                        {faq.answer}
+                      </p>
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

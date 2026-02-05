@@ -1,5 +1,15 @@
 "use client";
 
+import { motion } from "framer-motion";
+import {
+  fadeInUp,
+  lineExpand,
+  staggerContainer,
+  staggerChild,
+  viewportConfig,
+  EASE,
+} from "@/lib/animations";
+
 const Problems = () => {
   const problemCards = [
     {
@@ -88,19 +98,42 @@ const Problems = () => {
     <section id="probleme" className="section-padding bg-white">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="font-cormorant text-h2-mobile md:text-h2 text-charcoal mb-4">
+        <motion.div
+          className="text-center mb-16"
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewportConfig}
+        >
+          <motion.h2
+            className="font-cormorant text-h2-mobile md:text-h2 text-charcoal mb-4"
+            variants={fadeInUp}
+          >
             Dacă simți asta, te înțeleg
-          </h2>
-          <div className="w-16 h-0.5 bg-auriu mx-auto"></div>
-        </div>
+          </motion.h2>
+          <motion.div
+            className="h-0.5 bg-auriu mx-auto"
+            variants={lineExpand}
+          />
+        </motion.div>
 
         {/* Problem Cards Grid */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <motion.div
+          className="grid md:grid-cols-2 gap-8"
+          variants={staggerContainer(0.15)}
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewportConfig}
+        >
           {problemCards.map((card, index) => (
-            <div
+            <motion.div
               key={index}
               className="card group hover:border-roz-pudrat/50"
+              variants={staggerChild}
+              whileHover={{
+                y: -4,
+                boxShadow: "0 12px 32px rgba(0,0,0,0.08)",
+                transition: { duration: 0.3, ease: EASE },
+              }}
             >
               {/* Decorative Line */}
               <div className="w-12 h-0.5 bg-auriu mb-6 group-hover:w-20 transition-all duration-300"></div>
@@ -117,16 +150,22 @@ const Problems = () => {
               <p className="font-montserrat text-gri-mediu leading-relaxed">
                 {card.description}
               </p>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
 
         {/* Validation Text */}
-        <div className="text-center mt-16">
+        <motion.div
+          className="text-center mt-16"
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewportConfig}
+          variants={fadeInUp}
+        >
           <p className="font-montserrat text-lg text-gri-mediu italic">
             „E în regulă dacă nu știi exact ce simți. De aici începem."
           </p>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

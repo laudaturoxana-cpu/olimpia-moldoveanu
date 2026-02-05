@@ -1,5 +1,15 @@
 "use client";
 
+import { motion } from "framer-motion";
+import {
+  fadeInUp,
+  lineExpand,
+  staggerContainer,
+  staggerChild,
+  viewportConfig,
+  EASE,
+} from "@/lib/animations";
+
 const Services = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -76,23 +86,50 @@ const Services = () => {
     <section id="servicii" className="section-padding bg-crem">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="font-cormorant text-h2-mobile md:text-h2 text-charcoal mb-4">
+        <motion.div
+          className="text-center mb-16"
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewportConfig}
+        >
+          <motion.h2
+            className="font-cormorant text-h2-mobile md:text-h2 text-charcoal mb-4"
+            variants={fadeInUp}
+          >
             Cum te pot ajuta
-          </h2>
-          <div className="w-16 h-0.5 bg-auriu mx-auto"></div>
-        </div>
+          </motion.h2>
+          <motion.div
+            className="h-0.5 bg-auriu mx-auto"
+            variants={lineExpand}
+          />
+        </motion.div>
 
         {/* Services Grid */}
-        <div className="grid lg:grid-cols-3 gap-8 items-stretch">
+        <motion.div
+          className="grid lg:grid-cols-3 gap-8 items-stretch"
+          variants={staggerContainer(0.2)}
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewportConfig}
+        >
           {services.map((service, index) => (
-            <div
+            <motion.div
               key={index}
               className={`bg-white rounded-card p-8 border transition-all duration-300 hover:shadow-card flex flex-col ${
                 service.featured
                   ? "border-2 border-auriu lg:scale-105 lg:-my-4 shadow-card"
                   : "border-gri-deschis"
               }`}
+              variants={staggerChild}
+              whileHover={
+                !service.featured
+                  ? {
+                      y: -4,
+                      boxShadow: "0 12px 32px rgba(0,0,0,0.08)",
+                      transition: { duration: 0.3, ease: EASE },
+                    }
+                  : undefined
+              }
             >
               {/* Badge */}
               {service.badge && (
@@ -189,19 +226,21 @@ const Services = () => {
               </div>
 
               {/* CTA Button */}
-              <button
+              <motion.button
                 onClick={() => scrollToSection("contact")}
                 className={`w-full py-3.5 rounded-button font-montserrat font-medium transition-all duration-300 ${
                   service.featured
                     ? "bg-auriu text-white hover:bg-opacity-90"
                     : "border-2 border-auriu text-auriu hover:bg-auriu hover:text-white"
                 }`}
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
               >
                 {service.cta}
-              </button>
-            </div>
+              </motion.button>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

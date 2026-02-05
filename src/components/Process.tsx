@@ -1,5 +1,15 @@
 "use client";
 
+import { motion } from "framer-motion";
+import {
+  fadeInUp,
+  lineExpand,
+  staggerContainer,
+  viewportConfig,
+  EASE,
+  DURATION,
+} from "@/lib/animations";
+
 const Process = () => {
   const steps = [
     {
@@ -37,29 +47,77 @@ const Process = () => {
     },
   ];
 
+  const stepVariant = {
+    hidden: { opacity: 0, y: 30 },
+    visible: (i: number) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: DURATION.normal,
+        ease: EASE,
+        delay: i * 0.25,
+      },
+    }),
+  };
+
+  const arrowVariant = {
+    hidden: { scale: 0, opacity: 0 },
+    visible: (i: number) => ({
+      scale: 1,
+      opacity: 1,
+      transition: {
+        duration: DURATION.fast,
+        ease: EASE,
+        delay: i * 0.25 + 0.3,
+      },
+    }),
+  };
+
   return (
     <section id="proces" className="section-padding bg-white">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="font-cormorant text-h2-mobile md:text-h2 text-charcoal mb-4">
+        <motion.div
+          className="text-center mb-16"
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewportConfig}
+        >
+          <motion.h2
+            className="font-cormorant text-h2-mobile md:text-h2 text-charcoal mb-4"
+            variants={fadeInUp}
+          >
             Drumul transformării tale
-          </h2>
-          <p className="font-montserrat text-gri-mediu max-w-2xl mx-auto">
+          </motion.h2>
+          <motion.p
+            className="font-montserrat text-gri-mediu max-w-2xl mx-auto"
+            variants={fadeInUp}
+          >
             Un proces clar, în 3 etape, ghidat pas cu pas
-          </p>
-          <div className="w-16 h-0.5 bg-auriu mx-auto mt-6"></div>
-        </div>
+          </motion.p>
+          <motion.div
+            className="h-0.5 bg-auriu mx-auto mt-6"
+            variants={lineExpand}
+          />
+        </motion.div>
 
         {/* Process Steps */}
         <div className="relative">
           {/* Steps Grid */}
-          <div className="grid lg:grid-cols-3 gap-8 relative z-10">
+          <motion.div
+            className="grid lg:grid-cols-3 gap-8 relative z-10"
+            variants={staggerContainer(0.25)}
+            initial="hidden"
+            whileInView="visible"
+            viewport={viewportConfig}
+          >
             {steps.map((step, index) => (
               <div key={index} className="relative">
                 {/* Step Card */}
-                <div
+                <motion.div
                   className={`${step.bgColor} rounded-card p-8 h-full border border-transparent hover:border-auriu/30 transition-all duration-300`}
+                  custom={index}
+                  variants={stepVariant}
                 >
                   {/* Step Number & Icon */}
                   <div className="flex items-center justify-between mb-6">
@@ -91,11 +149,18 @@ const Process = () => {
                       <span className="text-gri-mediu">{step.details}</span>
                     </p>
                   </div>
-                </div>
+                </motion.div>
 
                 {/* Arrow Connector (Desktop) */}
                 {index < steps.length - 1 && (
-                  <div className="hidden lg:flex absolute top-1/2 -right-4 w-8 h-8 bg-auriu rounded-full items-center justify-center -translate-y-1/2 z-20">
+                  <motion.div
+                    className="hidden lg:flex absolute top-1/2 -right-4 w-8 h-8 bg-auriu rounded-full items-center justify-center -translate-y-1/2 z-20"
+                    custom={index}
+                    variants={arrowVariant}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={viewportConfig}
+                  >
                     <svg
                       className="w-4 h-4 text-white"
                       fill="none"
@@ -109,12 +174,19 @@ const Process = () => {
                         d="M9 5l7 7-7 7"
                       />
                     </svg>
-                  </div>
+                  </motion.div>
                 )}
 
                 {/* Arrow Connector (Mobile) */}
                 {index < steps.length - 1 && (
-                  <div className="lg:hidden flex justify-center my-4">
+                  <motion.div
+                    className="lg:hidden flex justify-center my-4"
+                    custom={index}
+                    variants={arrowVariant}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={viewportConfig}
+                  >
                     <div className="w-8 h-8 bg-auriu rounded-full flex items-center justify-center">
                       <svg
                         className="w-4 h-4 text-white rotate-90"
@@ -130,20 +202,26 @@ const Process = () => {
                         />
                       </svg>
                     </div>
-                  </div>
+                  </motion.div>
                 )}
               </div>
             ))}
-          </div>
+          </motion.div>
         </div>
 
         {/* Validation Text */}
-        <div className="text-center mt-16 max-w-2xl mx-auto">
+        <motion.div
+          className="text-center mt-16 max-w-2xl mx-auto"
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewportConfig}
+          variants={fadeInUp}
+        >
           <p className="font-montserrat text-lg text-gri-mediu italic leading-relaxed">
             „Poți veni și doar cu «nu mai pot». E de ajuns ca să începem. Nu
             trebuie să fii perfectă — trebuie doar să fii dispusă să încerci."
           </p>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

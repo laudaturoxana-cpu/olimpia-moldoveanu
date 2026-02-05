@@ -1,5 +1,15 @@
 "use client";
 
+import { motion } from "framer-motion";
+import Link from "next/link";
+import {
+  fadeIn,
+  staggerContainer,
+  staggerChild,
+  lineExpand,
+  viewportConfig,
+} from "@/lib/animations";
+
 const Footer = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -25,12 +35,28 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-charcoal border-t-4 border-auriu">
+    <footer className="bg-charcoal">
+      {/* Animated Top Border */}
+      <motion.div
+        className="h-1 bg-auriu"
+        initial="hidden"
+        whileInView="visible"
+        viewport={viewportConfig}
+        variants={lineExpand}
+        style={{ width: "100%" }}
+      />
+
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
+        <motion.div
+          className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8"
+          variants={staggerContainer(0.1)}
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewportConfig}
+        >
           {/* Column 1: Logo & Description */}
-          <div className="lg:col-span-1">
+          <motion.div className="lg:col-span-1" variants={staggerChild}>
             {/* Logo */}
             <div className="mb-6">
               <span
@@ -54,10 +80,10 @@ const Footer = () => {
               liniștea interioară, claritatea și puterea. Transformare reală,
               fără promisiuni goale.
             </p>
-          </div>
+          </motion.div>
 
           {/* Column 2: Quick Links */}
-          <div>
+          <motion.div variants={staggerChild}>
             <h4 className="font-cormorant text-xl text-crem mb-6">
               Linkuri rapide
             </h4>
@@ -72,26 +98,26 @@ const Footer = () => {
                 </button>
               ))}
             </nav>
-          </div>
+          </motion.div>
 
           {/* Column 3: Legal */}
-          <div>
+          <motion.div variants={staggerChild}>
             <h4 className="font-cormorant text-xl text-crem mb-6">Legal</h4>
             <nav className="flex flex-col gap-3">
               {legalLinks.map((link) => (
-                <a
+                <Link
                   key={link.href}
                   href={link.href}
                   className="font-montserrat text-sm text-gri-mediu hover:text-auriu transition-colors duration-200"
                 >
                   {link.label}
-                </a>
+                </Link>
               ))}
             </nav>
-          </div>
+          </motion.div>
 
           {/* Column 4: Contact */}
-          <div>
+          <motion.div variants={staggerChild}>
             <h4 className="font-cormorant text-xl text-crem mb-6">
               Contact rapid
             </h4>
@@ -126,12 +152,14 @@ const Footer = () => {
 
               {/* Social Media - Facebook */}
               <div className="pt-4">
-                <a
+                <motion.a
                   href="https://facebook.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center w-10 h-10 rounded-full border border-gri-mediu hover:border-auriu hover:bg-auriu transition-all duration-200 group"
                   aria-label="Facebook"
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.95 }}
                 >
                   <svg
                     className="w-5 h-5 text-gri-mediu group-hover:text-white transition-colors duration-200"
@@ -140,20 +168,26 @@ const Footer = () => {
                   >
                     <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                   </svg>
-                </a>
+                </motion.a>
               </div>
             </div>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </div>
 
       {/* Bottom Footer */}
       <div className="border-t border-gri-mediu/20">
-        <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 py-6">
+        <motion.div
+          className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 py-6"
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewportConfig}
+          variants={fadeIn}
+        >
           <p className="font-montserrat text-sm text-gri-mediu text-center">
             © {currentYear} Olimpia Moldoveanu. Toate drepturile rezervate.
           </p>
-        </div>
+        </motion.div>
       </div>
     </footer>
   );

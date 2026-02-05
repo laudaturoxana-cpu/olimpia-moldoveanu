@@ -1,5 +1,15 @@
 "use client";
 
+import { motion } from "framer-motion";
+import {
+  fadeInUp,
+  lineExpand,
+  staggerContainer,
+  staggerChild,
+  viewportConfig,
+  EASE,
+} from "@/lib/animations";
+
 const Testimonials = () => {
   const testimonials = [
     {
@@ -32,24 +42,47 @@ const Testimonials = () => {
     <section id="testimoniale" className="section-padding bg-crem">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="font-cormorant text-h2-mobile md:text-h2 text-charcoal mb-4">
+        <motion.div
+          className="text-center mb-16"
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewportConfig}
+        >
+          <motion.h2
+            className="font-cormorant text-h2-mobile md:text-h2 text-charcoal mb-4"
+            variants={fadeInUp}
+          >
             Ce spun femeile care au trecut prin program
-          </h2>
-          <div className="w-16 h-0.5 bg-auriu mx-auto"></div>
-        </div>
+          </motion.h2>
+          <motion.div
+            className="h-0.5 bg-auriu mx-auto"
+            variants={lineExpand}
+          />
+        </motion.div>
 
         {/* Testimonials Grid */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <motion.div
+          className="grid md:grid-cols-2 gap-8"
+          variants={staggerContainer(0.2)}
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewportConfig}
+        >
           {testimonials.map((testimonial, index) => (
-            <div
+            <motion.div
               key={index}
-              className="bg-white rounded-card p-8 border-l-4 border-auriu shadow-sm hover:shadow-card transition-all duration-300"
+              className="bg-white rounded-card p-8 border-l-4 border-auriu shadow-sm"
+              variants={staggerChild}
+              whileHover={{
+                y: -3,
+                boxShadow: "0 12px 32px rgba(0,0,0,0.08)",
+                transition: { duration: 0.3, ease: EASE },
+              }}
             >
               {/* Quote Mark */}
               <div className="mb-4">
                 <span className="font-cormorant text-6xl text-auriu/30 leading-none">
-                  "
+                  &ldquo;
                 </span>
               </div>
 
@@ -76,9 +109,9 @@ const Testimonials = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );
