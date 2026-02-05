@@ -9,6 +9,7 @@ import {
   viewportConfig,
   EASE,
 } from "@/lib/animations";
+import SparkleParticles from "@/components/ui/SparkleParticles";
 
 const Testimonials = () => {
   const testimonials = [
@@ -39,8 +40,11 @@ const Testimonials = () => {
   ];
 
   return (
-    <section id="testimoniale" className="section-padding bg-crem">
-      <div className="max-w-7xl mx-auto">
+    <section id="testimoniale" className="section-padding bg-crem relative overflow-hidden">
+      {/* Sparkle Particles */}
+      <SparkleParticles count={15} intensity="subtle" />
+
+      <div className="max-w-7xl mx-auto relative" style={{ zIndex: 2 }}>
         {/* Section Header */}
         <motion.div
           className="text-center mb-10 sm:mb-12 md:mb-16"

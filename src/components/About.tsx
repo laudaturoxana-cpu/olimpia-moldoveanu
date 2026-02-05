@@ -9,6 +9,7 @@ import {
   staggerChild,
   viewportConfig,
 } from "@/lib/animations";
+import SparkleParticles from "@/components/ui/SparkleParticles";
 
 const About = () => {
   const credentials = [
@@ -37,8 +38,11 @@ const About = () => {
   ];
 
   return (
-    <section id="despre" className="section-padding bg-crem">
-      <div className="max-w-7xl mx-auto">
+    <section id="despre" className="section-padding bg-crem relative overflow-hidden">
+      {/* Sparkle Particles */}
+      <SparkleParticles count={18} intensity="subtle" />
+
+      <div className="max-w-7xl mx-auto relative" style={{ zIndex: 2 }}>
         <div className="grid lg:grid-cols-5 gap-6 sm:gap-8 md:gap-10 lg:gap-16 items-center">
           {/* Image/Visual Area - 40% */}
           <motion.div

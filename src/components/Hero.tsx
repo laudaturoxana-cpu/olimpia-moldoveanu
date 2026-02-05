@@ -28,7 +28,7 @@ const Hero = () => {
       }}
     >
       {/* Sparkle Particles */}
-      <SparkleParticles count={20} />
+      <SparkleParticles count={25} intensity="normal" />
 
       <div className="max-w-7xl mx-auto px-5 md:px-8 lg:px-16 w-full">
         <div className="grid lg:grid-cols-5 gap-6 sm:gap-8 md:gap-10 lg:gap-16 items-center">

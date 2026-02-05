@@ -47,7 +47,7 @@ const Header = () => {
     >
       {/* Sparkle Particles */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <SparkleParticles count={12} className="opacity-60" />
+        <SparkleParticles count={15} intensity="bright" minSize={2} maxSize={5} />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between">
