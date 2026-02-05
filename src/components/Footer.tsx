@@ -47,9 +47,9 @@ const Footer = () => {
       />
 
       {/* Main Footer Content */}
-      <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 py-16">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 py-10 sm:py-12 md:py-16">
         <motion.div
-          className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8"
+          className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 md:gap-10 lg:gap-8"
           variants={staggerContainer(0.1)}
           initial="hidden"
           whileInView="visible"
@@ -67,7 +67,7 @@ const Footer = () => {
               </span>
               <span className="block w-full h-px bg-auriu my-2"></span>
               <span
-                className="font-montserrat text-gri-mediu text-[10px] tracking-widest uppercase block"
+                className="font-montserrat text-gri-mediu text-[11px] sm:text-xs tracking-widest uppercase block"
                 style={{ letterSpacing: "0.15em" }}
               >
                 Coaching Transformator prin Legile Universale

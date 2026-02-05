@@ -56,7 +56,7 @@ const FAQ = () => {
       <div className="max-w-3xl mx-auto">
         {/* Section Header */}
         <motion.div
-          className="text-center mb-16"
+          className="text-center mb-10 sm:mb-12 md:mb-16"
           initial="hidden"
           whileInView="visible"
           viewport={viewportConfig}
@@ -75,7 +75,7 @@ const FAQ = () => {
 
         {/* FAQ Accordion */}
         <motion.div
-          className="space-y-4"
+          className="space-y-3 sm:space-y-4"
           variants={staggerContainer(0.1)}
           initial="hidden"
           whileInView="visible"
@@ -94,9 +94,9 @@ const FAQ = () => {
               {/* Question Header */}
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full flex items-center justify-between p-6 text-left"
+                className="w-full flex items-center justify-between p-4 sm:p-5 md:p-6 text-left"
               >
-                <span className="font-montserrat font-medium text-lg text-charcoal pr-4">
+                <span className="font-montserrat font-medium text-base sm:text-lg text-charcoal pr-4">
                   {faq.question}
                 </span>
                 <span
@@ -132,7 +132,7 @@ const FAQ = () => {
                     transition={{ duration: 0.3, ease: EASE }}
                     className="overflow-hidden"
                   >
-                    <div className="px-6 pb-6">
+                    <div className="px-4 pb-4 sm:px-6 sm:pb-6">
                       <p className="font-montserrat text-gri-mediu leading-relaxed">
                         {faq.answer}
                       </p>

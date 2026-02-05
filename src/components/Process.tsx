@@ -78,7 +78,7 @@ const Process = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <motion.div
-          className="text-center mb-16"
+          className="text-center mb-10 sm:mb-12 md:mb-16"
           initial="hidden"
           whileInView="visible"
           viewport={viewportConfig}
@@ -105,7 +105,7 @@ const Process = () => {
         <div className="relative">
           {/* Steps Grid */}
           <motion.div
-            className="grid lg:grid-cols-3 gap-8 relative z-10"
+            className="grid lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 relative z-10"
             variants={staggerContainer(0.25)}
             initial="hidden"
             whileInView="visible"
@@ -115,16 +115,16 @@ const Process = () => {
               <div key={index} className="relative">
                 {/* Step Card */}
                 <motion.div
-                  className={`${step.bgColor} rounded-card p-8 h-full border border-transparent hover:border-auriu/30 transition-all duration-300`}
+                  className={`${step.bgColor} rounded-card p-5 sm:p-6 md:p-8 h-full border border-transparent hover:border-auriu/30 transition-all duration-300`}
                   custom={index}
                   variants={stepVariant}
                 >
                   {/* Step Number & Icon */}
-                  <div className="flex items-center justify-between mb-6">
-                    <span className="font-cormorant text-5xl text-auriu/40">
+                  <div className="flex items-center justify-between mb-4 sm:mb-6">
+                    <span className="font-cormorant text-3xl sm:text-4xl md:text-5xl text-auriu/40">
                       {step.number}
                     </span>
-                    <span className="text-4xl">{step.icon}</span>
+                    <span className="text-2xl sm:text-3xl md:text-4xl">{step.icon}</span>
                   </div>
 
                   {/* Step Name */}
@@ -180,7 +180,7 @@ const Process = () => {
                 {/* Arrow Connector (Mobile) */}
                 {index < steps.length - 1 && (
                   <motion.div
-                    className="lg:hidden flex justify-center my-4"
+                    className="lg:hidden flex justify-center my-2 sm:my-4"
                     custom={index}
                     variants={arrowVariant}
                     initial="hidden"
@@ -211,13 +211,13 @@ const Process = () => {
 
         {/* Validation Text */}
         <motion.div
-          className="text-center mt-16 max-w-2xl mx-auto"
+          className="text-center mt-10 sm:mt-12 md:mt-16 max-w-2xl mx-auto"
           initial="hidden"
           whileInView="visible"
           viewport={viewportConfig}
           variants={fadeInUp}
         >
-          <p className="font-montserrat text-lg text-gri-mediu italic leading-relaxed">
+          <p className="font-montserrat text-base sm:text-lg text-gri-mediu italic leading-relaxed">
             „Poți veni și doar cu «nu mai pot». E de ajuns ca să începem. Nu
             trebuie să fii perfectă — trebuie doar să fii dispusă să încerci."
           </p>

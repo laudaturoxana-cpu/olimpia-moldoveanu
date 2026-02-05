@@ -97,7 +97,7 @@ const CookieConsent = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-cormorant text-2xl text-charcoal mb-1">
+                    <h3 className="font-cormorant text-xl sm:text-2xl text-charcoal mb-1">
                       Respectăm confidențialitatea ta
                     </h3>
                     <p className="font-montserrat text-sm text-gri-mediu leading-relaxed">

@@ -99,7 +99,7 @@ const Problems = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <motion.div
-          className="text-center mb-16"
+          className="text-center mb-10 sm:mb-12 md:mb-16"
           initial="hidden"
           whileInView="visible"
           viewport={viewportConfig}
@@ -118,7 +118,7 @@ const Problems = () => {
 
         {/* Problem Cards Grid */}
         <motion.div
-          className="grid md:grid-cols-2 gap-8"
+          className="grid md:grid-cols-2 gap-4 sm:gap-6 md:gap-8"
           variants={staggerContainer(0.15)}
           initial="hidden"
           whileInView="visible"
@@ -136,13 +136,13 @@ const Problems = () => {
               }}
             >
               {/* Decorative Line */}
-              <div className="w-12 h-0.5 bg-auriu mb-6 group-hover:w-20 transition-all duration-300"></div>
+              <div className="w-12 h-0.5 bg-auriu mb-4 sm:mb-6 group-hover:w-20 transition-all duration-300"></div>
 
               {/* Icon */}
               <div className="mb-4">{card.icon}</div>
 
               {/* Title */}
-              <h3 className="font-cormorant text-2xl text-charcoal mb-4 font-medium">
+              <h3 className="font-cormorant text-xl sm:text-2xl text-charcoal mb-3 sm:mb-4 font-medium">
                 {card.title}
               </h3>
 
@@ -156,13 +156,13 @@ const Problems = () => {
 
         {/* Validation Text */}
         <motion.div
-          className="text-center mt-16"
+          className="text-center mt-10 sm:mt-12 md:mt-16"
           initial="hidden"
           whileInView="visible"
           viewport={viewportConfig}
           variants={fadeInUp}
         >
-          <p className="font-montserrat text-lg text-gri-mediu italic">
+          <p className="font-montserrat text-base sm:text-lg text-gri-mediu italic">
             „E în regulă dacă nu știi exact ce simți. De aici începem."
           </p>
         </motion.div>

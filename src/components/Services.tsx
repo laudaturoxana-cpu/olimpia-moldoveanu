@@ -87,7 +87,7 @@ const Services = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <motion.div
-          className="text-center mb-16"
+          className="text-center mb-10 sm:mb-12 md:mb-16"
           initial="hidden"
           whileInView="visible"
           viewport={viewportConfig}
@@ -106,7 +106,7 @@ const Services = () => {
 
         {/* Services Grid */}
         <motion.div
-          className="grid lg:grid-cols-3 gap-8 items-stretch"
+          className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 items-stretch"
           variants={staggerContainer(0.2)}
           initial="hidden"
           whileInView="visible"
@@ -115,9 +115,9 @@ const Services = () => {
           {services.map((service, index) => (
             <motion.div
               key={index}
-              className={`bg-white rounded-card p-8 border transition-all duration-300 hover:shadow-card flex flex-col ${
+              className={`bg-white rounded-card p-5 sm:p-6 md:p-8 border transition-all duration-300 hover:shadow-card flex flex-col ${
                 service.featured
-                  ? "border-2 border-auriu lg:scale-105 lg:-my-4 shadow-card"
+                  ? "border-2 border-auriu md:col-span-2 lg:col-span-1 lg:scale-105 lg:-my-4 shadow-card"
                   : "border-gri-deschis"
               }`}
               variants={staggerChild}

@@ -71,7 +71,7 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <motion.div
-          className="text-center mb-16"
+          className="text-center mb-10 sm:mb-12 md:mb-16"
           initial="hidden"
           whileInView="visible"
           viewport={viewportConfig}
@@ -95,10 +95,10 @@ const Contact = () => {
         </motion.div>
 
         {/* Contact Content */}
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
+        <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-16">
           {/* Contact Form */}
           <motion.div
-            className="bg-white rounded-card p-8 md:p-10 border border-gri-deschis"
+            className="bg-white rounded-card p-5 sm:p-6 md:p-8 lg:p-10 border border-gri-deschis"
             initial="hidden"
             whileInView="visible"
             viewport={viewportConfig}
@@ -295,15 +295,15 @@ const Contact = () => {
 
           {/* Contact Info */}
           <motion.div
-            className="flex flex-col gap-8"
+            className="flex flex-col gap-4 sm:gap-6 md:gap-8"
             initial="hidden"
             whileInView="visible"
             viewport={viewportConfig}
             variants={fadeInRight}
           >
             {/* Info Card */}
-            <div className="bg-roz-pudrat/20 rounded-card p-8 border-l-4 border-auriu">
-              <h3 className="font-cormorant text-2xl text-charcoal mb-6">
+            <div className="bg-roz-pudrat/20 rounded-card p-5 sm:p-6 md:p-8 border-l-4 border-auriu">
+              <h3 className="font-cormorant text-xl sm:text-2xl text-charcoal mb-4 sm:mb-6">
                 Detalii de contact
               </h3>
 
@@ -365,12 +365,12 @@ const Contact = () => {
             </div>
 
             {/* Encouragement Card */}
-            <div className="bg-white rounded-card p-8 border border-gri-deschis flex-grow flex items-center">
+            <div className="bg-white rounded-card p-5 sm:p-6 md:p-8 border border-gri-deschis flex-grow flex items-center">
               <div className="text-center w-full">
                 <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-auriu/10 flex items-center justify-center">
                   <span className="text-3xl">💜</span>
                 </div>
-                <p className="font-cormorant text-2xl text-charcoal mb-4 italic">
+                <p className="font-cormorant text-xl sm:text-2xl text-charcoal mb-4 italic">
                   „Dacă nu ești sigură — e ok. Scrie-mi oricum."
                 </p>
                 <p className="font-montserrat text-gri-mediu">

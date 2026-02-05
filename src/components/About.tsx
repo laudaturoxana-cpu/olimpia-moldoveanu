@@ -39,7 +39,7 @@ const About = () => {
   return (
     <section id="despre" className="section-padding bg-crem">
       <div className="max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-5 gap-12 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-5 gap-6 sm:gap-8 md:gap-10 lg:gap-16 items-center">
           {/* Image/Visual Area - 40% */}
           <motion.div
             className="lg:col-span-2 order-2 lg:order-1"
@@ -98,13 +98,13 @@ const About = () => {
             <h2 className="font-cormorant text-h2-mobile md:text-h2 text-charcoal mb-2">
               Bună, sunt Olimpia
             </h2>
-            <p className="font-montserrat text-lg text-auriu mb-8">
+            <p className="font-montserrat text-base sm:text-lg text-auriu mb-5 sm:mb-6 md:mb-8">
               Ghid în transformare pentru femei care vor să își recapete liniștea
               interioară
             </p>
 
             {/* Story */}
-            <div className="space-y-6 font-montserrat text-gri-mediu leading-relaxed mb-10">
+            <div className="space-y-4 sm:space-y-5 md:space-y-6 font-montserrat text-gri-mediu leading-relaxed mb-6 sm:mb-8 md:mb-10">
               <p>
                 Am 63 de ani. La 50 de ani, când majoritatea femeilor se
                 resemnează că „așa e viața", EU am început cea mai profundă
@@ -144,14 +144,14 @@ const About = () => {
 
             {/* Credentials Box */}
             <motion.div
-              className="bg-white rounded-card p-8 border border-gri-deschis"
+              className="bg-white rounded-card p-5 sm:p-6 md:p-8 border border-gri-deschis"
               initial="hidden"
               whileInView="visible"
               viewport={viewportConfig}
               variants={fadeInUp}
             >
               <motion.div
-                className="grid sm:grid-cols-2 gap-6"
+                className="grid sm:grid-cols-2 gap-4 sm:gap-6"
                 variants={staggerContainer(0.1)}
                 initial="hidden"
                 whileInView="visible"
@@ -163,7 +163,7 @@ const About = () => {
                     className="flex gap-4"
                     variants={staggerChild}
                   >
-                    <span className="text-2xl flex-shrink-0">{item.icon}</span>
+                    <span className="text-xl sm:text-2xl flex-shrink-0">{item.icon}</span>
                     <div>
                       <p className="font-montserrat font-medium text-charcoal mb-1">
                         {item.label}

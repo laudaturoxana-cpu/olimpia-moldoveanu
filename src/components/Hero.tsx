@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { EASE, DURATION } from "@/lib/animations";
+import SparkleParticles from "@/components/ui/SparkleParticles";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -21,15 +22,18 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden"
+      className="relative min-h-screen flex items-center pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden"
       style={{
         background: "linear-gradient(180deg, #FAF7F5 0%, #FCF5F5 100%)",
       }}
     >
+      {/* Sparkle Particles */}
+      <SparkleParticles count={20} />
+
       <div className="max-w-7xl mx-auto px-5 md:px-8 lg:px-16 w-full">
-        <div className="grid lg:grid-cols-5 gap-12 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-5 gap-6 sm:gap-8 md:gap-10 lg:gap-16 items-center">
           {/* Text Content - 60% */}
-          <div className="lg:col-span-3 space-y-8 text-center md:text-left">
+          <div className="lg:col-span-3 space-y-5 sm:space-y-6 md:space-y-8 text-center md:text-left">
             {/* Main Heading */}
             <motion.h1
               className="font-cormorant text-h1-mobile md:text-h1 text-charcoal"
@@ -89,7 +93,7 @@ const Hero = () => {
 
             {/* Trust Badges */}
             <motion.div
-              className="grid grid-cols-1 gap-3 pt-6"
+              className="grid grid-cols-1 gap-2 sm:gap-3 pt-4 sm:pt-6"
               initial="hidden"
               animate="visible"
               variants={{

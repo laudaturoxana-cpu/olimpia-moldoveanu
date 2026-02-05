@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { EASE, DURATION } from "@/lib/animations";
+import SparkleParticles from "@/components/ui/SparkleParticles";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -44,6 +45,11 @@ const Header = () => {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: DURATION.normal, ease: EASE }}
     >
+      {/* Sparkle Particles */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <SparkleParticles count={12} className="opacity-60" />
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between">
         {/* Logo - Mobile */}
         <motion.button
@@ -167,7 +173,7 @@ const Header = () => {
             : "opacity-0 invisible -translate-y-4"
         }`}
       >
-        <nav className="flex flex-col p-6 gap-4">
+        <nav className="flex flex-col p-4 sm:p-6 gap-3 sm:gap-4">
           {navItems.map((item) => (
             <button
               key={item.id}

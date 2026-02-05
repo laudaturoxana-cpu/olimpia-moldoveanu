@@ -43,7 +43,7 @@ const Testimonials = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <motion.div
-          className="text-center mb-16"
+          className="text-center mb-10 sm:mb-12 md:mb-16"
           initial="hidden"
           whileInView="visible"
           viewport={viewportConfig}
@@ -62,7 +62,7 @@ const Testimonials = () => {
 
         {/* Testimonials Grid */}
         <motion.div
-          className="grid md:grid-cols-2 gap-8"
+          className="grid md:grid-cols-2 gap-4 sm:gap-6 md:gap-8"
           variants={staggerContainer(0.2)}
           initial="hidden"
           whileInView="visible"
@@ -71,7 +71,7 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={index}
-              className="bg-white rounded-card p-8 border-l-4 border-auriu shadow-sm"
+              className="bg-white rounded-card p-5 sm:p-6 md:p-8 border-l-4 border-auriu shadow-sm"
               variants={staggerChild}
               whileHover={{
                 y: -3,
@@ -81,13 +81,13 @@ const Testimonials = () => {
             >
               {/* Quote Mark */}
               <div className="mb-4">
-                <span className="font-cormorant text-6xl text-auriu/30 leading-none">
+                <span className="font-cormorant text-4xl sm:text-5xl md:text-6xl text-auriu/30 leading-none">
                   &ldquo;
                 </span>
               </div>
 
               {/* Testimonial Text */}
-              <p className="font-montserrat text-lg text-charcoal italic leading-relaxed mb-6">
+              <p className="font-montserrat text-base sm:text-lg text-charcoal italic leading-relaxed mb-4 sm:mb-6">
                 {testimonial.text}
               </p>
 
