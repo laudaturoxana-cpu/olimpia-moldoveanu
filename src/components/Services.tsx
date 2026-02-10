@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import {
   fadeInUp,
   lineExpand,
@@ -40,26 +41,27 @@ const Services = () => {
       featured: false,
     },
     {
-      name: "Drumul Înapoi la Tine",
+      name: "Conștientizează-ți Puterea",
       type: "Program Semnătură",
       badge: "Program Principal",
       description:
-        "Program complet de transformare profundă pentru femei care simt că s-au pierdut pe sine și vor să își recapete liniștea, claritatea și puterea interioară.",
+        "Program exclusiv de 36 săptămâni ghidat de 3 practiciene de excepție. Transformare profundă, vindecare emoțională și reconectare cu sinele autentic.",
       includes: [
-        "36 săptămâni de ghidare (9 luni)",
-        "18 sesiuni de grup live (Zoom, joi 19:00-21:00)",
-        "Grup WhatsApp privat pentru suport zilnic",
-        "36 fișe de lucru + 12 meditații ghidate",
-        "Sistem complet 27 Legii Universale",
-        "3 check-in-uri individuale cu Olimpia",
+        "36 săptămâni de transformare completă",
+        "3 practiciene: Olimpia, Dr. Cristina Varro, Corina Harjoaba",
+        "Sesiuni de grup săptămânale live",
+        "Tehnici EFT, Dans Energetic, Theta Healing",
+        "Heart Healing, NLP, Legile Universale",
+        "Grup privat WhatsApp pentru suport",
       ],
-      process: "Eliberare (12 săpt) → Aliniere (12 săpt) → Manifestare (12 săpt)",
+      process: "Fundație (12 săpt) → Transformare (12 săpt) → Integrare (12 săpt)",
       duration: "9 luni (36 săptămâni)",
       forWhom:
         'Femei pregătite pentru transformare profundă, care au ajuns la un „prag" și vor structură clară + suport constant',
       investment: "Programare pentru detalii • Plata în rate disponibilă",
-      cta: "Vreau să aflu mai mult",
+      cta: "Vezi programul complet",
       featured: true,
+      link: "/program-transformare",
     },
     {
       name: "Ghidare Personalizată",
@@ -230,18 +232,37 @@ const Services = () => {
               </div>
 
               {/* CTA Button */}
-              <motion.button
-                onClick={() => scrollToSection("contact")}
-                className={`w-full py-3.5 rounded-button font-montserrat font-medium transition-all duration-300 ${
-                  service.featured
-                    ? "bg-auriu text-white hover:bg-opacity-90"
-                    : "border-2 border-auriu text-auriu hover:bg-auriu hover:text-white"
-                }`}
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-              >
-                {service.cta}
-              </motion.button>
+              {service.link ? (
+                <Link href={service.link}>
+                  <motion.span
+                    className={`w-full py-3.5 rounded-button font-montserrat font-medium transition-all duration-300 flex items-center justify-center gap-2 ${
+                      service.featured
+                        ? "bg-auriu text-white hover:bg-opacity-90"
+                        : "border-2 border-auriu text-auriu hover:bg-auriu hover:text-white"
+                    }`}
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                  >
+                    {service.cta}
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </motion.span>
+                </Link>
+              ) : (
+                <motion.button
+                  onClick={() => scrollToSection("contact")}
+                  className={`w-full py-3.5 rounded-button font-montserrat font-medium transition-all duration-300 ${
+                    service.featured
+                      ? "bg-auriu text-white hover:bg-opacity-90"
+                      : "border-2 border-auriu text-auriu hover:bg-auriu hover:text-white"
+                  }`}
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                >
+                  {service.cta}
+                </motion.button>
+              )}
             </motion.div>
           ))}
         </motion.div>
