@@ -85,6 +85,48 @@ const Services = () => {
       featured: false,
       link: "/coaching-individual",
     },
+    {
+      name: "Legile Universale",
+      type: "Program de Transformare",
+      badge: "În curând",
+      description:
+        "Program de transformare emoțională și aliniere prin cele 27 de Legi Universale. Include mini-program gratuit de 7 zile pentru detox emoțional.",
+      includes: [
+        "Mini-program gratuit: 7 zile de detox emoțional",
+        "9 săptămâni de transformare intensivă",
+        "Traininguri și sesiuni live săptămânale",
+        "Aplicarea practică a Legilor Universale",
+        "Grup de suport și materiale de lucru",
+      ],
+      duration: "9 săptămâni",
+      forWhom:
+        "Femei care vor să înțeleagă și să aplice Legile Universale în viața de zi cu zi",
+      investment: "Detalii în curând",
+      cta: "Află mai multe",
+      featured: false,
+      link: "/program-legile-universale",
+    },
+    {
+      name: "Relație, Iubire și Bani",
+      type: "Program Tematic",
+      badge: "În curând",
+      description:
+        "Program dedicat vindecării și transformării relației cu tine, cu ceilalți și cu banii. Eliberează blocajele și creează abundență autentică.",
+      includes: [
+        "Vindecarea relației cu sinele",
+        "Transformarea tiparelor în relații",
+        "Eliberarea blocajelor financiare",
+        "Tehnici pentru atragerea abundenței",
+        "Sesiuni live și suport în grup",
+      ],
+      duration: "Se va anunța",
+      forWhom:
+        "Femei care vor să vindece relația cu iubirea și cu banii",
+      investment: "Detalii în curând",
+      cta: "Află mai multe",
+      featured: false,
+      link: "/program-relatie-iubire-bani",
+    },
   ];
 
   return (
