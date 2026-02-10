@@ -28,17 +28,18 @@ const Services = () => {
       description:
         "Workshop live de 3 ore unde înveți tehnici practice de gestionare a fricii și anxietății. Perfect pentru a simți cum e să lucrezi cu mine.",
       includes: [
-        "3 ore live (teoria + practică + Q&A)",
-        "Înregistrarea workshop-ului (30 zile acces)",
-        'Fișă de lucru PDF „Harta Fricii Tale"',
+        "3 ore live (teorie + practică + Q&A)",
+        "Înregistrarea workshop-ului (30 de zile acces)",
+        "Fișă de lucru PDF «Harta Fricii Tale»",
         "Grup WhatsApp 7 zile pentru întrebări",
       ],
       duration: "3 ore live",
       forWhom:
-        'Femei la început de drum, care vor să mă „testeze" înainte de programul mare',
+        "Femei la început de drum, care vor să mă cunoască înainte de programul mare",
       investment: "De la 149 lei",
-      cta: "Participă la următorul workshop",
+      cta: "Află mai multe",
       featured: false,
+      link: "/workshop-frica-liniste",
     },
     {
       name: "Conștientizează-ți Puterea",
@@ -70,7 +71,7 @@ const Services = () => {
       description:
         "Sesiuni individuale pentru transformare profundă pe situația ta specifică. Ideal după finalizarea programului de grup sau pentru nevoi complexe.",
       includes: [
-        "Sesiuni 1:1 pe Zoom (60-90 min)",
+        "Sesiuni 1:1 pe Zoom (60-90 de minute)",
         "Acces WhatsApp direct între sesiuni",
         "Materiale personalizate",
         "Planificare strategică personalizată",
@@ -78,10 +79,11 @@ const Services = () => {
       packages: "3 luni / 6 luni / 9 luni",
       duration: "Flexibil",
       forWhom:
-        "Femei care vor personalizare maximă sau au situație complexă",
+        "Femei care vor personalizare maximă sau au o situație complexă",
       investment: "Programare pentru detalii",
-      cta: "Vreau să discut",
+      cta: "Află mai multe",
       featured: false,
+      link: "/coaching-individual",
     },
   ];
 

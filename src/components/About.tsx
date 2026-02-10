@@ -16,19 +16,19 @@ const About = () => {
     {
       icon: "📚",
       label: "Experiență",
-      value: "13+ ani lucru cu oamenii, 40+ ani experiență de viață",
+      value: "5+ ani în coaching transformațional, 40+ ani de experiență de viață",
     },
     {
       icon: "🎓",
       label: "Certificări",
       value:
-        "27 Legii Universale (licențiate), Coaching transformator, NLP, Practici energetice",
+        "Coach certificat prin Legile Universale, Practician Heart Healing, Facilitator Mastermind, NLP",
     },
     {
       icon: "💜",
       label: "Specializări",
       value:
-        "Anxietate, frici, blocaje emoționale, claritate de viață, manifestare conștientă",
+        "Eliberare emoțională, transformare conștiință, aliniere interioară, iubire de sine",
     },
     {
       icon: "✨",
@@ -103,8 +103,7 @@ const About = () => {
               Bună, sunt Olimpia
             </h2>
             <p className="font-montserrat text-base sm:text-lg text-auriu mb-5 sm:mb-6 md:mb-8">
-              Ghid în transformare pentru femei care vor să își recapete liniștea
-              interioară
+              Coach Transformațional & Spiritual Life Coach
             </p>
 
             {/* Story */}

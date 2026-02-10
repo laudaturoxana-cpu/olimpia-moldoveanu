@@ -70,15 +70,15 @@ const Footer = () => {
                 className="font-montserrat text-gri-mediu text-[11px] sm:text-xs tracking-widest uppercase block"
                 style={{ letterSpacing: "0.15em" }}
               >
-                Coaching Transformator prin Legile Universale
+                Coach Transformațional & Spiritual Life Coach
               </span>
             </div>
 
             {/* Description */}
             <p className="font-montserrat text-sm text-gri-mediu leading-relaxed">
-              Ghidare blândă și structurată pentru femei care vor să își recapete
-              liniștea interioară, claritatea și puterea. Transformare reală,
-              fără promisiuni goale.
+              Ghidez femeile să se elibereze de încărcătura emoțională și să-și
+              transforme conștiința, creând realitatea din energie, aliniere și
+              iubire de sine.
             </p>
           </motion.div>
 

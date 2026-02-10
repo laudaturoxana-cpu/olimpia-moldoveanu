@@ -70,7 +70,7 @@ const Header = () => {
             className="font-montserrat text-gri-mediu text-[8px] sm:text-[9px] tracking-wider uppercase"
             style={{ letterSpacing: "0.05em" }}
           >
-            Coaching Transformator prin Legile Universale
+            Coach Transformațional & Spiritual Life Coach
           </span>
         </motion.button>
 
@@ -93,7 +93,7 @@ const Header = () => {
             className="font-montserrat text-gri-mediu text-[10px] md:text-xs tracking-widest uppercase"
             style={{ letterSpacing: "0.15em" }}
           >
-            Coaching Transformator prin Legile Universale
+            Coach Transformațional & Spiritual Life Coach
           </span>
         </motion.button>
 

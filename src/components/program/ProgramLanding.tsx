@@ -206,7 +206,7 @@ const TeamSection = () => {
       image: "O",
       color: "bg-auriu/20",
       description:
-        "Coach certificat prin Legile Universale, practician Heart Healing, facilitator mastermind și mentor. Cu peste 5 ani experiență în ghidarea femeilor către transformare profundă.",
+        "Coach certificat prin Legile Universale, practician Heart Healing, facilitator mastermind și mentor. Cu peste 5 ani de experiență în ghidarea femeilor către transformare profundă.",
       specialties: [
         "Coaching transformațional",
         "Heart Healing",
@@ -220,7 +220,7 @@ const TeamSection = () => {
       image: "C",
       color: "bg-verde-sage/20",
       description:
-        "Medic neonatolog cu peste 12 ani experiență, instructor Dans Energetic și Theta Healing. Vindecarea începe când avem curajul să ne ascultăm sufletul.",
+        "Medic neonatolog cu peste 12 ani de experiență, instructor Dans Energetic și Theta Healing. Vindecarea începe când avem curajul să ne ascultăm sufletul.",
       specialties: [
         "Dans Energetic",
         "Theta Healing",
@@ -234,7 +234,7 @@ const TeamSection = () => {
       image: "C",
       color: "bg-roz-pudrat/30",
       description:
-        "Practician certificat EFT și NMG, cu peste 5 ani experiență în eliberare emoțională și armonizare energetică. Susține femeile să revină la echilibru și bucurie.",
+        "Practician certificat EFT și NMG, cu peste 5 ani de experiență în eliberare emoțională și armonizare energetică. Susține femeile să revină la echilibru și bucurie.",
       specialties: [
         "EFT (Eliberare Emoțională)",
         "Armonizare energetică",
@@ -881,7 +881,7 @@ const CTASection = () => {
                 "Acces la 3 practiciene certificate",
                 "Materiale și exerciții pentru acasă",
                 "Grup privat WhatsApp pentru suport",
-                "Înregistrări disponibile 30 zile",
+                "Înregistrări disponibile 30 de zile",
               ].map((item, idx) => (
                 <div key={idx} className="flex items-center gap-3 font-montserrat text-sm text-gri-mediu">
                   <span className="text-auriu">✓</span>

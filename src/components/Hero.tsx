@@ -37,14 +37,14 @@ const Hero = () => {
             {/* Main Heading */}
             <motion.h1
               className="font-cormorant text-h1-mobile md:text-h1 text-charcoal"
-              style={{ lineHeight: "1.6" }}
+              style={{ lineHeight: "1.4" }}
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: DURATION.normal, ease: EASE, delay: 0.2 }}
             >
-              „Nu mai am liniște în cap?"
+              Eliberează-te de ce nu-ți mai aparține
               <br />
-              <span className="text-gri-mediu">Nu ești singură.</span>
+              <span className="text-auriu">Creează-ți realitatea din interior</span>
             </motion.h1>
 
             {/* Subtitle */}
@@ -56,9 +56,9 @@ const Hero = () => {
               transition={{ duration: DURATION.normal, ease: EASE, delay: 0.5 }}
             >
               <p className="mb-4">
-                Te ghidez de la anxietate, frici și oboseală emoțională la pace
-                interioară și claritate — cu pași clari, suport real și un sistem
-                coerent care funcționează.
+                Ghidez femeile să se elibereze de încărcătura emoțională și să-și
+                transforme conștiința, fără să caute validare în exterior, astfel
+                încât să-și creeze realitatea din energie, aliniere și iubire de sine.
               </p>
               <p>
                 Fără promisiuni goale, fără presiune. Doar transformare autentică,
