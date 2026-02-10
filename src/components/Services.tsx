@@ -22,26 +22,6 @@ const Services = () => {
 
   const services = [
     {
-      name: "De la Frică la Liniște",
-      type: "Workshop",
-      badge: null,
-      description:
-        "Workshop live de 3 ore unde înveți tehnici practice de gestionare a fricii și anxietății. Perfect pentru a simți cum e să lucrezi cu mine.",
-      includes: [
-        "3 ore live (teorie + practică + Q&A)",
-        "Înregistrarea workshop-ului (30 de zile acces)",
-        "Fișă de lucru PDF «Harta Fricii Tale»",
-        "Grup WhatsApp 7 zile pentru întrebări",
-      ],
-      duration: "3 ore live",
-      forWhom:
-        "Femei la început de drum, care vor să mă cunoască înainte de programul mare",
-      investment: "De la 149 lei",
-      cta: "Află mai multe",
-      featured: false,
-      link: "/workshop-frica-liniste",
-    },
-    {
       name: "Conștientizează-ți Puterea",
       type: "Program Semnătură",
       badge: "Program Principal",
@@ -63,27 +43,6 @@ const Services = () => {
       cta: "Vezi programul complet",
       featured: true,
       link: "/program-transformare",
-    },
-    {
-      name: "Ghidare Personalizată",
-      type: "Coaching 1:1",
-      badge: null,
-      description:
-        "Sesiuni individuale pentru transformare profundă pe situația ta specifică. Ideal după finalizarea programului de grup sau pentru nevoi complexe.",
-      includes: [
-        "Sesiuni 1:1 pe Zoom (60-90 de minute)",
-        "Acces WhatsApp direct între sesiuni",
-        "Materiale personalizate",
-        "Planificare strategică personalizată",
-      ],
-      packages: "3 luni / 6 luni / 9 luni",
-      duration: "Flexibil",
-      forWhom:
-        "Femei care vor personalizare maximă sau au o situație complexă",
-      investment: "Programare pentru detalii",
-      cta: "Află mai multe",
-      featured: false,
-      link: "/coaching-individual",
     },
     {
       name: "Legile Universale",
@@ -238,16 +197,6 @@ const Services = () => {
                   <p className="font-montserrat text-sm text-charcoal">
                     <span className="font-medium">Proces:</span>{" "}
                     {service.process}
-                  </p>
-                </div>
-              )}
-
-              {/* Packages (for 1:1) */}
-              {service.packages && (
-                <div className="mb-6">
-                  <p className="font-montserrat text-sm text-gri-mediu">
-                    <span className="font-medium text-charcoal">Pachete:</span>{" "}
-                    {service.packages}
                   </p>
                 </div>
               )}
