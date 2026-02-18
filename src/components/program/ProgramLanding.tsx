@@ -890,7 +890,7 @@ const CTASection = () => {
               ))}
             </div>
             <motion.a
-              href="mailto:olimpia@exemplu.ro?subject=Înscriere Program 36 Săptămâni"
+              href="mailto:contact@olimpiamoldoveanu.ro?subject=Înscriere Program 36 Săptămâni"
               className="btn-primary inline-block text-base px-10 py-4"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}

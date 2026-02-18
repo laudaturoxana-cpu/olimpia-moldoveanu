@@ -344,10 +344,10 @@ const Contact = () => {
                       Email
                     </p>
                     <a
-                      href="mailto:olimpia@exemplu.ro"
+                      href="mailto:contact@olimpiamoldoveanu.ro"
                       className="font-montserrat text-auriu hover:underline"
                     >
-                      olimpia@exemplu.ro
+                      contact@olimpiamoldoveanu.ro
                     </a>
                   </div>
                 </div>
@@ -359,10 +359,10 @@ const Contact = () => {
                       Telefon
                     </p>
                     <a
-                      href="tel:+40700000000"
+                      href="tel:+40720411423"
                       className="font-montserrat text-auriu hover:underline"
                     >
-                      +40 700 000 000
+                      +40 720 411 423
                     </a>
                   </div>
                 </div>
