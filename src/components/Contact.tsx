@@ -39,8 +39,24 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      await new Promise((resolve) => setTimeout(resolve, 1500));
-      console.log("Form submitted:", formData);
+      const response = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email: formData.email,
+          name: formData.name,
+          phone: formData.phone,
+          service: formData.service,
+          message: formData.message,
+          source: "contact-form",
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to submit");
+      }
 
       setSubmitStatus("success");
       setFormData({
@@ -60,9 +76,10 @@ const Contact = () => {
 
   const services = [
     { value: "", label: "Alege..." },
-    { value: "program-36", label: "Program Semnătură 36 săpt" },
-    { value: "workshop", label: "Workshop De la Frică la Liniște" },
-    { value: "coaching-1-1", label: "Coaching 1:1" },
+    { value: "program-constientizare", label: "Program Conștientizează-ți Puterea (36 săpt)" },
+    { value: "program-legile-universale", label: "Program Legile Universale (9 săpt)" },
+    { value: "program-relatie-bani", label: "Program Relație, Iubire și Bani" },
+    { value: "workshop-gratuit", label: "Workshop Gratuit (Martie)" },
     { value: "info", label: "Vreau să aflu mai multe" },
   ];
 
