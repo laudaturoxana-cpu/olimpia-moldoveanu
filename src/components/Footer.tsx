@@ -70,7 +70,7 @@ const Footer = () => {
                 className="font-montserrat text-gri-mediu text-[11px] sm:text-xs tracking-widest uppercase block"
                 style={{ letterSpacing: "0.15em" }}
               >
-                Coach Transformațional & Spiritual Life Coach
+                Coaching Transformator prin Legile Universale
               </span>
             </div>
 

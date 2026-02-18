@@ -202,7 +202,7 @@ const TeamSection = () => {
   const team = [
     {
       name: "Olimpia Moldoveanu",
-      role: "Coach Transformațional & Spiritual Life Coach",
+      role: "Coaching Transformator prin Legile Universale",
       image: "O",
       color: "bg-auriu/20",
       description:

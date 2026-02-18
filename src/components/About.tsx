@@ -103,7 +103,7 @@ const About = () => {
               Bună, sunt Olimpia
             </h2>
             <p className="font-montserrat text-base sm:text-lg text-auriu mb-5 sm:mb-6 md:mb-8">
-              Coach Transformațional & Spiritual Life Coach
+              Coaching Transformator prin Legile Universale
             </p>
 
             {/* Story */}
