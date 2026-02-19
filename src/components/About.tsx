@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import {
   fadeInUp,
@@ -16,7 +17,7 @@ const About = () => {
     {
       icon: "📚",
       label: "Experiență",
-      value: "5+ ani în coaching transformațional, 40+ ani de experiență de viață",
+      value: "25+ ani în domeniul economic, 5+ ani în coaching transformațional",
     },
     {
       icon: "🎓",
@@ -28,12 +29,12 @@ const About = () => {
       icon: "💜",
       label: "Specializări",
       value:
-        "Eliberare emoțională, transformare conștiință, aliniere interioară, iubire de sine",
+        "Metoda IMPACT, eliberare emoțională, aliniere interioară, manifestare conștientă",
     },
     {
       icon: "✨",
       label: "Abordare",
-      value: 'Blândețe + Structură = „Spiritual cu picioarele pe pământ"',
+      value: "Procese clare și cadre sigure de creștere pentru transformare reală",
     },
   ];
 
@@ -44,7 +45,7 @@ const About = () => {
 
       <div className="max-w-7xl mx-auto relative" style={{ zIndex: 2 }}>
         <div className="grid lg:grid-cols-5 gap-6 sm:gap-8 md:gap-10 lg:gap-16 items-center">
-          {/* Image/Visual Area - 40% */}
+          {/* Image Area - 40% */}
           <motion.div
             className="lg:col-span-2 order-2 lg:order-1"
             initial="hidden"
@@ -56,22 +57,16 @@ const About = () => {
               {/* Decorative Background */}
               <div className="absolute -inset-4 bg-roz-pudrat/20 rounded-3xl -rotate-3"></div>
 
-              {/* Image Placeholder / Decorative Element */}
-              <div className="relative aspect-[3/4] bg-gradient-to-br from-roz-pudrat/30 to-crem rounded-2xl overflow-hidden flex items-center justify-center">
-                {/* If no image, show elegant placeholder */}
-                <div className="text-center p-8">
-                  <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-auriu/20 flex items-center justify-center">
-                    <span className="text-4xl">🌸</span>
-                  </div>
-                  <p className="font-cormorant text-2xl text-charcoal italic">
-                    „Transformarea începe
-                    <br />
-                    cu o decizie"
-                  </p>
-                </div>
-
-                {/* Decorative Corner */}
-                <div className="absolute bottom-0 right-0 w-32 h-32 bg-auriu/10 rounded-tl-full"></div>
+              {/* Image */}
+              <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-card">
+                <Image
+                  src="/olimpia-moldoveanu.jpg"
+                  alt="Olimpia Moldoveanu - Coach Transformator prin Legile Universale"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 40vw"
+                  priority
+                />
               </div>
 
               {/* Floating Accent */}
@@ -100,7 +95,7 @@ const About = () => {
           >
             {/* Section Title */}
             <h2 className="font-cormorant text-h2-mobile md:text-h2 text-charcoal mb-2">
-              Bună, sunt Olimpia
+              Bună, sunt Olimpia Moldoveanu
             </h2>
             <p className="font-montserrat text-base sm:text-lg text-auriu mb-5 sm:mb-6 md:mb-8">
               Coaching Transformator prin Legile Universale
@@ -109,39 +104,33 @@ const About = () => {
             {/* Story */}
             <div className="space-y-4 sm:space-y-5 md:space-y-6 font-montserrat text-gri-mediu leading-relaxed mb-6 sm:mb-8 md:mb-10">
               <p>
-                Am 63 de ani. La 50 de ani, când majoritatea femeilor se
-                resemnează că „așa e viața", EU am început cea mai profundă
-                transformare a vieții mele.
+                Sunt o femeie care, la 39 de ani, a avut curajul să își schimbe direcția vieții.
               </p>
 
               <p>
-                Am trăit zeci de ani în responsabilitate, economie, structură. Am
-                fost „femea care ține totul în spate". Am fost Eva. De aceea o
-                înțeleg — pentru că AM FOST EA.
+                Am lucrat în domeniul economic, am trăit responsabilitatea și presiunea.
+                Am crezut mult timp că valoarea se construiește prin efort continuu și sacrificiu.
+                Până într-un moment în care am înțeles că, înainte de orice realizare, este nevoie de <span className="text-charcoal font-medium">aliniere interioară</span>.
               </p>
 
               <p>
-                Astăzi lucrez cu 27 Legii Universale (sistem licențiat), coaching
-                transformator și practici emoționale integrate — NLP, journaling,
-                meditații, Ho'oponopono, lucrul cu copilul interior. Nu predau
-                teoria pe care am citit-o.{" "}
-                <span className="text-charcoal font-medium">
-                  Predau VIAȚA pe care am trăit-o.
-                </span>
+                Am ales reconversia profesională. Am ales să învăț și să integrez.
+                Am ales să mă așez pe mine pe primul loc.
               </p>
 
               <p>
-                Când îți spun „te țin de mână și te duc înapoi la tine" — nu e un
-                slogan de marketing. E o promisiune din experiența mea. Pentru că
-                cineva m-a ținut de mână la 50 de ani când eram pierdută. Și acum
-                e rândul meu.
+                De atunci, am lucrat cu sute de femei în sesiuni individuale și programe de grup.
+                Am văzut frici, blocaje, dar și curaj, asumare și transformare reală.
+                <span className="text-charcoal font-medium"> Metoda IMPACT</span> s-a născut din această experiență trăită — nu din teorie, ci din nevoia de structură și coerență.
               </p>
 
               <p>
-                Programul meu principal durează 36 săptămâni pentru că știu din
-                propria transformare că schimbarea profundă nu vine în 2
-                săptămâni. Vine în timp. Vine cu practică zilnică. Vine cu
-                sprijin constant.
+                Astăzi, la 64 de ani, construiesc procese clare și cadre sigure de creștere.
+                Lucrez cu doamne pregătite să își asume responsabilitatea pentru viața lor și să manifeste conștient ceea ce își doresc.
+              </p>
+
+              <p className="text-charcoal font-medium italic">
+                Pentru că transformarea reală începe în interior și continuă prin acțiuni asumate.
               </p>
             </div>
 
