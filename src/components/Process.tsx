@@ -40,7 +40,7 @@ const Process = () => {
       weeks: "Săptămâni 25-36",
       icon: "✨",
       description:
-        "Transformi claritatea în acțiuni concrete. Manifești conștient viața pe care ți-o dorești — în relații, în carieră, în bani, în pace interioară.",
+        "Transformi claritatea în acțiuni concrete. Manifești conștient viața pe care ți-o dorești: în relații, în carieră, în bani, în pace interioară.",
       details:
         "Acțiuni practice, integrare, manifestare conștientă prin Legile Universale. Îți construiești viața aliniată.",
       bgColor: "bg-auriu/15",
@@ -219,7 +219,7 @@ const Process = () => {
         >
           <p className="font-montserrat text-base sm:text-lg text-gri-mediu italic leading-relaxed">
             „Poți veni și doar cu «nu mai pot». E de ajuns ca să începem. Nu
-            trebuie să fii perfectă — trebuie doar să fii dispusă să încerci."
+            trebuie să fii perfectă, trebuie doar să fii dispusă să încerci."
           </p>
         </motion.div>
       </div>

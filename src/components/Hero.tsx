@@ -15,9 +15,9 @@ const Hero = () => {
 
   const trustBadges = [
     { icon: "✓", text: "Liniște în minte, nu doar inspirație" },
-    { icon: "✓", text: "Suport constant — nu te las singură" },
-    { icon: "✓", text: "Structură clară — știi ce urmează" },
-    { icon: "✓", text: "Fără presiune — în ritmul tău" },
+    { icon: "✓", text: "Suport constant, nu te las singură" },
+    { icon: "✓", text: "Structură clară, știi ce urmează" },
+    { icon: "✓", text: "Fără presiune, în ritmul tău" },
   ];
 
   return (
@@ -60,7 +60,7 @@ const Hero = () => {
                 Ghidez femei care au obosit să supraviețuiască și sunt pregătite să își conducă viața conștient.
               </p>
               <p>
-                Nu îți ofer soluții rapide. Îți ofer leadership interior — prin Metoda IMPACT.
+                Nu îți ofer soluții rapide. Îți ofer leadership interior prin Metoda IMPACT.
               </p>
             </motion.div>
 

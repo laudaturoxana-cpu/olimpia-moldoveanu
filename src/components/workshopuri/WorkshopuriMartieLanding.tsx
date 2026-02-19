@@ -720,7 +720,7 @@ const FormSection = () => {
             className="font-montserrat text-gri-mediu"
             variants={fadeInUp}
           >
-            Mă înscriu în seria completă — Martie, Luna Clarității
+            Mă înscriu în seria completă: Martie, Luna Clarității
           </motion.p>
           <motion.div className="h-0.5 bg-auriu mx-auto mt-6" variants={lineExpand} />
         </motion.div>
@@ -877,7 +877,7 @@ const MessageSection = () => {
           </div>
 
           <p className="font-montserrat text-charcoal font-medium text-center mt-6">
-            — Olimpia Moldoveanu
+            - Olimpia Moldoveanu
           </p>
         </motion.div>
       </div>

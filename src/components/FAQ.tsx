@@ -18,7 +18,7 @@ const FAQ = () => {
     {
       question: "Este pentru mine?",
       answer:
-        'Programul este pentru tine dacă simți anxietate, frici, oboseală emoțională sau lipsă de claritate. Dacă ai ajuns la un „prag" și simți că vrei altceva, dar nu știi de unde să începi — e pentru tine. Nu trebuie să fii „pregătită perfect" — trebuie doar să fii dispusă să încerci, să cazi, să te ridici — și eu te susțin în tot procesul.',
+        'Programul este pentru tine dacă simți anxietate, frici, oboseală emoțională sau lipsă de claritate. Dacă ai ajuns la un „prag" și simți că vrei altceva, dar nu știi de unde să începi, e pentru tine. Nu trebuie să fii „pregătită perfect", trebuie doar să fii dispusă să încerci, să cazi, să te ridici, și eu te susțin în tot procesul.',
     },
     {
       question: "Cât durează până văd rezultate?",
@@ -33,7 +33,7 @@ const FAQ = () => {
     {
       question: "Este prea spiritual pentru mine?",
       answer:
-        'Lucrez cu Legile Universale, dar într-un mod aplicat, concret. Nu e „vorbărie în aer". Sunt exerciții clare, pași practici, rezultate măsurabile. Spiritualitate cu picioarele pe pământ. Dacă ai citit vreodată despre legi spirituale și ai simțit că e frumos dar nu știi cum să aplici — asta e pentru tine.',
+        'Lucrez cu Legile Universale, dar într-un mod aplicat, concret. Nu e „vorbărie în aer". Sunt exerciții clare, pași practici, rezultate măsurabile. Spiritualitate cu picioarele pe pământ. Dacă ai citit vreodată despre legi spirituale și ai simțit că e frumos dar nu știi cum să aplici, asta e pentru tine.',
     },
     {
       question: "Pot plăti în rate?",
@@ -43,7 +43,7 @@ const FAQ = () => {
     {
       question: "Ce se întâmplă dacă nu mă țin?",
       answer:
-        "E normal să ai zile când nu faci exercițiile. E normal să ai momente când vrei să renunți. Face parte din proces. Diferența e că nu ești singură — ai grup, ai pe mine, ai structură. Iar dacă dispari complet, te sun sau îți scriu să văd ce s-a întâmplat. Nu te las să cazi fără să știu.",
+        "E normal să ai zile când nu faci exercițiile. E normal să ai momente când vrei să renunți. Face parte din proces. Diferența e că nu ești singură, ai grup, ai pe mine, ai structură. Iar dacă dispari complet, te sun sau îți scriu să văd ce s-a întâmplat. Nu te las să cazi fără să știu.",
     },
   ];
 

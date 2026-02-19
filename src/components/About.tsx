@@ -121,7 +121,7 @@ const About = () => {
               <p>
                 De atunci, am lucrat cu sute de femei în sesiuni individuale și programe de grup.
                 Am văzut frici, blocaje, dar și curaj, asumare și transformare reală.
-                <span className="text-charcoal font-medium"> Metoda IMPACT</span> s-a născut din această experiență trăită — nu din teorie, ci din nevoia de structură și coerență.
+                <span className="text-charcoal font-medium"> Metoda IMPACT</span> s-a născut din această experiență trăită, nu din teorie, ci din nevoia de structură și coerență.
               </p>
 
               <p>

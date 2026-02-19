@@ -103,7 +103,7 @@ const Contact = () => {
             className="font-montserrat text-gri-mediu max-w-xl mx-auto"
             variants={fadeInUp}
           >
-            Dacă simți că e momentul să începi — sunt aici să te ghidez.
+            Dacă simți că e momentul să începi, sunt aici să te ghidez.
           </motion.p>
           <motion.div
             className="h-0.5 bg-auriu mx-auto mt-6"
@@ -183,7 +183,7 @@ const Contact = () => {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  placeholder="Opțional — dacă vrei să te sun"
+                  placeholder="Opțional, dacă vrei să te sun"
                   className="font-montserrat"
                 />
               </motion.div>
@@ -227,7 +227,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   rows={5}
-                  placeholder="Spune-mi ce simți acum. Nu trebuie să fie perfect formulat — scrie ce îți vine."
+                  placeholder="Spune-mi ce simți acum. Nu trebuie să fie perfect formulat, scrie ce îți vine."
                   className="font-montserrat resize-none"
                 />
               </motion.div>
@@ -305,7 +305,7 @@ const Contact = () => {
               {/* Privacy Note */}
               <p className="font-montserrat text-sm text-gri-mediu italic text-center">
                 Îți răspund personal în maxim 24 ore. E în regulă să nu știi de
-                unde să începi — de aici pornim.
+                unde să începi. De aici pornim.
               </p>
             </motion.form>
           </motion.div>
@@ -388,7 +388,7 @@ const Contact = () => {
                   <span className="text-3xl">💜</span>
                 </div>
                 <p className="font-cormorant text-xl sm:text-2xl text-charcoal mb-4 italic">
-                  „Dacă nu ești sigură — e ok. Scrie-mi oricum."
+                  „Dacă nu ești sigură, e ok. Scrie-mi oricum."
                 </p>
                 <p className="font-montserrat text-gri-mediu">
                   Putem vorbi fără niciun angajament.

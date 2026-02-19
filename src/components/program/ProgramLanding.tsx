@@ -1295,7 +1295,7 @@ const CTASection = () => {
             <p className="font-montserrat text-gri-mediu text-sm">E în regulă să nu fii perfectă nimeni nu este.</p>
             <p className="font-montserrat text-charcoal font-medium mt-4">Primul pas nu se face perfect. Se face.</p>
             <p className="font-montserrat text-auriu font-medium text-lg mt-4">Te aștept.</p>
-            <p className="font-montserrat text-charcoal">— Olimpia Moldoveanu</p>
+            <p className="font-montserrat text-charcoal">- Olimpia Moldoveanu</p>
           </motion.div>
         </motion.div>
       </div>

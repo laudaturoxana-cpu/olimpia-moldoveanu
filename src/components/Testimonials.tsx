@@ -26,13 +26,13 @@ const Testimonials = () => {
       context: "Coaching 1:1 (6 luni)",
     },
     {
-      text: "Nu mai voiam să trăiesc doar pentru alții. Am învățat că nu e egoism să te alegi pe tine — e responsabilitate. Relația cu soțul s-a schimbat complet.",
+      text: "Nu mai voiam să trăiesc doar pentru alții. Am învățat că nu e egoism să te alegi pe tine, e responsabilitate. Relația cu soțul s-a schimbat complet.",
       name: "Ioana M.",
       age: "51 ani",
       context: "Program 36 săptămâni",
     },
     {
-      text: "Aveam nevoie de liniște în cap și de un plan clar. Olimpia mi-a oferit ambele — cu răbdare, structură și fără să mă judece niciodată.",
+      text: "Aveam nevoie de liniște în cap și de un plan clar. Olimpia mi-a oferit ambele: cu răbdare, structură și fără să mă judece niciodată.",
       name: "Andreea S.",
       age: "42 ani",
       context: "Workshop + Program tematic",
