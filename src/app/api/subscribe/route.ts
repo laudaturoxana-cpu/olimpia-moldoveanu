@@ -10,12 +10,14 @@ interface SubscribeRequest {
   service?: string;
   message?: string;
   source?: string;
+  city?: string;
+  motivation?: string;
 }
 
 export async function POST(request: NextRequest) {
   try {
     const body: SubscribeRequest = await request.json();
-    const { email, name, phone, service, message, source } = body;
+    const { email, name, phone, service, message, source, city, motivation } = body;
 
     if (!email) {
       return NextResponse.json(
@@ -39,6 +41,8 @@ export async function POST(request: NextRequest) {
         name: name || "",
         phone: phone || "",
         company: service || "", // Using company field for service interest
+        city: city || "",
+        last_name: motivation || "", // Using last_name field for motivation temporarily
       },
       groups: [] as string[],
       status: "active",

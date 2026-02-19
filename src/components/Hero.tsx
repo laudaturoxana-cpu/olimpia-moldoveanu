@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { EASE, DURATION } from "@/lib/animations";
 import SparkleParticles from "@/components/ui/SparkleParticles";
 
@@ -81,14 +82,15 @@ const Hero = () => {
               >
                 Află cum te pot ajuta
               </motion.button>
-              <motion.button
-                onClick={() => scrollToSection("contact")}
-                className="btn-secondary text-base"
-                whileHover={{ scale: 1.03 }}
-                whileTap={{ scale: 0.97 }}
-              >
-                Descarcă ghidul gratuit
-              </motion.button>
+              <Link href="/workshopuri-martie">
+                <motion.span
+                  className="btn-secondary text-base inline-block"
+                  whileHover={{ scale: 1.03 }}
+                  whileTap={{ scale: 0.97 }}
+                >
+                  Participă la workshopurile gratuite
+                </motion.span>
+              </Link>
             </motion.div>
 
             {/* Trust Badges */}
