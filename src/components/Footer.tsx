@@ -184,6 +184,39 @@ const Footer = () => {
           viewport={viewportConfig}
           variants={fadeIn}
         >
+          {/* Company Details - Legal Requirement */}
+          <div className="text-center mb-4">
+            <p className="font-montserrat text-xs text-gri-mediu">
+              <strong className="text-gri-mediu">REVO TEAM TUNARI S.R.L.</strong> | CUI: 50588633 | Nr. Reg. Com.: J2024024687009
+            </p>
+            <p className="font-montserrat text-xs text-gri-mediu mt-1">
+              Tunari, Jud. Ilfov, România
+            </p>
+          </div>
+
+          {/* ANPC - Consumer Protection */}
+          <div className="text-center mb-4">
+            <p className="font-montserrat text-xs text-gri-mediu">
+              <a
+                href="https://anpc.ro/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-auriu hover:underline"
+              >
+                ANPC - Protecția Consumatorilor
+              </a>
+              {" | "}
+              <a
+                href="https://ec.europa.eu/consumers/odr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-auriu hover:underline"
+              >
+                Soluționare Online Litigii (SOL)
+              </a>
+            </p>
+          </div>
+
           <p className="font-montserrat text-sm text-gri-mediu text-center">
             © {currentYear} Olimpia Moldoveanu. Toate drepturile rezervate.
           </p>

@@ -32,7 +32,7 @@ const TermsAndConditions = () => {
           Termeni și Condiții
         </h1>
         <p className="font-montserrat text-gri-mediu mb-8">
-          Ultima actualizare: [DATA_ACTUALIZARE]
+          Ultima actualizare: 19 februarie 2026
         </p>
 
         <div className="prose prose-lg max-w-none font-montserrat text-charcoal">
@@ -42,15 +42,15 @@ const TermsAndConditions = () => {
               1. Informații Generale
             </h2>
             <p className="text-gri-mediu leading-relaxed mb-4">
-              Prezentul document stabilește termenii și condițiile generale de utilizare a site-ului web [URL_SITE] (denumit în continuare &quot;Site-ul&quot;) și a serviciilor oferite de [NUME_FIRMA].
+              Prezentul document stabilește termenii și condițiile generale de utilizare a site-ului web olimpiamoldoveanu.ro (denumit în continuare &quot;Site-ul&quot;) și a serviciilor oferite de REVO TEAM TUNARI S.R.L.
             </p>
             <div className="bg-white rounded-lg p-6 border border-gri-deschis mb-4">
-              <p className="text-charcoal mb-2"><strong>Denumirea operatorului:</strong> [NUME_FIRMA]</p>
-              <p className="text-charcoal mb-2"><strong>Sediul social:</strong> [ADRESA_COMPLETA]</p>
-              <p className="text-charcoal mb-2"><strong>CUI:</strong> [CUI]</p>
-              <p className="text-charcoal mb-2"><strong>Nr. Registrul Comerțului:</strong> [NR_REG_COM]</p>
-              <p className="text-charcoal mb-2"><strong>Email:</strong> [EMAIL_CONTACT]</p>
-              <p className="text-charcoal"><strong>Telefon:</strong> [TELEFON]</p>
+              <p className="text-charcoal mb-2"><strong>Denumirea operatorului:</strong> REVO TEAM TUNARI S.R.L.</p>
+              <p className="text-charcoal mb-2"><strong>Sediul social:</strong> Tunari, Jud. Ilfov, România</p>
+              <p className="text-charcoal mb-2"><strong>CUI:</strong> 50588633</p>
+              <p className="text-charcoal mb-2"><strong>Nr. Registrul Comerțului:</strong> J2024024687009</p>
+              <p className="text-charcoal mb-2"><strong>Email:</strong> contact@olimpiamoldoveanu.ro</p>
+              <p className="text-charcoal"><strong>Telefon:</strong> +40 720 411 423</p>
             </div>
             <p className="text-gri-mediu leading-relaxed">
               Prin accesarea și utilizarea Site-ului, confirmați că ați citit, înțeles și acceptat acești Termeni și Condiții în integralitatea lor. Dacă nu sunteți de acord cu acești termeni, vă rugăm să nu utilizați Site-ul sau serviciile noastre.
@@ -63,7 +63,7 @@ const TermsAndConditions = () => {
               2. Definiții
             </h2>
             <ul className="list-disc pl-6 text-gri-mediu space-y-2">
-              <li><strong>&quot;Prestator&quot;</strong> - [NUME_FIRMA], persoană juridică română</li>
+              <li><strong>&quot;Prestator&quot;</strong> - REVO TEAM TUNARI S.R.L., persoană juridică română</li>
               <li><strong>&quot;Client&quot; / &quot;Utilizator&quot;</strong> - persoana fizică sau juridică care accesează Site-ul sau achiziționează servicii</li>
               <li><strong>&quot;Servicii&quot;</strong> - serviciile de coaching transformator, consultanță, programe de grup și materiale digitale oferite de Prestator</li>
               <li><strong>&quot;Conținut&quot;</strong> - toate materialele, textele, imaginile, video-urile și resursele disponibile pe Site</li>
@@ -77,7 +77,7 @@ const TermsAndConditions = () => {
               3. Descrierea Serviciilor
             </h2>
             <p className="text-gri-mediu leading-relaxed mb-4">
-              [NUME_FIRMA] oferă servicii de coaching transformator prin aplicarea Legilor Universale, incluzând, dar fără a se limita la:
+              REVO TEAM TUNARI S.R.L., prin marca Olimpia Moldoveanu Coaching, oferă servicii de coaching transformator prin aplicarea Legilor Universale, incluzând, dar fără a se limita la:
             </p>
             <ul className="list-disc pl-6 text-gri-mediu space-y-2 mb-4">
               <li>Sesiuni individuale de coaching (online sau față-în-față)</li>
@@ -86,9 +86,11 @@ const TermsAndConditions = () => {
               <li>Suport prin grupuri WhatsApp sau alte platforme</li>
               <li>Workshop-uri și evenimente</li>
             </ul>
-            <p className="text-gri-mediu leading-relaxed">
-              <strong>Important:</strong> Serviciile de coaching nu constituie terapie psihologică, psihoterapie sau tratament medical. Coaching-ul este un proces de dezvoltare personală care vizează clarificarea obiectivelor, depășirea blocajelor și realizarea potențialului personal. În cazul în care aveți probleme de sănătate mintală care necesită tratament specializat, vă recomandăm să consultați un profesionist în sănătate mintală.
-            </p>
+            <div className="bg-roz-pudrat/20 rounded-lg p-6 border-l-4 border-auriu">
+              <p className="text-charcoal leading-relaxed">
+                <strong>Important:</strong> Serviciile de coaching nu constituie terapie psihologică, psihoterapie sau tratament medical. Coaching-ul este un proces de dezvoltare personală care vizează clarificarea obiectivelor, depășirea blocajelor și realizarea potențialului personal. În cazul în care aveți probleme de sănătate mintală care necesită tratament specializat, vă recomandăm să consultați un profesionist în sănătate mintală.
+              </p>
+            </div>
           </section>
 
           {/* Section 4 */}
@@ -127,7 +129,7 @@ const TermsAndConditions = () => {
               Plata se poate efectua prin:
             </p>
             <ul className="list-disc pl-6 text-gri-mediu space-y-2 mb-4">
-              <li>Transfer bancar în contul [BANCA] - IBAN: [IBAN]</li>
+              <li>Transfer bancar</li>
               <li>Plată online cu cardul (prin procesator de plăți securizat)</li>
               <li>Plată în rate (conform opțiunilor disponibile pentru fiecare program)</li>
             </ul>
@@ -145,7 +147,7 @@ const TermsAndConditions = () => {
             </h2>
             <h3 className="font-cormorant text-xl text-charcoal mb-3 mt-6">6.1. Dreptul de retragere (conform OUG 34/2014)</h3>
             <p className="text-gri-mediu leading-relaxed mb-4">
-              Conform legislației privind protecția consumatorilor la contractele încheiate la distanță, aveți dreptul de a vă retrage din contract în termen de 14 zile calendaristice de la data încheierii contractului, fără a fi necesar să indicați un motiv.
+              Conform legislației privind protecția consumatorilor la contractele încheiate la distanță, aveți dreptul de a vă retrage din contract în termen de <strong>14 zile calendaristice</strong> de la data încheierii contractului, fără a fi necesar să indicați un motiv.
             </p>
             <p className="text-gri-mediu leading-relaxed mb-4">
               <strong>Excepție:</strong> Dreptul de retragere nu se aplică în cazul în care:
@@ -158,7 +160,7 @@ const TermsAndConditions = () => {
 
             <h3 className="font-cormorant text-xl text-charcoal mb-3 mt-6">6.2. Exercitarea dreptului de retragere</h3>
             <p className="text-gri-mediu leading-relaxed mb-4">
-              Pentru a vă exercita dreptul de retragere, trebuie să ne informați printr-o declarație clară (email sau scrisoare) la adresa [EMAIL_CONTACT].
+              Pentru a vă exercita dreptul de retragere, trebuie să ne informați printr-o declarație clară (email sau scrisoare) la adresa contact@olimpiamoldoveanu.ro.
             </p>
 
             <h3 className="font-cormorant text-xl text-charcoal mb-3 mt-6">6.3. Rambursarea</h3>
@@ -205,7 +207,7 @@ const TermsAndConditions = () => {
               8. Proprietate Intelectuală
             </h2>
             <p className="text-gri-mediu leading-relaxed mb-4">
-              Toate drepturile de proprietate intelectuală asupra conținutului Site-ului și materialelor furnizate (texte, grafice, logo-uri, imagini, video-uri, exerciții, meditații, metodologii) aparțin exclusiv [NUME_FIRMA] sau licențiatorilor săi.
+              Toate drepturile de proprietate intelectuală asupra conținutului Site-ului și materialelor furnizate (texte, grafice, logo-uri, imagini, video-uri, exerciții, meditații, metodologii) aparțin exclusiv REVO TEAM TUNARI S.R.L. sau licențiatorilor săi.
             </p>
             <p className="text-gri-mediu leading-relaxed mb-4">
               <strong>Este interzis:</strong>
@@ -245,7 +247,7 @@ const TermsAndConditions = () => {
               10. Limitarea Răspunderii
             </h2>
             <p className="text-gri-mediu leading-relaxed mb-4">
-              [NUME_FIRMA] își asumă responsabilitatea pentru furnizarea serviciilor conform descrierii, însă:
+              REVO TEAM TUNARI S.R.L. își asumă responsabilitatea pentru furnizarea serviciilor conform descrierii, însă:
             </p>
             <ul className="list-disc pl-6 text-gri-mediu space-y-2 mb-4">
               <li>Nu garantează rezultate specifice, întrucât succesul depinde în mare măsură de implicarea și acțiunile Clientului</li>
@@ -287,7 +289,7 @@ const TermsAndConditions = () => {
               13. Modificarea Termenilor
             </h2>
             <p className="text-gri-mediu leading-relaxed">
-              [NUME_FIRMA] își rezervă dreptul de a modifica acești Termeni și Condiții în orice moment. Modificările vor fi publicate pe Site și vor intra în vigoare la data publicării. Continuarea utilizării Site-ului sau serviciilor după publicarea modificărilor constituie acceptarea noilor termeni.
+              REVO TEAM TUNARI S.R.L. își rezervă dreptul de a modifica acești Termeni și Condiții în orice moment. Modificările vor fi publicate pe Site și vor intra în vigoare la data publicării. Continuarea utilizării Site-ului sau serviciilor după publicarea modificărilor constituie acceptarea noilor termeni.
             </p>
           </section>
 
@@ -299,9 +301,24 @@ const TermsAndConditions = () => {
             <p className="text-gri-mediu leading-relaxed mb-4">
               În cazul apariției unor dispute, părțile vor încerca mai întâi soluționarea amiabilă. În cazul în care nu se ajunge la o înțelegere în termen de 30 de zile, litigiul va fi soluționat de instanțele judecătorești competente din România.
             </p>
-            <p className="text-gri-mediu leading-relaxed">
-              <strong>Soluționarea alternativă a litigiilor (SAL):</strong> Conform OG 38/2015, consumatorii pot recurge la proceduri de soluționare alternativă a litigiilor. Platforma europeană de soluționare online a litigiilor (SOL) este disponibilă la: <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" className="text-auriu hover:underline">https://ec.europa.eu/consumers/odr</a>
-            </p>
+            <div className="bg-white rounded-lg p-6 border border-gri-deschis">
+              <p className="text-charcoal mb-3"><strong>Soluționarea alternativă a litigiilor (SAL):</strong></p>
+              <p className="text-gri-mediu mb-2">
+                Conform OG 38/2015, consumatorii pot recurge la proceduri de soluționare alternativă a litigiilor.
+              </p>
+              <p className="text-gri-mediu mb-2">
+                <strong>Platforma europeană SOL:</strong>{" "}
+                <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" className="text-auriu hover:underline">
+                  https://ec.europa.eu/consumers/odr
+                </a>
+              </p>
+              <p className="text-gri-mediu">
+                <strong>ANPC - Autoritatea Națională pentru Protecția Consumatorilor:</strong>{" "}
+                <a href="https://anpc.ro" target="_blank" rel="noopener noreferrer" className="text-auriu hover:underline">
+                  https://anpc.ro
+                </a>
+              </p>
+            </div>
           </section>
 
           {/* Section 15 */}
@@ -336,9 +353,10 @@ const TermsAndConditions = () => {
               Pentru orice întrebări referitoare la acești Termeni și Condiții:
             </p>
             <div className="bg-white rounded-lg p-6 border border-gri-deschis">
-              <p className="text-charcoal mb-2"><strong>Email:</strong> [EMAIL_CONTACT]</p>
-              <p className="text-charcoal mb-2"><strong>Telefon:</strong> [TELEFON]</p>
-              <p className="text-charcoal"><strong>Adresă:</strong> [ADRESA_COMPLETA]</p>
+              <p className="text-charcoal mb-2"><strong>REVO TEAM TUNARI S.R.L.</strong></p>
+              <p className="text-charcoal mb-2"><strong>Email:</strong> contact@olimpiamoldoveanu.ro</p>
+              <p className="text-charcoal mb-2"><strong>Telefon:</strong> +40 720 411 423</p>
+              <p className="text-charcoal"><strong>Adresă:</strong> Tunari, Jud. Ilfov, România</p>
             </div>
           </section>
         </div>

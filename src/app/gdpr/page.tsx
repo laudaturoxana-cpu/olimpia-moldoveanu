@@ -32,7 +32,7 @@ const GDPRCookies = () => {
           Politica de Cookie-uri și Conformitate GDPR
         </h1>
         <p className="font-montserrat text-gri-mediu mb-8">
-          Ultima actualizare: [DATA_ACTUALIZARE]
+          Ultima actualizare: 19 februarie 2026
         </p>
 
         <div className="prose prose-lg max-w-none font-montserrat text-charcoal">
@@ -206,6 +206,7 @@ const GDPRCookies = () => {
               <li>Facebook Pixel (marketing)</li>
               <li>YouTube (conținut video integrat)</li>
               <li>Calendly/Google Calendar (programări)</li>
+              <li>Mailerlite (email marketing)</li>
             </ul>
           </section>
 
@@ -287,9 +288,10 @@ const GDPRCookies = () => {
               Pentru a vă exercita oricare dintre drepturile menționate mai sus, vă rugăm să ne contactați:
             </p>
             <div className="bg-white rounded-lg p-6 border border-gri-deschis mb-4">
-              <p className="text-charcoal mb-2"><strong>Email:</strong> [EMAIL_CONTACT]</p>
-              <p className="text-charcoal mb-2"><strong>Adresă:</strong> [ADRESA_COMPLETA]</p>
-              <p className="text-charcoal"><strong>Telefon:</strong> [TELEFON]</p>
+              <p className="text-charcoal mb-2"><strong>REVO TEAM TUNARI S.R.L.</strong></p>
+              <p className="text-charcoal mb-2"><strong>Email:</strong> contact@olimpiamoldoveanu.ro</p>
+              <p className="text-charcoal mb-2"><strong>Adresă:</strong> Tunari, Jud. Ilfov, România</p>
+              <p className="text-charcoal"><strong>Telefon:</strong> +40 720 411 423</p>
             </div>
             <p className="text-gri-mediu leading-relaxed mb-4">
               Vom răspunde la solicitarea dumneavoastră în termen de <strong>30 de zile calendaristice</strong>. În cazuri complexe, acest termen poate fi prelungit cu încă 60 de zile, cu notificare prealabilă.
@@ -403,10 +405,12 @@ const GDPRCookies = () => {
               Pentru orice întrebări legate de cookie-uri, GDPR sau protecția datelor dumneavoastră:
             </p>
             <div className="bg-white rounded-lg p-6 border border-gri-deschis">
-              <p className="text-charcoal mb-2"><strong>[NUME_FIRMA]</strong></p>
-              <p className="text-charcoal mb-2"><strong>Email:</strong> [EMAIL_CONTACT]</p>
-              <p className="text-charcoal mb-2"><strong>Telefon:</strong> [TELEFON]</p>
-              <p className="text-charcoal"><strong>Adresă:</strong> [ADRESA_COMPLETA]</p>
+              <p className="text-charcoal mb-2"><strong>REVO TEAM TUNARI S.R.L.</strong></p>
+              <p className="text-charcoal mb-2"><strong>CUI:</strong> 50588633</p>
+              <p className="text-charcoal mb-2"><strong>Nr. Reg. Com.:</strong> J2024024687009</p>
+              <p className="text-charcoal mb-2"><strong>Email:</strong> contact@olimpiamoldoveanu.ro</p>
+              <p className="text-charcoal mb-2"><strong>Telefon:</strong> +40 720 411 423</p>
+              <p className="text-charcoal"><strong>Adresă:</strong> Tunari, Jud. Ilfov, România</p>
             </div>
           </section>
         </div>

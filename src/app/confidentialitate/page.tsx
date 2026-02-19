@@ -32,7 +32,7 @@ const PrivacyPolicy = () => {
           Politica de Confidențialitate
         </h1>
         <p className="font-montserrat text-gri-mediu mb-8">
-          Ultima actualizare: [DATA_ACTUALIZARE]
+          Ultima actualizare: 19 februarie 2026
         </p>
 
         <div className="prose prose-lg max-w-none font-montserrat text-charcoal">
@@ -42,10 +42,10 @@ const PrivacyPolicy = () => {
               1. Introducere
             </h2>
             <p className="text-gri-mediu leading-relaxed mb-4">
-              [NUME_FIRMA], cu sediul în [ADRESA_COMPLETA], înregistrată la Registrul Comerțului sub nr. [NR_REG_COM], CUI [CUI], (denumită în continuare &quot;Operatorul&quot;, &quot;noi&quot; sau &quot;nostru&quot;), se angajează să protejeze confidențialitatea și securitatea datelor dumneavoastră cu caracter personal.
+              REVO TEAM TUNARI S.R.L., cu sediul în Tunari, Jud. Ilfov, România, înregistrată la Registrul Comerțului sub nr. J2024024687009, CUI 50588633, (denumită în continuare &quot;Operatorul&quot;, &quot;noi&quot; sau &quot;nostru&quot;), se angajează să protejeze confidențialitatea și securitatea datelor dumneavoastră cu caracter personal.
             </p>
             <p className="text-gri-mediu leading-relaxed mb-4">
-              Prezenta Politică de Confidențialitate descrie modul în care colectăm, utilizăm, stocăm și protejăm datele dumneavoastră personale atunci când vizitați site-ul nostru web [URL_SITE] sau când utilizați serviciile noastre de coaching transformator.
+              Prezenta Politică de Confidențialitate descrie modul în care colectăm, utilizăm, stocăm și protejăm datele dumneavoastră personale atunci când vizitați site-ul nostru web olimpiamoldoveanu.ro sau când utilizați serviciile noastre de coaching transformator.
             </p>
             <p className="text-gri-mediu leading-relaxed">
               Vă rugăm să citiți cu atenție această politică pentru a înțelege practicile noastre privind datele dumneavoastră personale.
@@ -61,12 +61,12 @@ const PrivacyPolicy = () => {
               Operatorul de date cu caracter personal este:
             </p>
             <div className="bg-white rounded-lg p-6 border border-gri-deschis mb-4">
-              <p className="text-charcoal mb-2"><strong>Denumire:</strong> [NUME_FIRMA]</p>
-              <p className="text-charcoal mb-2"><strong>Sediu social:</strong> [ADRESA_COMPLETA]</p>
-              <p className="text-charcoal mb-2"><strong>CUI:</strong> [CUI]</p>
-              <p className="text-charcoal mb-2"><strong>Nr. Reg. Com.:</strong> [NR_REG_COM]</p>
-              <p className="text-charcoal mb-2"><strong>Email:</strong> [EMAIL_CONTACT]</p>
-              <p className="text-charcoal"><strong>Telefon:</strong> [TELEFON]</p>
+              <p className="text-charcoal mb-2"><strong>Denumire:</strong> REVO TEAM TUNARI S.R.L.</p>
+              <p className="text-charcoal mb-2"><strong>Sediu social:</strong> Tunari, Jud. Ilfov, România</p>
+              <p className="text-charcoal mb-2"><strong>CUI:</strong> 50588633</p>
+              <p className="text-charcoal mb-2"><strong>Nr. Reg. Com.:</strong> J2024024687009</p>
+              <p className="text-charcoal mb-2"><strong>Email:</strong> contact@olimpiamoldoveanu.ro</p>
+              <p className="text-charcoal"><strong>Telefon:</strong> +40 720 411 423</p>
             </div>
           </section>
 
@@ -182,7 +182,7 @@ const PrivacyPolicy = () => {
               Nu vindem, nu închiriem și nu comercializăm datele dumneavoastră personale. Putem dezvălui datele dumneavoastră următoarelor categorii de destinatari, în măsura necesară:
             </p>
             <ul className="list-disc pl-6 text-gri-mediu space-y-2">
-              <li><strong>Furnizori de servicii:</strong> hosting, procesare plăți, email marketing (toți operând sub acorduri de prelucrare a datelor conforme cu GDPR)</li>
+              <li><strong>Furnizori de servicii:</strong> hosting (Vercel), procesare plăți, email marketing (Mailerlite) - toți operând sub acorduri de prelucrare a datelor conforme cu GDPR</li>
               <li><strong>Autorități publice:</strong> când suntem obligați legal</li>
               <li><strong>Consilieri profesioniști:</strong> avocați, contabili (sub obligații de confidențialitate)</li>
             </ul>
@@ -222,7 +222,7 @@ const PrivacyPolicy = () => {
               <li><strong>Dreptul de a depune plângere</strong> - la Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal (ANSPDCP)</li>
             </ul>
             <p className="text-gri-mediu leading-relaxed mt-4">
-              Pentru exercitarea acestor drepturi, ne puteți contacta la: [EMAIL_CONTACT]
+              Pentru exercitarea acestor drepturi, ne puteți contacta la: contact@olimpiamoldoveanu.ro
             </p>
           </section>
 
@@ -275,9 +275,10 @@ const PrivacyPolicy = () => {
               Pentru orice întrebări sau solicitări legate de această Politică de Confidențialitate sau de prelucrarea datelor dumneavoastră personale, ne puteți contacta la:
             </p>
             <div className="bg-white rounded-lg p-6 border border-gri-deschis">
-              <p className="text-charcoal mb-2"><strong>Email:</strong> [EMAIL_CONTACT]</p>
-              <p className="text-charcoal mb-2"><strong>Telefon:</strong> [TELEFON]</p>
-              <p className="text-charcoal"><strong>Adresă:</strong> [ADRESA_COMPLETA]</p>
+              <p className="text-charcoal mb-2"><strong>REVO TEAM TUNARI S.R.L.</strong></p>
+              <p className="text-charcoal mb-2"><strong>Email:</strong> contact@olimpiamoldoveanu.ro</p>
+              <p className="text-charcoal mb-2"><strong>Telefon:</strong> +40 720 411 423</p>
+              <p className="text-charcoal"><strong>Adresă:</strong> Tunari, Jud. Ilfov, România</p>
             </div>
           </section>
 
@@ -294,7 +295,7 @@ const PrivacyPolicy = () => {
               <p className="text-gri-mediu mb-2">B-dul G-ral. Gheorghe Magheru 28-30, Sector 1, București, cod poștal 010336</p>
               <p className="text-gri-mediu mb-2">Telefon: +40.318.059.211 / +40.318.059.212</p>
               <p className="text-gri-mediu">Email: anspdcp@dataprotection.ro</p>
-              <p className="text-gri-mediu">Website: www.dataprotection.ro</p>
+              <p className="text-gri-mediu">Website: <a href="https://www.dataprotection.ro" target="_blank" rel="noopener noreferrer" className="text-auriu hover:underline">www.dataprotection.ro</a></p>
             </div>
           </section>
         </div>
