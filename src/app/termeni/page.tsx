@@ -46,7 +46,7 @@ const TermsAndConditions = () => {
             </p>
             <div className="bg-white rounded-lg p-6 border border-gri-deschis mb-4">
               <p className="text-charcoal mb-2"><strong>Denumirea operatorului:</strong> REVO TEAM TUNARI S.R.L.</p>
-              <p className="text-charcoal mb-2"><strong>Sediul social:</strong> Tunari, Jud. Ilfov, România</p>
+              <p className="text-charcoal mb-2"><strong>Sediul social:</strong> Strada 1 Decembrie nr. 97, Tunari, Jud. Ilfov, România</p>
               <p className="text-charcoal mb-2"><strong>CUI:</strong> 50588633</p>
               <p className="text-charcoal mb-2"><strong>Nr. Registrul Comerțului:</strong> J2024024687009</p>
               <p className="text-charcoal mb-2"><strong>Email:</strong> contact@olimpiamoldoveanu.ro</p>
@@ -356,7 +356,7 @@ const TermsAndConditions = () => {
               <p className="text-charcoal mb-2"><strong>REVO TEAM TUNARI S.R.L.</strong></p>
               <p className="text-charcoal mb-2"><strong>Email:</strong> contact@olimpiamoldoveanu.ro</p>
               <p className="text-charcoal mb-2"><strong>Telefon:</strong> +40 720 411 423</p>
-              <p className="text-charcoal"><strong>Adresă:</strong> Tunari, Jud. Ilfov, România</p>
+              <p className="text-charcoal"><strong>Adresă:</strong> Strada 1 Decembrie nr. 97, Tunari, Jud. Ilfov, România</p>
             </div>
           </section>
         </div>

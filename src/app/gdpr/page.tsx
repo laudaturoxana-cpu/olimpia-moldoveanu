@@ -290,7 +290,7 @@ const GDPRCookies = () => {
             <div className="bg-white rounded-lg p-6 border border-gri-deschis mb-4">
               <p className="text-charcoal mb-2"><strong>REVO TEAM TUNARI S.R.L.</strong></p>
               <p className="text-charcoal mb-2"><strong>Email:</strong> contact@olimpiamoldoveanu.ro</p>
-              <p className="text-charcoal mb-2"><strong>Adresă:</strong> Tunari, Jud. Ilfov, România</p>
+              <p className="text-charcoal mb-2"><strong>Adresă:</strong> Strada 1 Decembrie nr. 97, Tunari, Jud. Ilfov, România</p>
               <p className="text-charcoal"><strong>Telefon:</strong> +40 720 411 423</p>
             </div>
             <p className="text-gri-mediu leading-relaxed mb-4">
@@ -410,7 +410,7 @@ const GDPRCookies = () => {
               <p className="text-charcoal mb-2"><strong>Nr. Reg. Com.:</strong> J2024024687009</p>
               <p className="text-charcoal mb-2"><strong>Email:</strong> contact@olimpiamoldoveanu.ro</p>
               <p className="text-charcoal mb-2"><strong>Telefon:</strong> +40 720 411 423</p>
-              <p className="text-charcoal"><strong>Adresă:</strong> Tunari, Jud. Ilfov, România</p>
+              <p className="text-charcoal"><strong>Adresă:</strong> Strada 1 Decembrie nr. 97, Tunari, Jud. Ilfov, România</p>
             </div>
           </section>
         </div>
