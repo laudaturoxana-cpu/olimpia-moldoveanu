@@ -43,9 +43,9 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: DURATION.normal, ease: EASE, delay: 0.2 }}
             >
-              Eliberează-te de ce nu-ți mai aparține
+              Nu mai ai liniște în cap. Te-ai pierdut pe tine. Știi că poți mai mult.
               <br />
-              <span className="text-auriu">Creează-ți realitatea din interior</span>
+              <span className="text-auriu">Nu ești singură. Și nu este prea târziu.</span>
             </motion.h1>
 
             {/* Subtitle */}
@@ -57,13 +57,10 @@ const Hero = () => {
               transition={{ duration: DURATION.normal, ease: EASE, delay: 0.5 }}
             >
               <p className="mb-4">
-                Ghidez femeile să se elibereze de încărcătura emoțională și să-și
-                transforme conștiința, fără să caute validare în exterior, astfel
-                încât să-și creeze realitatea din energie, aliniere și iubire de sine.
+                Ghidez femei care au obosit să supraviețuiască și sunt pregătite să își conducă viața conștient.
               </p>
               <p>
-                Fără promisiuni goale, fără presiune. Doar transformare autentică,
-                în ritmul tău.
+                Nu îți ofer soluții rapide. Îți ofer leadership interior — prin Metoda IMPACT.
               </p>
             </motion.div>
 
