@@ -22,25 +22,25 @@ const Services = () => {
 
   const services = [
     {
-      name: "Conștientizează-ți Puterea",
+      name: "IMPACT - Fundament",
       type: "Program Semnătură",
       badge: "Program Principal",
       description:
-        "Program exclusiv de 36 săptămâni ghidat de 3 practiciene de excepție. Transformare profundă, vindecare emoțională și reconectare cu sinele autentic.",
+        "36 de săptămâni de leadership interior prin Metoda IMPACT. Nu este un curs de informații, este o călătorie structurată prin care te întorci la tine și îți construiești viața pe care o meriți.",
       includes: [
-        "36 săptămâni de transformare completă",
-        "3 practiciene: Olimpia, Dr. Cristina Varro, Corina Harjoaba",
-        "Sesiuni de grup săptămânale live",
-        "Tehnici EFT, Dans Energetic, Theta Healing",
-        "Heart Healing, NLP, Legile Universale",
-        "Grup privat WhatsApp pentru suport",
+        "18 sesiuni de grup (la 2 săptămâni, 90 min)",
+        "9 sesiuni EFT de grup",
+        "9 sesiuni Dans Energetic de grup",
+        "3 sesiuni individuale 1:1 cu Olimpia",
+        "Exercițiul principal se face ÎN sesiune (nu teme multiple acasă!)",
+        "Grup privat WhatsApp pentru suport constant",
       ],
-      process: "Fundație (12 săpt) → Transformare (12 săpt) → Integrare (12 săpt)",
+      process: "Eliberare (12 săpt) → Aliniere (12 săpt) → Manifestare (12 săpt)",
       duration: "9 luni (36 săptămâni)",
       forWhom:
-        'Femei pregătite pentru transformare profundă, care au ajuns la un „prag" și vor structură clară + suport constant',
-      investment: "Programare pentru detalii • Plata în rate disponibilă",
-      cta: "Vezi programul complet",
+        "Femei care aleg un proces profund (nu soluții rapide), își asumă responsabilitatea pentru rezultatele lor și sunt pregătite să devină liderii propriei vieți",
+      investment: "Rate fără dobândă disponibile",
+      cta: "Descoperă IMPACT - Fundament",
       featured: true,
       link: "/program-transformare",
     },
