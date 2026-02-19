@@ -20,7 +20,7 @@ const Process = () => {
       description:
         "Identificăm și eliberăm fricile, blocajele emoționale, convingerile limitative. Lucrăm cu vinovăția, rușinea, frica de greșeală. Înveți să fii blândă cu tine.",
       details:
-        "Sesiuni de grup, exerciții zilnice simple (5-15 min), suport în grup WhatsApp, materiale ghidate.",
+        "Exercițiul principal se face în cadrul sesiunii (nu teme acasă!). Sesiuni de grup, meditații ghidate, suport în grup WhatsApp. Prima sesiune 1:1 cu Olimpia (săptămâna 12).",
       bgColor: "bg-roz-pudrat/20",
     },
     {
@@ -31,7 +31,7 @@ const Process = () => {
       description:
         "Reconstruim relația cu tine. Descoperi ce contează cu adevărat pentru tine, care sunt valorile tale, ce vrei să manifești. Claritate și direcție.",
       details:
-        "Lucru profund cu identitatea, valorile, viziunea. Pași clari pentru aliniere. Check-in individual cu mine.",
+        "Lucru profund cu identitatea, valorile, viziunea. Pași clari pentru aliniere. A doua sesiune 1:1 cu Olimpia (săptămâna 24).",
       bgColor: "bg-verde-sage/20",
     },
     {
@@ -42,7 +42,7 @@ const Process = () => {
       description:
         "Transformi claritatea în acțiuni concrete. Manifești conștient viața pe care ți-o dorești: în relații, în carieră, în bani, în pace interioară.",
       details:
-        "Acțiuni practice, integrare, manifestare conștientă prin Legile Universale. Îți construiești viața aliniată.",
+        "Acțiuni practice asistate, integrare profundă, manifestare conștientă prin Legile Universale. A treia sesiune 1:1 cu Olimpia (săptămâna 36). Îți construiești viața aliniată și o conduci din putere, nu din frică.",
       bgColor: "bg-auriu/15",
     },
   ];

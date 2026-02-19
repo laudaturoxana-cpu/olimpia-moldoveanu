@@ -14,28 +14,28 @@ import SparkleParticles from "@/components/ui/SparkleParticles";
 const Testimonials = () => {
   const testimonials = [
     {
-      text: "Am avut o perioadă mai puțin bună. După discuțiile cu Olimpia, conștientizările nu au întârziat să apară. Simt că am început să mă înțeleg mai bine și să fiu mai blândă cu mine.",
-      name: "Maria D.",
-      age: "47 ani",
-      context: "Program 36 săptămâni",
+      text: "Mi-am dorit un partener și un nou loc de muncă, și le-am obținut. Am schimbat perspectiva de a vedea viața prin tot ce am lucrat în program. Viața mea este total diferită față de ce a fost. Un singur cuvânt pentru acest program: TRANSFORMATOR.",
+      name: "Participantă Ediția I",
+      context: "Program IMPACT - Fundament (36 săptămâni)",
+      rating: "Transformare: 10/10",
     },
     {
-      text: "Știam că pot mai mult, dar nu știam ce și cum. Olimpia m-a ghidat cu o blândețe pe care nu am primit-o de la nimeni. Acum am claritate și curajul să fac pașii.",
-      name: "Elena P.",
-      age: "44 ani",
-      context: "Coaching 1:1 (6 luni)",
+      text: "Am intrat în program cu probleme în relație, probleme financiare și lipsă de claritate. Aplicând tehnicile am ajuns la claritate, relațiile s-au îmbunătățit și aspectul financiar la fel. Cel mai important rezultat: mi-am crescut încrederea în mine și asta îmi permite să acționez dintr-o poziție de putere în loc de poziția de victimă.",
+      name: "Andreea",
+      context: "Program IMPACT - Fundament (36 săptămâni)",
+      rating: "Transformare: 7-8/10",
     },
     {
-      text: "Nu mai voiam să trăiesc doar pentru alții. Am învățat că nu e egoism să te alegi pe tine, e responsabilitate. Relația cu soțul s-a schimbat complet.",
-      name: "Ioana M.",
-      age: "51 ani",
-      context: "Program 36 săptămâni",
+      text: "Am intrat în program cu lipsă de curaj și procrastinare. Am ieșit mai sigură pe mine, mai încrezătoare în forțele proprii și am început să-mi exprim opinia personală fără vinovăție. Am învățat să-mi ascult vocea interioară. Investiția a fost mică față de valoarea primită.",
+      name: "Participantă Ediția I",
+      context: "Program IMPACT - Fundament (36 săptămâni)",
+      rating: "Transformare: 8/10",
     },
     {
-      text: "Aveam nevoie de liniște în cap și de un plan clar. Olimpia mi-a oferit ambele: cu răbdare, structură și fără să mă judece niciodată.",
-      name: "Andreea S.",
-      age: "42 ani",
-      context: "Workshop + Program tematic",
+      text: "Când am intrat în program, EU nu existam, reacționam la orice. După 36 de săptămâni am început să acționez și să mă văd, puțin câte puțin. Mi-am schimbat energia și realitatea mea a început să se schimbe. Așa începe schimbarea ta.",
+      name: "Participantă Ediția I",
+      context: "Program IMPACT - Fundament (36 săptămâni)",
+      rating: "",
     },
   ];
 
@@ -56,7 +56,7 @@ const Testimonials = () => {
             className="font-cormorant text-h2-mobile md:text-h2 text-charcoal mb-4"
             variants={fadeInUp}
           >
-            Ce spun femeile care au trecut prin program
+            Ce spun femeile care au trecut prin Ediția I
           </motion.h2>
           <motion.div
             className="h-0.5 bg-auriu mx-auto"
@@ -106,15 +106,41 @@ const Testimonials = () => {
 
                 <div>
                   <p className="font-montserrat font-medium text-charcoal">
-                    {testimonial.name}, {testimonial.age}
+                    {testimonial.name}
                   </p>
                   <p className="font-montserrat text-sm text-gri-mediu">
                     {testimonial.context}
                   </p>
+                  {testimonial.rating && (
+                    <p className="font-montserrat text-sm text-auriu font-medium">
+                      {testimonial.rating}
+                    </p>
+                  )}
                 </div>
               </div>
             </motion.div>
           ))}
+        </motion.div>
+
+        {/* Summary Section */}
+        <motion.div
+          className="text-center mt-12 max-w-2xl mx-auto"
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewportConfig}
+          variants={fadeInUp}
+        >
+          <div className="border-t border-b border-auriu/30 py-8">
+            <p className="font-cormorant text-2xl md:text-3xl text-charcoal mb-4">
+              Patru femei. Patru vieți schimbate.
+            </p>
+            <p className="font-montserrat text-gri-mediu mb-4">
+              Toate au spus același lucru, în cuvinte diferite:
+            </p>
+            <p className="font-cormorant text-xl md:text-2xl text-auriu italic">
+              &ldquo;Programul valorează mai mult decât am plătit.&rdquo;
+            </p>
+          </div>
         </motion.div>
       </div>
     </section>

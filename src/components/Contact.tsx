@@ -76,11 +76,10 @@ const Contact = () => {
 
   const services = [
     { value: "", label: "Alege..." },
-    { value: "program-constientizare", label: "Program Conștientizează-ți Puterea (36 săpt)" },
-    { value: "program-legile-universale", label: "Program Legile Universale (9 săpt)" },
-    { value: "program-relatie-bani", label: "Program Relație, Iubire și Bani" },
-    { value: "workshop-gratuit", label: "Workshop Gratuit (Martie)" },
-    { value: "info", label: "Vreau să aflu mai multe" },
+    { value: "impact-fundament", label: "IMPACT - Fundament (36 săptămâni)" },
+    { value: "workshopuri-martie", label: "Workshopuri Martie - Luna Clarității (gratuit)" },
+    { value: "info", label: "Vreau să aflu mai multe despre programe" },
+    { value: "sesiune-clarificare", label: "Sesiune 1:1 de clarificare" },
   ];
 
   return (

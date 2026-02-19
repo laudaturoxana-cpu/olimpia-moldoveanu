@@ -23,12 +23,12 @@ const FAQ = () => {
     {
       question: "Cât durează până văd rezultate?",
       answer:
-        "Unele femei simt ușurare după primele 2-3 sesiuni. Altele au nevoie de câteva săptămâni. Transformarea profundă, cea care rămâne, ia timp. Nu îți promit schimbare în 24 de ore. Îți promit un proces real, cu pași clari, în ritmul potrivit pentru tine. De obicei, după primele 12 săptămâni (etapa Eliberare), simți o diferență clară.",
+        "Fiecare femeie are ritmul ei. Unele simt schimbări după primele 2-3 săptămâni (mai multă liniște, mai puțină anxietate). Altele au nevoie de 2-3 luni pentru a integra profund. Transformarea reală vine din consecvență, și asta înseamnă că fiecare sesiune te duce mai departe, chiar dacă nu simți imediat. Rezultatele din Ediția I: O participantă a obținut partener și job nou, alta a trecut de la poziția de victimă la poziția de putere, alta și-a regăsit vocea interioară fără vinovăție. Toate au descris schimbări majore după cele 36 de săptămâni.",
     },
     {
       question: "Dacă nu am timp?",
       answer:
-        "Sesiunile de grup sunt joi seara 19:00-21:00 (când ai terminat cu responsabilitățile zilei). Exercițiile zilnice sunt 5-15 minute. Nu îți cer 3 ore pe zi. Îți cer consistență în lucruri mici. Și dacă lipsești o sesiune, ai înregistrarea + grup WhatsApp pentru întrebări.",
+        "Programul este construit tocmai pentru femei ca tine, ocupate, cu responsabilități mari. De aceea structura este clară: sesiunile de grup sunt la 2 săptămâni (nu săptămânal), exercițiul principal se face ÎN sesiune (nu acasă, cu teme multiple), sesiunile sunt programate seara (19:00-20:30), focus pe integrare asistată, nu pe volum de muncă acasă. Feedback-ul din Ediția I: participantele au apreciat că nu au fost copleșite cu teme. Structura Ediției II este simplificată tocmai pe baza acestui feedback.",
     },
     {
       question: "Este prea spiritual pentru mine?",
