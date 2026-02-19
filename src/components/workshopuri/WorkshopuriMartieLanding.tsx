@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import {
@@ -642,15 +643,14 @@ const DetailsSection = () => {
 
 /* ==================== FORM SECTION ==================== */
 const FormSection = () => {
+  const router = useRouter();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    city: "",
     motivation: "",
     confirmed: false,
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -673,7 +673,6 @@ const FormSection = () => {
         body: JSON.stringify({
           email: formData.email,
           name: formData.name,
-          city: formData.city,
           motivation: formData.motivation,
           source: "workshopuri-martie",
         }),
@@ -683,18 +682,11 @@ const FormSection = () => {
         throw new Error("Failed to subscribe");
       }
 
-      setSubmitStatus("success");
-      setFormData({
-        name: "",
-        email: "",
-        city: "",
-        motivation: "",
-        confirmed: false,
-      });
+      // Redirect to thank you page with name parameter
+      const firstName = formData.name.split(" ")[0];
+      router.push(`/workshopuri-martie/multumim?name=${encodeURIComponent(firstName)}`);
     } catch {
-      setSubmitStatus("error");
       setErrorMessage("A apărut o eroare. Te rugăm să încerci din nou.");
-    } finally {
       setIsSubmitting(false);
     }
   };
@@ -725,26 +717,7 @@ const FormSection = () => {
           <motion.div className="h-0.5 bg-auriu mx-auto mt-6" variants={lineExpand} />
         </motion.div>
 
-        {submitStatus === "success" ? (
-          <motion.div
-            className="bg-white rounded-card p-8 border-2 border-verde-sage text-center"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-          >
-            <div className="text-verde-sage text-5xl mb-4">✓</div>
-            <h3 className="font-cormorant text-2xl text-charcoal mb-4">
-              Bine ai venit în Luna Clarității!
-            </h3>
-            <p className="font-montserrat text-gri-mediu mb-4">
-              Îți mulțumesc pentru înscrierea în seria de workshopuri.
-              Vei primi un email de confirmare cu toate detaliile.
-            </p>
-            <p className="font-montserrat text-sm text-auriu">
-              Notează-ți în calendar: 5, 12, 19, 26 Martie • 19:00-20:30
-            </p>
-          </motion.div>
-        ) : (
-          <motion.form
+        <motion.form
             onSubmit={handleSubmit}
             className="bg-white rounded-card p-6 md:p-8 border-2 border-auriu shadow-card"
             initial="hidden"
@@ -778,19 +751,6 @@ const FormSection = () => {
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   className="w-full px-4 py-3 border border-gri-deschis rounded-lg font-montserrat text-sm focus:outline-none focus:border-auriu transition-colors"
                   placeholder="adresa@email.com"
-                />
-              </div>
-
-              <div>
-                <label className="block font-montserrat text-sm text-charcoal mb-2">
-                  Oraș
-                </label>
-                <input
-                  type="text"
-                  value={formData.city}
-                  onChange={(e) => setFormData({ ...formData, city: e.target.value })}
-                  className="w-full px-4 py-3 border border-gri-deschis rounded-lg font-montserrat text-sm focus:outline-none focus:border-auriu transition-colors"
-                  placeholder="Orașul tău"
                 />
               </div>
 
@@ -843,7 +803,6 @@ const FormSection = () => {
               </p>
             </div>
           </motion.form>
-        )}
       </div>
     </section>
   );
