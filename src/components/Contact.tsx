@@ -331,7 +331,7 @@ const Contact = () => {
                       Locație
                     </p>
                     <p className="font-montserrat text-gri-mediu">
-                      Online (Zoom) + București (la cerere, ședințe la cabinet)
+                      Online pe Zoom
                     </p>
                   </div>
                 </div>
@@ -352,17 +352,22 @@ const Contact = () => {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <span className="text-xl">📞</span>
+                  <span className="text-xl">📱</span>
                   <div>
                     <p className="font-montserrat font-medium text-charcoal">
-                      Telefon
+                      WhatsApp
                     </p>
                     <a
-                      href="tel:+40720411423"
+                      href="https://wa.me/40720411423"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="font-montserrat text-auriu hover:underline"
                     >
                       +40 720 411 423
                     </a>
+                    <p className="font-montserrat text-sm text-gri-mediu mt-1">
+                      Vorbesc doar pe WhatsApp
+                    </p>
                   </div>
                 </div>
 
@@ -373,7 +378,13 @@ const Contact = () => {
                       Program
                     </p>
                     <p className="font-montserrat text-gri-mediu">
-                      Luni-Vineri, 10:00-18:00
+                      15:00-21:00 (ora României)
+                    </p>
+                    <p className="font-montserrat text-sm text-gri-mediu mt-1">
+                      15 aprilie - 15 septembrie: în România
+                    </p>
+                    <p className="font-montserrat text-sm text-gri-mediu">
+                      În rest: în America (program adaptat)
                     </p>
                   </div>
                 </div>
