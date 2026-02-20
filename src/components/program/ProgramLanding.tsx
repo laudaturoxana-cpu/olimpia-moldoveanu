@@ -128,14 +128,16 @@ const ProgramHero = ({ onScrollToContact }: { onScrollToContact: () => void }) =
             className="flex flex-col sm:flex-row gap-4 justify-center"
             variants={fadeInUp}
           >
-            <motion.button
-              onClick={onScrollToContact}
-              className="btn-primary text-base px-8 py-4"
+            <motion.a
+              href="https://calendly.com/olimpiamld/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-base px-8 py-4 inline-block text-center"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
             >
               Vreau să vorbesc cu Olimpia
-            </motion.button>
+            </motion.a>
             <motion.button
               onClick={() => {
                 const el = document.getElementById("despre-program");
