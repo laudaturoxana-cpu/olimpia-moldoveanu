@@ -282,7 +282,7 @@ const WorkshopsSection = () => {
       number: "01",
       title: "Puterea Cuvântului",
       date: "5 Martie",
-      time: "19:00-20:30",
+      time: "19:30-21:00",
       subtitle: "Cum îți influențează cuvintele identitatea",
       description: "Cuvintele pe care le folosești zilnic îți modelează realitatea fără să îți dai seama.",
       items: [
@@ -299,7 +299,7 @@ const WorkshopsSection = () => {
       number: "02",
       title: "Convingerile Limitative",
       date: "12 Martie",
-      time: "19:00-20:30",
+      time: "19:30-21:00",
       subtitle: "Identificarea convingerilor despre bani, relații și valoare personală",
       description: "Convingerile care te țin pe loc nu sunt ale tale. Sunt moștenite din familie, din cultură, din experiențe timpurii.",
       items: [
@@ -316,7 +316,7 @@ const WorkshopsSection = () => {
       number: "03",
       title: "Frica și Mecanismele Ei",
       date: "19 Martie",
-      time: "19:00-20:30",
+      time: "19:30-21:00",
       subtitle: "Cum funcționează frica în corp și minte",
       description: "Frica nu este dușmanul. Este o busolă.",
       items: [
@@ -333,7 +333,7 @@ const WorkshopsSection = () => {
       number: "04",
       title: "Copilul Interior și Întregirea",
       date: "26 Martie",
-      time: "19:00-20:30",
+      time: "19:30-21:00",
       subtitle: "Impactul rănilor emoționale",
       description: "Finalul seriei și cel mai profund. Te întorci la rădăcina tuturor blocajelor la copilul care a purtat ce nu era al lui.",
       items: [
@@ -567,7 +567,7 @@ const DetailsSection = () => {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-verde-sage">✓</span>
-                90 minute fiecare (19:00-20:30)
+                90 minute fiecare (19:30-21:00)
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-verde-sage">✓</span>
@@ -869,7 +869,7 @@ const FAQSection = () => {
     },
     {
       question: "La ce oră sunt workshopurile?",
-      answer: "Toate cele 4 workshopuri sunt programate 19:00-20:30 (ora României). Am ales această oră pentru a permite participarea femeilor cu job și familie după ce s-au terminat responsabilitățile zilei.",
+      answer: "Toate cele 4 workshopuri sunt programate 19:30-21:00 (ora României). Am ales această oră pentru a permite participarea femeilor cu job și familie după ce s-au terminat responsabilitățile zilei.",
     },
   ];
 

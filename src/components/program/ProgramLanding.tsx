@@ -480,7 +480,7 @@ const StructureSection = () => {
             className="font-montserrat text-gri-mediu max-w-2xl mx-auto"
             variants={fadeInUp}
           >
-            36 de săptămâni, 39 de sesiuni live
+            36 de săptămâni de transformare
           </motion.p>
           <motion.div className="h-0.5 bg-auriu mx-auto mt-6" variants={lineExpand} />
         </motion.div>
@@ -1130,7 +1130,7 @@ const FAQSection = () => {
     },
     {
       question: "Dacă nu am timp?",
-      answer: "Programul este construit tocmai pentru femei ca tine, ocupate, cu responsabilități mari. Sesiunile de grup sunt la 2 săptămâni (nu săptămânal). Exercițiul principal se face ÎN sesiune (nu acasă, cu teme multe). Sesiunile sunt programate seara (19:00-20:30) pentru a permite participarea. Focus pe integrare asistată, nu pe volum de muncă acasă.",
+      answer: "Programul este construit tocmai pentru femei ca tine, ocupate, cu responsabilități mari. Sesiunile de grup sunt la 2 săptămâni (nu săptămânal). Exercițiul principal se face ÎN sesiune (nu acasă, cu teme multe). Sesiunile sunt programate seara (19:30-21:00) pentru a permite participarea. Focus pe integrare asistată, nu pe volum de muncă acasă.",
     },
     {
       question: "Este prea spiritual pentru mine?",
