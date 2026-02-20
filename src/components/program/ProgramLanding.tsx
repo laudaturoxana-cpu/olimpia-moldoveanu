@@ -655,7 +655,7 @@ const TeamSection = () => {
       quote: "Din această înțelegere s-a născut Metoda IMPACT.",
     },
     {
-      name: "Dr. Cristina Varro",
+      name: "Cristina Varro",
       role: "Medic Neonatolog, Dans Energetic, Theta Healing",
       image: "/cristina-varro.jpg",
       color: "bg-verde-sage/20",

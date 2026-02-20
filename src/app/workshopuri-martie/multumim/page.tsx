@@ -40,7 +40,7 @@ function ThankYouContent() {
       title: "Convingerile Limitative",
       date: "12 Martie | 19:00-20:30 | Zoom",
       description: "Identifici convingerile moștenite despre bani, relații, valoare personală.",
-      extra: "+ Sesiune Dans Energetic cu Dr. Cristina Varro",
+      extra: "+ Sesiune Dans Energetic cu Cristina Varro",
     },
     {
       number: 3,

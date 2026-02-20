@@ -306,10 +306,10 @@ const WorkshopsSection = () => {
         "Identifici convingerile limitative despre bani, relații și valoare personală",
         "Înțelegi diferența dintre programare (ce ai primit) și alegere (ce faci cu ce ai primit)",
         "Lucrezi un proces conștient de recalibrare",
-        "Sesiune specială Dans Energetic cu Dr. Cristina Varro pentru eliberarea prin corp",
+        "Sesiune specială Dans Energetic cu Cristina Varro pentru eliberarea prin corp",
       ],
       quote: "Programarea este ce ai primit. Alegerea este ce faci cu ce ai primit.",
-      facilitator: "Olimpia Moldoveanu & Dr. Cristina Varro",
+      facilitator: "Olimpia Moldoveanu & Cristina Varro",
       color: "bg-verde-sage/20",
     },
     {

@@ -4,7 +4,7 @@ import WorkshopuriMartieLanding from "@/components/workshopuri/WorkshopuriMartie
 export const metadata: Metadata = {
   title: "Martie – Luna Clarității | 4 Workshopuri Gratuite | Olimpia Moldoveanu",
   description:
-    "Seria de 4 workshopuri gratuite în martie. De la confuzie la claritate, de la frică la direcție, de la reacție la asumare. Ghidat de Olimpia Moldoveanu, Dr. Cristina Varro și Corina Harjoaba.",
+    "Seria de 4 workshopuri gratuite în martie. De la confuzie la claritate, de la frică la direcție, de la reacție la asumare. Ghidat de Olimpia Moldoveanu, Cristina Varro și Corina Harjoaba.",
   keywords: [
     "workshopuri gratuite",
     "dezvoltare personala",
