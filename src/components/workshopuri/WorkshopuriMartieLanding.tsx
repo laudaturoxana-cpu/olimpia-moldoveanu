@@ -287,7 +287,7 @@ const WorkshopsSection = () => {
       description: "Cuvintele pe care le folosești zilnic îți modelează realitatea fără să îți dai seama.",
       items: [
         "Descoperi care sunt cuvintele care te limitează",
-        "Înveți diferența dintre \"trebuie\" și \"aleg\" și ce se schimbă când faci această înlocuire",
+        "Înveți diferența dintre \"știu\" și \"aleg\" și ce se schimbă când faci această înlocuire",
         "Identifici blocajele subtile ale manifestării tale",
         "Primești primul exercițiu concret de recalibrare lingvistică",
       ],

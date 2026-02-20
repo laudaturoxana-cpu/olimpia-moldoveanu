@@ -18,7 +18,7 @@ const FAQ = () => {
     {
       question: "Este pentru mine?",
       answer:
-        'Programul este pentru tine dacă simți anxietate, frici, oboseală emoțională sau lipsă de claritate. Dacă ai ajuns la un „prag" și simți că vrei altceva, dar nu știi de unde să începi, e pentru tine. Nu trebuie să fii „pregătită perfect", trebuie doar să fii dispusă să încerci, să cazi, să te ridici, și eu te susțin în tot procesul.',
+        'Programul este pentru tine dacă simți anxietate, frici, oboseală emoțională sau lipsă de claritate. Dacă ai ajuns la un „prag" și simți că vrei altceva, dar nu știi de unde să începi, e pentru tine. Nu este necesar să fii „pregătită perfect", este necesar doar să fii dispusă să începi, să cazi, să te ridici, și eu te susțin în tot procesul.',
     },
     {
       question: "Cât durează până văd rezultate?",
@@ -28,7 +28,7 @@ const FAQ = () => {
     {
       question: "Dacă nu am timp?",
       answer:
-        "Programul este construit tocmai pentru femei ca tine, ocupate, cu responsabilități mari. De aceea structura este clară: sesiunile de grup sunt la 2 săptămâni (nu săptămânal), exercițiul principal se face ÎN sesiune (nu acasă, cu teme multiple), sesiunile sunt programate seara (19:00-20:30), focus pe integrare asistată, nu pe volum de muncă acasă. Feedback-ul din Ediția I: participantele au apreciat că nu au fost copleșite cu teme. Structura Ediției II este simplificată tocmai pe baza acestui feedback.",
+        "Programul este construit tocmai pentru femei ca tine, ocupate, cu responsabilități mari. De aceea structura este clară: sesiunile de grup sunt la 2 săptămâni (nu săptămânal), exercițiul principal se face ÎN sesiune (nu acasă, cu teme multiple), sesiunile sunt programate seara (19:30-21:00), focus pe integrare asistată, nu pe volum de muncă acasă. Feedback-ul din Ediția I: participantele au apreciat că nu au fost copleșite cu teme. Structura Ediției II este simplificată tocmai pe baza acestui feedback.",
     },
     {
       question: "Este prea spiritual pentru mine?",
@@ -43,7 +43,7 @@ const FAQ = () => {
     {
       question: "Ce se întâmplă dacă nu mă țin?",
       answer:
-        "E normal să ai zile când nu faci exercițiile. E normal să ai momente când vrei să renunți. Face parte din proces. Diferența e că nu ești singură, ai grup, ai pe mine, ai structură. Iar dacă dispari complet, te sun sau îți scriu să văd ce s-a întâmplat. Nu te las să cazi fără să știu.",
+        "E normal să ai zile când nu faci exercițiile. E normal să ai momente când vrei să renunți. Face parte din proces. Diferența e că nu ești singură, ai grup, sunt eu, ai structură. Iar dacă dispari complet, te sun sau îți scriu să văd ce s-a întâmplat. Nu te las să cazi fără să știu.",
     },
   ];
 

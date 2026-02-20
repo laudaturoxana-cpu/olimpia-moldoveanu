@@ -23,7 +23,7 @@ const About = () => {
       icon: "🎓",
       label: "Certificări",
       value:
-        "Coach certificat prin Legile Universale, Practician Heart Healing, Facilitator Mastermind, NLP",
+        "Coach certificat prin Legile Universale, Practician Heart Healing, Facilitator Mastermind",
     },
     {
       icon: "💜",

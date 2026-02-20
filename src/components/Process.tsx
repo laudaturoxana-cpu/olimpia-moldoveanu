@@ -218,8 +218,7 @@ const Process = () => {
           variants={fadeInUp}
         >
           <p className="font-montserrat text-base sm:text-lg text-gri-mediu italic leading-relaxed">
-            „Poți veni și doar cu «nu mai pot». E de ajuns ca să începem. Nu
-            trebuie să fii perfectă, trebuie doar să fii dispusă să încerci."
+            „Poți veni și doar cu «nu mai pot». E de ajuns ca să începem. Nu este nevoie să fii perfectă, ci doar să fii dispusă să începi."
           </p>
         </motion.div>
       </div>
