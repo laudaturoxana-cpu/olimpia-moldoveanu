@@ -656,10 +656,10 @@ const TeamSection = () => {
     },
     {
       name: "Cristina Varro",
-      role: "Instructor Dans Energetic, Instructor Theta Healing",
+      role: "Medic neonatolog, Instructor Dans Energetic & Theta Healing",
       image: "/cristina-varro.jpg",
       color: "bg-verde-sage/20",
-      highlight: "Instructor Dans Energetic & Theta Healing.",
+      highlight: "Medic cu peste 12 ani experiență.",
       description: "A ales să vadă ființa umană ca un întreg: corp, minte, emoții și energie. Povestea ei este despre curajul de a recunoaște că îți dorești mai mult.",
       quote: "",
     },
