@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   fadeInUp,
@@ -13,6 +14,7 @@ import {
 } from "@/lib/animations";
 
 const Contact = () => {
+  const router = useRouter();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -58,14 +60,7 @@ const Contact = () => {
         throw new Error("Failed to submit");
       }
 
-      setSubmitStatus("success");
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        service: "",
-        message: "",
-      });
+      router.push("/multumim");
     } catch {
       setSubmitStatus("error");
     } finally {
