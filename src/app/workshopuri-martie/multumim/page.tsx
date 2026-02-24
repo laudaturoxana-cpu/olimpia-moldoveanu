@@ -1,8 +1,15 @@
 "use client";
 
+import { useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import { Suspense } from "react";
 import { motion } from "framer-motion";
+
+declare global {
+  interface Window {
+    fbq?: (...args: unknown[]) => void;
+  }
+}
 import Link from "next/link";
 import {
   fadeInUp,
@@ -17,6 +24,13 @@ import SparkleParticles from "@/components/ui/SparkleParticles";
 function ThankYouContent() {
   const searchParams = useSearchParams();
   const name = searchParams.get("name") || "Dragă participantă";
+
+  useEffect(() => {
+    // Facebook Pixel - Lead event
+    if (typeof window !== "undefined" && window.fbq) {
+      window.fbq("track", "Lead");
+    }
+  }, []);
 
   const weeklySchedule = [
     { day: "LUNI", title: "Intenție", description: "Tema săptămânii pentru claritate și direcție" },
