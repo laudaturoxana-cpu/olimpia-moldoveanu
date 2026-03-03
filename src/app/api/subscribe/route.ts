@@ -34,6 +34,16 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // Map sources to MailerLite group IDs
+    const groupMap: Record<string, string> = {
+      "workshopuri-martie": "180022173186917599",
+    };
+
+    const groups: string[] = [];
+    if (source && groupMap[source]) {
+      groups.push(groupMap[source]);
+    }
+
     // Prepare subscriber data for Mailerlite
     const subscriberData = {
       email,
@@ -44,13 +54,9 @@ export async function POST(request: NextRequest) {
         city: city || "",
         last_name: motivation || "", // Using last_name field for motivation temporarily
       },
-      groups: [] as string[],
+      groups,
       status: "active",
     };
-
-    // Add to appropriate group based on source/service
-    // You can create groups in Mailerlite and add their IDs here
-    // For now, we'll just add the subscriber
 
     // Create/update subscriber in Mailerlite
     const response = await fetch(`${MAILERLITE_API_URL}/subscribers`, {
