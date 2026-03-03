@@ -1,32 +1,18 @@
 import { Metadata } from "next";
-import ComingSoon from "@/components/program/ComingSoon";
+import CoachingIndividualLanding from "@/components/coaching/CoachingIndividualLanding";
 
 export const metadata: Metadata = {
-  title: "Coaching Individual 1:1 | Olimpia Moldoveanu",
+  title: "Sesiuni Individuale 1 la 1 | Olimpia Moldoveanu",
   description:
-    "Sesiuni individuale de coaching pentru transformare profundă pe situația ta specifică. Ghidare personalizată adaptată nevoilor tale.",
+    "Coaching individual 1 la 1: Claritate, direcție și asumare. Un proces ghidat, precis, orientat spre rezultat concret — personalizat pe situația ta.",
   openGraph: {
-    title: "Coaching Individual 1:1 | Olimpia Moldoveanu",
+    title: "Sesiuni Individuale 1 la 1 | Olimpia Moldoveanu",
     description:
-      "Sesiuni individuale de coaching pentru transformare profundă pe situația ta specifică.",
+      "Coaching individual 1 la 1: Claritate, direcție și asumare. Proces personalizat pe situația ta.",
     type: "website",
   },
 };
 
 export default function CoachingPage() {
-  return (
-    <ComingSoon
-      title="Ghidare Personalizată"
-      type="Coaching Individual 1:1"
-      description="Sesiuni individuale pentru transformare profundă pe situația ta specifică. Ideal după finalizarea programului de grup sau pentru nevoi complexe care necesită atenție personalizată."
-      features={[
-        "Sesiuni 1:1 pe Zoom (60-90 minute)",
-        "Acces WhatsApp direct între sesiuni",
-        "Materiale personalizate pentru situația ta",
-        "Planificare strategică adaptată obiectivelor tale",
-        "Pachete flexibile: 3 luni / 6 luni / 9 luni",
-      ]}
-      color="lavanda"
-    />
-  );
+  return <CoachingIndividualLanding />;
 }

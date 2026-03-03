@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/", "/workshopuri-martie/multumim", "/multumim"],
+      disallow: ["/api/", "/workshopuri-martie/multumim", "/multumim", "/coaching-individual/multumim"],
     },
     sitemap: "https://www.olimpiamoldoveanu.ro/sitemap.xml",
   };
