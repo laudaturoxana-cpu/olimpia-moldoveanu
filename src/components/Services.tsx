@@ -86,6 +86,27 @@ const Services = () => {
       featured: false,
       link: "/program-relatie-iubire-bani",
     },
+    {
+      name: "Sesiuni Individuale 1 la 1",
+      type: "Coaching Individual",
+      badge: "Disponibil acum",
+      description:
+        "Un proces ghidat, precis, orientat spre rezultat concret — în care lucrăm personalizat pe situația ta actuală. Nu rămânem în teorie. Transformăm conștientizarea în decizie și decizia în acțiune.",
+      includes: [
+        "Sesiuni 60-90 min pe Zoom (confidențial)",
+        "Definirea obiectivului real al tău",
+        "Identificarea și eliberarea convingerilor limitative",
+        "Plan de acțiune clar după fiecare sesiune",
+        "Pachete flexibile: 3, 5 sau 10-15 sesiuni",
+      ],
+      duration: "3-6 săptămâni până la 6 luni",
+      forWhom:
+        "Femei care vor claritate reală și sunt dispuse să facă schimbări concrete",
+      investment: "Preț comunicat după aplicație",
+      cta: "Aplică pentru sesiune",
+      featured: false,
+      link: "/coaching-individual",
+    },
   ];
 
   return (
@@ -115,7 +136,7 @@ const Services = () => {
 
         {/* Services Grid */}
         <motion.div
-          className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 items-stretch"
+          className="grid md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 items-stretch"
           variants={staggerContainer(0.2)}
           initial="hidden"
           whileInView="visible"
@@ -126,7 +147,7 @@ const Services = () => {
               key={index}
               className={`bg-white rounded-card p-5 sm:p-6 md:p-8 border transition-all duration-300 hover:shadow-card flex flex-col ${
                 service.featured
-                  ? "border-2 border-auriu md:col-span-2 lg:col-span-1 lg:scale-105 lg:-my-4 shadow-card"
+                  ? "border-2 border-auriu shadow-card"
                   : "border-gri-deschis"
               }`}
               variants={staggerChild}
