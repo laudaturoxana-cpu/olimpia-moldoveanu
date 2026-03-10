@@ -215,7 +215,7 @@ export default function CoachingIndividualLanding() {
       </motion.header>
 
       {/* Hero */}
-      <section className="relative pt-32 pb-20 overflow-hidden">
+      <section className="relative pt-24 pb-12 md:pt-32 md:pb-20 overflow-hidden">
         <div
           className="absolute inset-0"
           style={{
@@ -237,7 +237,7 @@ export default function CoachingIndividualLanding() {
               Sesiuni Individuale
             </motion.p>
             <motion.h1
-              className="font-cormorant text-4xl md:text-5xl lg:text-6xl text-charcoal mb-6"
+              className="font-cormorant text-3xl md:text-5xl lg:text-6xl text-charcoal mb-4 md:mb-6"
               variants={fadeInUp}
             >
               Claritate. Direcție. Asumare.
@@ -266,7 +266,7 @@ export default function CoachingIndividualLanding() {
       </section>
 
       {/* Intro text */}
-      <section className="py-16 bg-white">
+      <section className="py-10 md:py-16 bg-white">
         <div className="max-w-3xl mx-auto px-5 md:px-8">
           <motion.div
             initial="hidden"
@@ -289,7 +289,7 @@ export default function CoachingIndividualLanding() {
       </section>
 
       {/* Ce lucrăm */}
-      <section className="py-16 bg-crem">
+      <section className="py-10 md:py-16 bg-crem">
         <div className="max-w-4xl mx-auto px-5 md:px-8">
           <motion.div
             initial="hidden"
@@ -298,18 +298,18 @@ export default function CoachingIndividualLanding() {
             variants={staggerContainer(0.1)}
           >
             <motion.h2
-              className="font-cormorant text-3xl md:text-4xl text-charcoal text-center mb-4"
+              className="font-cormorant text-2xl md:text-4xl text-charcoal text-center mb-3 md:mb-4"
               variants={fadeInUp}
             >
               Ce Lucrăm Concret
             </motion.h2>
             <motion.p
-              className="font-montserrat text-gri-mediu text-center mb-10"
+              className="font-montserrat text-gri-mediu text-center mb-6 md:mb-10"
               variants={fadeInUp}
             >
               În fiecare sesiune, procesul este aplicat, nu teoretic:
             </motion.p>
-            <motion.div className="h-0.5 bg-auriu mx-auto mb-10 max-w-xs" variants={lineExpand} />
+            <motion.div className="h-0.5 bg-auriu mx-auto mb-6 md:mb-10 max-w-xs" variants={lineExpand} />
 
             <div className="grid md:grid-cols-2 gap-4">
               {checkItems.map((item, i) => (
@@ -333,7 +333,7 @@ export default function CoachingIndividualLanding() {
       </section>
 
       {/* Pachete */}
-      <section className="py-16 bg-white">
+      <section className="py-10 md:py-16 bg-white">
         <div className="max-w-4xl mx-auto px-5 md:px-8">
           <motion.div
             initial="hidden"
@@ -342,18 +342,18 @@ export default function CoachingIndividualLanding() {
             variants={staggerContainer(0.1)}
           >
             <motion.h2
-              className="font-cormorant text-3xl md:text-4xl text-charcoal text-center mb-4"
+              className="font-cormorant text-2xl md:text-4xl text-charcoal text-center mb-3 md:mb-4"
               variants={fadeInUp}
             >
               Format și Pachete
             </motion.h2>
             <motion.p
-              className="font-montserrat text-gri-mediu text-center mb-10"
+              className="font-montserrat text-gri-mediu text-center mb-6 md:mb-10"
               variants={fadeInUp}
             >
               Sesiune Individuală — 60-90 minute • Online, Zoom
             </motion.p>
-            <motion.div className="h-0.5 bg-auriu mx-auto mb-10 max-w-xs" variants={lineExpand} />
+            <motion.div className="h-0.5 bg-auriu mx-auto mb-6 md:mb-10 max-w-xs" variants={lineExpand} />
 
             <div className="grid md:grid-cols-3 gap-6">
               {packages.map((pkg, i) => (
@@ -396,12 +396,12 @@ export default function CoachingIndividualLanding() {
       </section>
 
       {/* Pentru cine / Nu pentru cine */}
-      <section className="py-16 bg-roz-pudrat/20">
+      <section className="py-10 md:py-16 bg-roz-pudrat/20">
         <div className="max-w-4xl mx-auto px-5 md:px-8">
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-5 md:gap-8">
             {/* Pentru tine */}
             <motion.div
-              className="bg-white rounded-card p-7 border-l-4 border-verde-sage"
+              className="bg-white rounded-card p-5 md:p-7 border-l-4 border-verde-sage"
               initial="hidden"
               whileInView="visible"
               viewport={viewportConfig}
@@ -425,7 +425,7 @@ export default function CoachingIndividualLanding() {
 
             {/* Nu pentru tine */}
             <motion.div
-              className="bg-white rounded-card p-7 border-l-4 border-gri-mediu/40"
+              className="bg-white rounded-card p-5 md:p-7 border-l-4 border-gri-mediu/40"
               initial="hidden"
               whileInView="visible"
               viewport={viewportConfig}
@@ -457,7 +457,7 @@ export default function CoachingIndividualLanding() {
       </section>
 
       {/* Rezultatul */}
-      <section className="py-16 bg-white">
+      <section className="py-10 md:py-16 bg-white">
         <div className="max-w-3xl mx-auto px-5 md:px-8 text-center">
           <motion.div
             initial="hidden"
@@ -471,9 +471,9 @@ export default function CoachingIndividualLanding() {
             >
               Rezultatul
             </motion.h2>
-            <motion.div className="h-0.5 bg-auriu mx-auto mb-10 max-w-xs" variants={lineExpand} />
+            <motion.div className="h-0.5 bg-auriu mx-auto mb-6 md:mb-10 max-w-xs" variants={lineExpand} />
 
-            <div className="grid md:grid-cols-3 gap-6 mb-10">
+            <div className="grid md:grid-cols-3 gap-4 mb-6 md:mb-10">
               {[
                 { label: "Claritate", desc: "Asupra a ceea ce vrei cu adevărat" },
                 { label: "Direcție", desc: "Clară și pași concreți" },
@@ -491,7 +491,7 @@ export default function CoachingIndividualLanding() {
             </div>
 
             <motion.div
-              className="bg-roz-pudrat/20 border-l-4 border-auriu rounded-card p-7 text-left"
+              className="bg-roz-pudrat/20 border-l-4 border-auriu rounded-card p-5 md:p-7 text-left"
               variants={fadeInUp}
             >
               <p className="font-montserrat text-gri-mediu">
@@ -506,7 +506,7 @@ export default function CoachingIndividualLanding() {
       </section>
 
       {/* Formular */}
-      <section id="formular" className="py-16 bg-crem">
+      <section id="formular" className="py-10 md:py-16 bg-crem">
         <div className="max-w-2xl mx-auto px-5 md:px-8">
           <motion.div
             initial="hidden"
@@ -515,18 +515,18 @@ export default function CoachingIndividualLanding() {
             variants={staggerContainer(0.1)}
           >
             <motion.h2
-              className="font-cormorant text-3xl md:text-4xl text-charcoal text-center mb-4"
+              className="font-cormorant text-2xl md:text-4xl text-charcoal text-center mb-3 md:mb-4"
               variants={fadeInUp}
             >
               Aplică pentru Sesiune Individuală 1 la 1
             </motion.h2>
             <motion.p
-              className="font-montserrat text-gri-mediu text-center mb-10"
+              className="font-montserrat text-gri-mediu text-center mb-6 md:mb-10"
               variants={fadeInUp}
             >
               Completează formularul de mai jos. Îți răspund personal în maxim 48 de ore.
             </motion.p>
-            <motion.div className="h-0.5 bg-auriu mx-auto mb-10 max-w-xs" variants={lineExpand} />
+            <motion.div className="h-0.5 bg-auriu mx-auto mb-6 md:mb-10 max-w-xs" variants={lineExpand} />
 
             <motion.div
               className="bg-white rounded-card p-7 md:p-10 border border-gri-deschis"
@@ -780,7 +780,7 @@ export default function CoachingIndividualLanding() {
       </section>
 
       {/* FAQ */}
-      <section className="py-16 bg-white">
+      <section className="py-10 md:py-16 bg-white">
         <div className="max-w-3xl mx-auto px-5 md:px-8">
           <motion.div
             initial="hidden"
@@ -789,12 +789,12 @@ export default function CoachingIndividualLanding() {
             variants={staggerContainer(0.08)}
           >
             <motion.h2
-              className="font-cormorant text-3xl md:text-4xl text-charcoal text-center mb-4"
+              className="font-cormorant text-2xl md:text-4xl text-charcoal text-center mb-3 md:mb-4"
               variants={fadeInUp}
             >
               Întrebări Frecvente
             </motion.h2>
-            <motion.div className="h-0.5 bg-auriu mx-auto mb-10 max-w-xs" variants={lineExpand} />
+            <motion.div className="h-0.5 bg-auriu mx-auto mb-6 md:mb-10 max-w-xs" variants={lineExpand} />
 
             <div className="space-y-3">
               {faqs.map((faq, i) => (
@@ -833,7 +833,7 @@ export default function CoachingIndividualLanding() {
               ))}
             </div>
 
-            <motion.div className="text-center mt-12" variants={fadeInUp}>
+            <motion.div className="text-center mt-8 md:mt-12" variants={fadeInUp}>
               <p className="font-cormorant text-xl text-charcoal italic mb-6">
                 „Dacă simți că este momentul — aplică acum."
               </p>

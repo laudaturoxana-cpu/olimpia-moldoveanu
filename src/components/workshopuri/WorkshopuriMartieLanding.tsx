@@ -77,7 +77,7 @@ const WorkshopHeader = () => {
 /* ==================== HERO SECTION ==================== */
 const HeroSection = ({ onScrollToForm }: { onScrollToForm: () => void }) => {
   return (
-    <section className="relative min-h-screen flex items-center pt-32 pb-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-24 pb-12 md:pt-32 md:pb-20 overflow-hidden">
       <div
         className="absolute inset-0"
         style={{
@@ -352,7 +352,7 @@ const WorkshopsSection = () => {
     <section className="section-padding bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <motion.div
-          className="text-center mb-12 md:mb-16"
+          className="text-center mb-8 md:mb-16"
           initial="hidden"
           whileInView="visible"
           viewport={viewportConfig}
@@ -459,7 +459,7 @@ const ForYouSection = () => {
 
       <div className="max-w-5xl mx-auto relative z-10">
         <motion.div
-          className="text-center mb-12"
+          className="text-center mb-8 md:mb-12"
           initial="hidden"
           whileInView="visible"
           viewport={viewportConfig}
@@ -473,7 +473,7 @@ const ForYouSection = () => {
           <motion.div className="h-0.5 bg-auriu mx-auto mt-6" variants={lineExpand} />
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-5 md:gap-8">
           <motion.div
             className="bg-white rounded-card p-6 md:p-8 border border-verde-sage"
             initial="hidden"
@@ -537,7 +537,7 @@ const DetailsSection = () => {
     <section className="section-padding bg-white relative overflow-hidden">
       <div className="max-w-5xl mx-auto">
         <motion.div
-          className="text-center mb-12"
+          className="text-center mb-8 md:mb-12"
           initial="hidden"
           whileInView="visible"
           viewport={viewportConfig}
@@ -879,7 +879,7 @@ const FAQSection = () => {
 
       <div className="max-w-3xl mx-auto relative z-10">
         <motion.div
-          className="text-center mb-12"
+          className="text-center mb-8 md:mb-12"
           initial="hidden"
           whileInView="visible"
           viewport={viewportConfig}

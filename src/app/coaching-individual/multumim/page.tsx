@@ -61,7 +61,7 @@ function ThankYouContent() {
       </motion.header>
 
       {/* Hero */}
-      <section className="relative pt-32 pb-16 overflow-hidden">
+      <section className="relative pt-24 pb-10 md:pt-32 md:pb-16 overflow-hidden">
         <div
           className="absolute inset-0"
           style={{
@@ -104,7 +104,7 @@ function ThankYouContent() {
       </section>
 
       {/* Ce urmează */}
-      <section className="py-16 bg-white">
+      <section className="py-10 md:py-16 bg-white">
         <div className="max-w-3xl mx-auto px-5 md:px-8">
           <motion.div
             initial="hidden"
@@ -137,7 +137,7 @@ function ThankYouContent() {
       </section>
 
       {/* WhatsApp comunitate */}
-      <section className="py-16 bg-roz-pudrat/20">
+      <section className="py-10 md:py-16 bg-roz-pudrat/20">
         <div className="max-w-3xl mx-auto px-5 md:px-8">
           <motion.div
             className="bg-white rounded-card p-8 md:p-12 border-2 border-auriu shadow-card text-center"
@@ -196,7 +196,7 @@ function ThankYouContent() {
       </section>
 
       {/* Întrebare reflecție */}
-      <section className="py-16 bg-white">
+      <section className="py-10 md:py-16 bg-white">
         <div className="max-w-2xl mx-auto px-5 md:px-8 text-center">
           <motion.div
             initial="hidden"
@@ -222,7 +222,7 @@ function ThankYouContent() {
       </section>
 
       {/* Closing */}
-      <section className="py-16 bg-crem">
+      <section className="py-10 md:py-16 bg-crem">
         <div className="max-w-xl mx-auto px-5 md:px-8 text-center">
           <motion.div
             initial="hidden"
