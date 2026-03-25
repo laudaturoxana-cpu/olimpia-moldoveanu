@@ -9,8 +9,11 @@ import {
   lineExpand,
   viewportConfig,
 } from "@/lib/animations";
+import { getRecentArticles } from "@/lib/blog";
 
 const Footer = () => {
+  const recentArticles = getRecentArticles(3);
+
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -49,7 +52,7 @@ const Footer = () => {
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 py-10 sm:py-12 md:py-16">
         <motion.div
-          className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 md:gap-10 lg:gap-8"
+          className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 sm:gap-8 md:gap-10 lg:gap-8"
           variants={staggerContainer(0.1)}
           initial="hidden"
           whileInView="visible"
@@ -100,7 +103,29 @@ const Footer = () => {
             </nav>
           </motion.div>
 
-          {/* Column 3: Legal */}
+          {/* Column 3: Blog */}
+          <motion.div variants={staggerChild}>
+            <h4 className="font-cormorant text-xl text-crem mb-6">Blog</h4>
+            <nav className="flex flex-col gap-3">
+              <Link
+                href="/blog"
+                className="font-montserrat text-sm text-auriu hover:text-crem transition-colors duration-200"
+              >
+                Toate articolele →
+              </Link>
+              {recentArticles.map((article) => (
+                <Link
+                  key={article.slug}
+                  href={`/blog/${article.slug}`}
+                  className="font-montserrat text-sm text-gri-mediu hover:text-auriu transition-colors duration-200 leading-snug"
+                >
+                  {article.title}
+                </Link>
+              ))}
+            </nav>
+          </motion.div>
+
+          {/* Column 4: Legal */}
           <motion.div variants={staggerChild}>
             <h4 className="font-cormorant text-xl text-crem mb-6">Legal</h4>
             <nav className="flex flex-col gap-3">

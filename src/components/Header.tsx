@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { EASE, DURATION } from "@/lib/animations";
 import SparkleParticles from "@/components/ui/SparkleParticles";
 
@@ -33,6 +34,8 @@ const Header = () => {
     { label: "Testimoniale", id: "testimoniale" },
     { label: "Contact", id: "contact" },
   ];
+
+  const blogLink = { label: "Blog", href: "/blog" };
 
   return (
     <motion.header
@@ -126,6 +129,23 @@ const Header = () => {
               {item.label}
             </motion.button>
           ))}
+          <motion.div
+            variants={{
+              hidden: { opacity: 0, y: -10 },
+              visible: {
+                opacity: 1,
+                y: 0,
+                transition: { duration: DURATION.fast, ease: EASE },
+              },
+            }}
+          >
+            <Link
+              href={blogLink.href}
+              className="font-montserrat text-sm text-charcoal hover:text-auriu transition-colors duration-200"
+            >
+              {blogLink.label}
+            </Link>
+          </motion.div>
         </motion.nav>
 
         {/* Desktop CTA */}
@@ -183,6 +203,13 @@ const Header = () => {
               {item.label}
             </button>
           ))}
+          <Link
+            href={blogLink.href}
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="font-montserrat text-base text-charcoal hover:text-auriu transition-colors duration-200 text-left py-2"
+          >
+            {blogLink.label}
+          </Link>
           <button
             onClick={() => scrollToSection("contact")}
             className="btn-primary text-center mt-4"
