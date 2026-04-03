@@ -185,40 +185,98 @@ export const articles: BlogArticle[] = [
     slug: "legile-universale-ce-sunt-si-cum-lucreaza",
     title: "Legile Universale: ce sunt și cum schimbă modul în care trăiești",
     excerpt:
-      "Legea atracției este doar una dintre cele 12 legi universale. Descoperă cum funcționează toate împreună și de ce fără aliniere interioară, manifestarea nu funcționează.",
-    date: "2026-03-10",
-    category: "Legi Universale",
-    readTime: "7 min citire",
+      "Legile Universale nu sunt magie. Sunt principii de funcționare a realității, la fel de reale ca gravitația. Descoperă cele 7 legi esențiale și cum să le aplici concret în viața ta.",
+    date: "2026-04-05",
+    category: "Spiritualitate Aplicată",
+    readTime: "14 min citire",
     image: "/images/blog/legi-universale.jpg",
-    imageAlt: "Cosmos și stele, Legile Universale și manifestarea",
+    imageAlt: "Cosmos și stele, Legile Universale și manifestarea conștientă",
     content: `
-      <p>Probabil că ai auzit de Legea Atracției. Poate ai citit „The Secret", poate ai văzut videoclipuri pe YouTube. Și poate, la un moment dat, ai zis: <em>„Nu funcționează pentru mine."</em></p>
+      <p>„Legile Universale? Sună a new-age. Sună a magie. Sună a wishful thinking."</p>
 
-      <p>Ei bine, există un motiv pentru asta, și are de-a face cu înțelegerea incompletă a sistemului.</p>
+      <p>Înțeleg. Și de aceea vreau să clarific de la început: Legile Universale nu sunt magie. Sunt principii de funcționare a realității, la fel de reale ca gravitația, la fel de precise ca matematica, la fel de aplicabile ca fizica.</p>
 
-      <h2>Nu există o singură lege</h2>
+      <p>Diferența? Gravitația acționează asupra corpurilor. Legile Universale acționează asupra conștiinței. Și când înțelegi cum funcționează, viața ta se schimbă. Nu pentru că „Universul îți dă ce vrei", ci pentru că te aliniezi cu modul în care funcționează realitatea.</p>
 
-      <p>Există 12 Legi Universale, toate interconectate. Legea Atracției este una dintre ele, și funcționează cu adevărat, dar nu izolat. Este ca și cum ai vrea să conduci o mașină acționând doar acceleratorul, fără volan și fără frâne.</p>
+      <h2>Ce sunt Legile Universale, fără misticism excesiv</h2>
 
-      <p>Cele mai importante legi cu care lucrez în sesiunile de coaching:</p>
+      <p>Legile Universale nu au fost inventate de guru new-age. Au fost observate și codificate de-a lungul mileniilor, din hermetismul Egiptului Antic și filosofia orientală, până la Kabala și, mai recent, fizica cuantică modernă. Nu este religie. Este principiu de funcționare.</p>
 
-      <p><strong>Legea Vibrației</strong>, totul vibrează la o anumită frecvență, inclusiv gândurile și emoțiile tale. Ce atragi corespunde frecvenței la care ești, nu celei la care vrei să fii.</p>
+      <p>Diferența față de gândirea pozitivă este esențială. Gândirea pozitivă spune: „Gândește frumos și totul va fi bine." Legile Universale spun: „Înțelege mecanismul realității și aliniază-te cu el." Dacă îți dorești bani, dar crezi în adâncul tău că nu meriți bani, nu contează câte afirmații pozitive repeți. Trebuie să aliniezi credința interioară cu dorința exterioară. Nu magie, ci aliniere.</p>
 
-      <p><strong>Legea Corespondenței</strong>, „Cum este înăuntru, așa este în afară." Realitatea ta exterioară este o oglindă a stării tale interioare. Dacă îți dorești o relație armonioasă, dar în interior ești în război cu tine, lumea din jur va reflecta acel război.</p>
+      <h2>Cele 7 Legi Universale esențiale</h2>
 
-      <p><strong>Legea Cauzei și Efectului</strong>, fiecare acțiune are o reacție. Inclusiv gândurile și credințele tale sunt acțiuni energetice cu efecte reale.</p>
+      <p>Există 27 de Legi Universale în totalitate. Iată cele 7 care schimbă totul dacă le înțelegi și le aplici.</p>
 
-      <h2>De ce manifestarea nu funcționează fără aliniere</h2>
+      <h3>Legea Mentalismului</h3>
 
-      <p>Poți repeta afirmații pozitive toată ziua. Poți vizualiza scenariul dorit în detaliu. Dar dacă în straturile mai profunde ale ființei tale există o credință de tipul <em>„nu merit"</em> sau <em>„nu e posibil pentru mine"</em>, acea credință va câștiga întotdeauna.</p>
+      <p>Totul este minte. Universul este mental. Ce înseamnă asta concret: realitatea ta începe în minte, nu în sens că gândești și devine real, ci în sens că modul în care interpretezi realitatea devine experiența ta de realitate.</p>
 
-      <p>Munca reală nu este să adaugi gânduri pozitive deasupra. Este să identifici și să dizolvi ce stă în cale.</p>
+      <p>Aceeași situație, interpretată diferit, produce realități diferite. Cineva căruia șeful îi cere să refacă un proiect și interpretează asta ca „sunt un eșec" va simți rușine și frică, va evita și va sabota, va confirma credința. Altcineva care interpretează același feedback ca „pot învăța" va simți dezamăgire temporară, va ajusta și va crește. Aceeași situație, realități diferite, pentru că mintea creează interpretarea, iar interpretarea creează experiența.</p>
 
-      <h2>Cum lucrez eu cu Legile Universale</h2>
+      <p>Aplicație practică: când simți o emoție puternică, întreabă-te ce poveste îți spui despre situație. Există o altă interpretare posibilă? Nu gândire pozitivă forțată, ci flexibilitate mentală.</p>
 
-      <p>În coaching, Legile Universale nu sunt un concept abstract, sunt o hartă practică. Ele îmi arată unde este blocajul, de ce apare și ce transformare interioară este necesară.</p>
+      <h3>Legea Corespondenței</h3>
 
-      <p>Dacă ești curioasă cum se aplică asta în situația ta concretă, te invit la o <a href="/#contact">sesiune de explorare</a>.</p>
+      <p>Așa cum este în interior, este și în exterior. Exteriorul reflectă interiorul. Relațiile tale reflectă relația cu tine. Abundența ta exterioară reflectă abundența ta interioară. Haosul din viața ta reflectă haosul din mintea ta. Nu este vina ta, dar este oglinda ta.</p>
+
+      <p>Dacă toți partenerii tăi au fost emoțional indisponibili, interpretarea superficială este „nu am noroc". Legea Corespondenței îți arată altceva: ce credință despre tine atrage acest pattern? Poate că nu crezi că meriți iubire completă. Partenerii indisponibili din exterior reflectă credința despre propria valoare din interior.</p>
+
+      <p>Aplicație practică: când vezi un pattern repetat în viața ta, întreabă-te ce credință interioară creează acel pattern exterior. Nu ca să te judeci, ci ca să vezi mecanismul.</p>
+
+      <h3>Legea Vibrației</h3>
+
+      <p>Nimic nu stă în loc. Totul vibrează. La nivel subatomic, fizica cuantică confirmă că totul este energie în mișcare. Dar nu este doar fizică, este și emoțional. Fiecare emoție are o vibrație: frica contractă și închide, iubirea expansionează și deschide. Și atragi ceea ce vibrezi, nu ceea ce vrei, ci ceea ce ești energetic.</p>
+
+      <p>Dacă îți dorești o relație sănătoasă, dar vibrezi din frică de abandon, din lipsă sau din dependență, vei atrage relații care confirmă tocmai aceste temeri. Pentru că atragi ce vibrezi, nu ce vrei. Aplicație practică: înainte să „manifești" ceva, întreabă-te din ce vibrezi când îți dorești acel lucru, din lipsă sau din abundență, din frică sau din încredere.</p>
+
+      <h3>Legea Polarității</h3>
+
+      <p>Totul este dual. Totul are poli. Opusele sunt identice în natură, dar diferite în grad. Nu există rău absolut sau bine absolut, există spectru. Frica și curajul sunt pe același spectru, grade diferite. Lipsa și abundența sunt pe același spectru, grade diferite. Și poți alege unde pe spectru te poziționezi.</p>
+
+      <p>Când simți frică intensă înainte de o prezentare, abordarea clasică „nu ar trebui să îmi fie frică, trebuie să fiu curajoasă" creează luptă între poli și amplifică frica. Legea Polarității îți arată că poți recunoaște frica, identifica ce anume te sperie și face un pas mic spre curaj, fără să sari brusc de la un pol la altul, ci deplasându-te treptat pe spectru.</p>
+
+      <h3>Legea Ritmului</h3>
+
+      <p>Totul curge, totul are valuri, totul crește și scade. Viața nu este linie dreaptă, este val. Perioade de expansiune alternează cu perioade de contracție, perioade de acțiune cu perioade de odihnă, perioade de creștere cu perioade de integrare. Ambele sunt necesare.</p>
+
+      <p>Când simți că „stagnezi" după luni productive, interpretarea toxică este „ceva e în neregulă cu mine". Legea Ritmului îți arată că ești în faza de integrare, că este natural și necesar. Aplicație practică: permite ritmul în loc să forțezi acțiune constantă. Întreabă-te ce integrează corpul și mintea ta acum.</p>
+
+      <h3>Legea Cauzei și Efectului</h3>
+
+      <p>Fiecare cauză are un efect. Nu există întâmplare. Ceea ce trăiești astăzi este efectul alegerilor, credințelor și acțiunilor de ieri. Ceea ce alegi astăzi va crea efectul de mâine. Nu este pedeapsă, este mecanism.</p>
+
+      <p>Dacă crezi „nu merit iubire" și alegi inconștient parteneri emoțional indisponibili, efectul sunt relații nesatisfăcătoare. Dar dacă schimbi cauza, conștientizezi, pui limite și alegi altfel, efectul se va schimba automat. Nu magie, consecvență logică. Aplicație practică: când observi un efect nedorit, caută cauza interioară care îl creează și schimb-o pe ea.</p>
+
+      <h3>Legea Generozității</h3>
+
+      <p>Tot ce dai, revine înmulțit. Nu este karma mistică, este principiu energetic: ce emiți, atragi. Ce oferi, primești. Dar atenție la distincție: nu „dăruiește ca să primești" (acesta este act de manipulare din lipsă), ci „dăruiește din abundență interioară" (acesta este flux natural).</p>
+
+      <p>Dacă dai timp, bani sau energie cu așteptare ascunsă, emiți lipsă și dezamăgire. Dacă dai cu bucurie autentică, fără așteptare, emiți abundență și fluxul revine natural. Aplicație practică: înainte să dai, întreabă-te dacă dai din abundență sau din lipsă, cu așteptare sau cu bucurie. Dacă răspunsul este „lipsă și așteptare", umple-te mai întâi interior.</p>
+
+      <h2>De ce manifestarea nu funcționează fără aliniere interioară</h2>
+
+      <p>Mulți oameni încearcă „manifestarea" și eșuează. De ce? Pentru că manifestarea fără aliniere este wishful thinking. Manifestarea adevărată necesită patru lucruri.</p>
+
+      <p>Primul este claritatea reală: nu „vreau bani", ci „vreau libertate financiară ca să pot alege cum îmi trăiesc timpul". Diferența dintre intenție clară și dorință vagă este enormă.</p>
+
+      <p>Al doilea este alinierea interioară: dacă vrei bani, dar crezi că banii se câștigă greu sau că nu meriți abundență, există o dezaliniere care produce sabotaj inconștient. Trebuie să aliniezi credința cu dorința.</p>
+
+      <p>Al treilea este acțiunea inspirată, nu forțată. Manifestarea nu este „șezi și așteaptă". Este „aliniază-te și acționează din aliniere". Acțiunea forțată vine din frică și lipsă. Acțiunea inspirată vine din bucurie și abundență.</p>
+
+      <p>Al patrulea este detașarea de rezultat. Când vrei ceva atât de mult încât devii disperată, emiți „lipsă" și atragi mai multă lipsă. Manifestarea adevărată este: „Doresc asta, acționez, dar las procesul să se desfășoare în ritmul lui."</p>
+
+      <h2>Cum aplic Legile Universale în procesul de coaching</h2>
+
+      <p>În munca mea, Legile Universale nu sunt teorie abstractă, sunt o hartă practică. Ele îmi arată unde este blocajul, de ce apare și ce transformare interioară este necesară pentru ca viața exterioară să se schimbe.</p>
+
+      <p>Am creat un proces de 36 de săptămâni care integrează aceste principii în transformare reală: de la recunoașterea pattern-urilor, la lucrul cu credințele și fricile, la reconectarea cu puterea personală, la construcția unei vieți din aliniere, nu din inerție.</p>
+
+      <p>Dacă ai obosit să „încerci din greu" fără rezultate durabile, dacă simți că există mai mult decât ceea ce vezi acum, dacă pattern-urile se repetă și vrei să înțelegi de ce, și dacă ești deschisă la o abordare spirituală dar aplicabilă și concretă, atunci Legile Universale sunt pentru tine.</p>
+
+      <p>Dacă vrei să explorăm împreună cum se aplică aceste principii în situația ta concretă, care lege universală o încalci inconștient și de aceea pattern-ul se repetă, <a href="https://calendly.com/olimpiamld/30min" target="_blank" rel="noopener noreferrer">programează o sesiune de claritate</a> cu mine, 30 de minute, gratuite, fără obligație.</p>
+
+      <p>Cu căldură,<br/>Olimpia Moldoveanu</p>
     `,
   },
   {
