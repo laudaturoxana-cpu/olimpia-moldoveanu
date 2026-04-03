@@ -223,80 +223,132 @@ export const articles: BlogArticle[] = [
   },
   {
     slug: "cum-sa-iesi-din-rolul-de-victima",
-    title: "Cum să ieși din rolul de victimă — fără să te judeci pentru că ai fost acolo",
+    title: "Cum să ieși din rolul de victimă — fără să te judeci că ai fost acolo",
     excerpt:
-      "Rolul de victimă nu este o slăbiciune de caracter. Este un mecanism de supraviețuire. Înțelegând asta, poți face primul pas real spre puterea personală.",
-    date: "2026-02-28",
+      "Rolul de victimă nu este slăbiciune. Este un mecanism de supraviețuire învățat. Ce te-a protejat la 10 ani, te ține blocată la 45. Descoperă cum recunoști tiparul și cum ieși din el fără judecată.",
+    date: "2026-04-03",
     category: "Transformare Personală",
-    readTime: "6 min citire",
+    readTime: "9 min citire",
     image: "/images/blog/rol-victima.jpg",
-    imageAlt: "Femeie liberă în natură — depășirea rolului de victimă și puterea personală",
+    imageAlt: "Femeie în transformare — ieșire din rolul de victimă și empowerment feminin",
     content: `
-      <p>Când spun „rolul de victimă", prima reacție a multor femei este să se apere: <em>„Eu nu mă plâng, eu nu sunt o victimă."</em></p>
+      <p>„De ce mi se întâmplă mereu mie?"</p>
 
-      <p>Și înțeleg asta. Cuvântul are o încărcătură negativă imensă în cultura noastră. Dar în psihologie și în munca de coaching, rolul de victimă nu înseamnă că ești slabă sau că te plângi — înseamnă un mod de a percepe realitatea în care lucrurile ți se întâmplă ție, fără putere de influență.</p>
+      <p>Dacă ți-ai pus această întrebare — nu ești singură. Și, mai important: nu ești slabă.</p>
 
-      <h2>Cum recunoști rolul de victimă</h2>
+      <p>Rolul de victimă nu este un defect de caracter. Este un mecanism de supraviețuire pe care l-ai învățat. Dar iată adevărul dur: ce te-a protejat la 10 ani te ține blocată la 45.</p>
 
-      <p>Nu e mereu evident. Uneori apare în fraze simple:</p>
-      <ul>
-        <li>„Nu am de ales."</li>
-        <li>„Mereu mi se întâmplă mie."</li>
-        <li>„Dacă nu ar fi fost el/ea/ei..."</li>
-        <li>„Nu pot face nimic în privința asta."</li>
-      </ul>
+      <h2>Ce este rolul de victimă și ce nu este</h2>
 
-      <p>Nu e vorba că aceste fraze sunt false — uneori situațiile chiar sunt dure. Dar rămânerea în această perspectivă blochează orice posibilitate de schimbare.</p>
+      <p>Este important să clarificăm ceva de la început. O victimă reală este cineva care a suferit o nedreptate, abuz sau traumă. Experiența este validă. Durerea este reală. Rolul de victimă este altceva — este un pattern comportamental învățat, modul în care interpretezi și rămâi în experiența de victimă chiar și după ce situația s-a încheiat.</p>
 
-      <h2>De ce este greu să ieși</h2>
+      <p>Concret: dacă ai fost într-o relație abuzivă, ai suferit — aceasta este o victimă reală. Dar dacă la cinci ani după ce ai plecat din acea relație, toate deciziile tale sunt dictate de frica aceea veche, acesta este rolul de victimă. Nu îți invalidez experiența. Îți arăt unde rămâi blocată în ea.</p>
 
-      <p>Rolul de victimă oferă ceva: scutire de responsabilitate. Dacă totul e din cauza altcuiva, nu trebuie să te confrunți cu propria putere de schimbare — care, bineînțeles, implică și riscul de a eșua.</p>
+      <h2>De ce intri în rolul de victimă</h2>
 
-      <p>Ieșirea din rolul de victimă nu înseamnă că îi ierți pe cei care ți-au greșit. Nu înseamnă că minimizezi ce s-a întâmplat. Înseamnă că decizi că puterea ta de a merge mai departe nu depinde de ei.</p>
+      <p>Nimeni nu alege conștient să fie victimă. Rolul se formează în copilărie, ca răspuns la situații reale de neputință. Când erai mică, chiar nu puteai schimba comportamentul părinților, situația financiară a familiei, divorțul sau abuzul. Și ai învățat că lucrurile ți se întâmplă, că nu ai control.</p>
 
-      <h2>Primul pas real</h2>
+      <p>Uneori, singura dată când ai primit atenție a fost când erai tristă, bolnavă sau aveai o problemă. Și ai învățat că ești văzută când suferi. Alteori, rolul de victimă a oferit o scutire de responsabilitate: dacă totul este din cauza altcuiva, nu trebuie să acționezi, nu riști să greșești, rămâi în familier.</p>
 
-      <p>Cel mai puternic lucru pe care îl poți face este să îți pui întrebarea: <em>„Ce pot eu controla în această situație?"</em> Nu ce pot controla ceilalți. Nu ce ar trebui să se schimbe. Ce poți tu face, gândi, alege — chiar și în cei mai mici pași.</p>
+      <p>Aceste mecanisme au funcționat atunci. Te-au protejat când chiar nu aveai putere. Dar acum ai 40 sau 45 de ani. Ai putere. Ai alegere. Sistemul tău nervos, însă, încă funcționează pe pilotul automat de la 10 ani.</p>
 
-      <p>Această schimbare de perspectivă nu vine dintr-o decizie rațională — vine dintr-un proces de transformare interioară. Și acesta este exact tipul de muncă pe care o facem împreună în coaching.</p>
+      <h2>Cum recunoști tiparul fără judecată</h2>
+
+      <p>Primul semn este limbajul pasiv constant: „mi s-a întâmplat", „nu am avut de ales", „nu se poate altfel". Observă lipsa actorului — tu. Lucrurile ți se întâmplă, nu le alegi, nu le creezi.</p>
+
+      <p>Al doilea semn este externalizarea constantă a responsabilității: „din cauza lui", „din cauza copiilor", „din cauza job-ului". Cauza este mereu în exterior, niciodată în alegerile tale.</p>
+
+      <p>Al treilea semn este rezistența la soluții. Cineva îți oferă o ieșire și răspunsul este mereu „da, dar...", „am încercat, nu funcționează", „nu înțelegi, situația mea e diferită". Fiecare soluție este respinsă — pentru că problema nu este situația, ci identitatea ta construită în jurul ei.</p>
+
+      <p>Al patrulea semn, mai subtil, sunt câștigurile secundare din suferință. Suferința îți aduce atenție, te scutește de acțiune, îți oferă o identitate. „Sunt cea care a suferit." Poți ieși din rolul de victimă — dar costul ar fi să renunți la aceste câștiguri. Și asta face ieșirea dificilă.</p>
+
+      <p>Al cincilea semn este atragerea repetată a acelorași situații. „De ce mi se întâmplă mereu asta?" Pentru că repeți pattern-ul. Alegi inconștient relații și situații care confirmă narativul, reîntorcându-te în familier.</p>
+
+      <h2>Cum ieși din rol</h2>
+
+      <p>Primul pas este recunoașterea fără judecată. Spune-ți: am funcționat din rolul de victimă. Și e în regulă. M-a protejat când aveam nevoie. Acum aleg să ies. Fără rușine, fără vină — doar recunoaștere onestă.</p>
+
+      <p>Al doilea pas este să identifici câștigurile secundare. Întreabă-te sincer: ce câștig din a rămâne victimă? Poate că nu trebuie să îți asumi responsabilitate. Poate că primești atenție și empatie. Poate că îți confirmi o identitate veche. Notează răspunsurile fără să le judeci. Doar le vezi.</p>
+
+      <p>Al treilea pas este să revendici responsabilitatea — și e important să înțelegi că responsabilitate nu înseamnă vină. Vina înseamnă: este vina mea că mi s-a întâmplat. Responsabilitatea înseamnă: nu este vina mea că mi s-a întâmplat, dar este responsabilitatea mea ce fac cu asta acum. Această distincție schimbă totul.</p>
+
+      <p>Exercițiul concret: pentru fiecare „mi s-a întâmplat", reformulează. În loc de „mi s-a întâmplat să fiu într-o relație toxică", încearcă „am fost într-o relație toxică. Acum aleg să lucrez la mine." Nu este același lucru. Primul te lasă pasivă. Al doilea îți returnează puterea.</p>
+
+      <p>Al patrulea pas este acțiunea mică, chiar dacă este inconfortabilă. Rolul de victimă te ține în inerție. O decizie mică, o limită pusă, un „nu" spus — fiecare acțiune din putere, nu din neputință, reconditionează sistemul nervos. Nu trebuie să fie mare. Trebuie doar să fie a ta.</p>
+
+      <h2>Dincolo de supraviețuire</h2>
+
+      <p>Victima spune: mi s-a întâmplat și sunt distrusă. Supraviețuitoarea spune: mi s-a întâmplat și am supraviețuit. Dar există un al treilea nivel — creatoarea spune: mi s-a întâmplat, am supraviețuit și acum creez conștient ce vreau.</p>
+
+      <p>Aceasta este transformarea. Nu negarea trecutului, ci integrarea lui și alegerea conștientă a viitorului.</p>
+
+      <h2>Când să ceri ghidare</h2>
+
+      <p>Ieșirea din rolul de victimă este greu de făcut singură. Pattern-ul este inconștient — nu îl vezi singură, de aceea se repetă. Dacă înțelegi intelectual ce trebuie să faci dar nu reușești să acționezi, dacă te întorci în pattern chiar dacă „știi mai bine", dacă simți rezistență puternică sau câștigurile secundare sunt prea mari ca să le renunți singură — nu e slăbiciune să ceri ajutor. Este maturitate.</p>
+
+      <p>Dacă te regăsești în ce ai citit și vrei să explorăm împreună unde intri în rolul de victimă, ce câștiguri secundare ai și cum revendici puterea fără vină, <a href="https://calendly.com/olimpiamld/30min" target="_blank" rel="noopener noreferrer">programează o sesiune de claritate</a> cu mine — 30 de minute, gratuite, fără obligație.</p>
+
+      <p>Cu căldură,<br/>Olimpia Moldoveanu</p>
     `,
   },
   {
     slug: "relatia-cu-banii-si-constientul-tau",
-    title: "Relația ta cu banii reflectă relația cu tine însăți",
+    title: "Relația cu banii și conștientul tău — de ce munca din greu nu este suficientă",
     excerpt:
-      "Banii nu sunt doar un instrument financiar — sunt energie. Iar modul în care îi primești, cheltuiești sau refuzi spune enorm despre ce crezi că meriți.",
-    date: "2026-02-15",
-    category: "Relație & Abundență",
-    readTime: "5 min citire",
+      "Relația ta cu banii nu se formează în cont bancar. Se formează în conștientul tău — în credințele, fricile și modelele moștenite din copilărie. Descoperă de ce munca din greu nu ajunge și ce schimbare interioară face diferența.",
+    date: "2026-04-01",
+    category: "Manifestare & Abundență",
+    readTime: "10 min citire",
     image: "/images/blog/relatie-bani.jpg",
-    imageAlt: "Abundență și relația cu banii — coaching financiar feminin",
+    imageAlt: "Relația cu banii — mindset financiar și abundență feminină",
     content: `
-      <p>Am lucrat cu sute de femei în sesiunile de coaching și un pattern reapare mereu: cele care au dificultăți cu banii au, de obicei, și dificultăți cu a-și permite să primească — iubire, ajutor, recunoaștere.</p>
+      <p>„Muncesc din greu. De ce nu am bani?"</p>
 
-      <p>Nu este o coincidență. Banii și energia iubirii de sine funcționează pe același circuit interior.</p>
+      <p>Aud această întrebare des în sesiunile de coaching. Și de fiecare dată, răspunsul este același: pentru că relația ta cu banii nu se formează în cont bancar. Se formează în conștientul tău. În credințele tale despre bani, în fricile tale despre siguranță, în modelele moștenite din copilărie.</p>
 
-      <h2>Ce îți spune relația cu banii despre tine</h2>
+      <p>Și până nu lucrezi acolo — la rădăcină — poți munci cât vrei. Banii vor veni și vor pleca. Sau nu vor veni deloc.</p>
 
-      <p><strong>Dacă cheltuiești compulsiv</strong> — există un gol interior pe care îl umpli cu posesii. Satisfacția durează puțin, nevoia revine.</p>
+      <h2>De ce munca din greu nu este suficientă</h2>
 
-      <p><strong>Dacă strângi obsesiv și nu îți permiți nimic</strong> — există o frică profundă de nesiguranță, posibil moștenită. Banii devin un scut, nu un instrument.</p>
+      <p>Ai crescut cu mesaje precum „banii se câștigă greu", „nu suntem făcuți pentru bani", „bogații sunt lacomi". Și acum, la 40 sau 45 de ani, încă trăiești după aceste reguli. Munca din greu a devenit identitatea ta. Dar banii nu vin proporțional cu efortul — și asta te lasă epuizată și confuză.</p>
 
-      <p><strong>Dacă îți este greu să ceri bani pentru munca ta</strong> — nu crezi cu adevărat în valoarea pe care o oferi. Sau crezi că a cere înseamnă a fi „lacomă".</p>
+      <p>De ce? Pentru că sistemul tău de credințe despre bani creează limite invizibile. Nu limite externe — piața, economia, circumstanțele. Ci limite interioare, în ceea ce crezi că meriți, că poți avea, că ești demnă să primești.</p>
 
-      <p><strong>Dacă banii vin și pleacă repede</strong> — subconstiența ta nu se simte în siguranță să îi rețină. Există o credință de tipul „nu merit să am".</p>
+      <h2>Credințele care te țin blocată financiar</h2>
 
-      <h2>Banii ca energie</h2>
+      <p>Prima credință toxică este „banii se câștigă greu". Ce înseamnă cu adevărat: dacă nu sufăr, nu merit bani. Consecința este că te epuizezi, lucrezi mult, câștigi puțin — pentru că inconștient echivalezi efortul cu valoarea. Adevărul este că banii vin pentru valoarea oferită, nu pentru orele muncite. Poți lucra două ore și câștiga cât alții în două săptămâni dacă oferi valoare concentrată.</p>
 
-      <p>În Legile Universale, banii sunt energie în mișcare. Ei urmează direcția conștiinței tale. Dacă îi privești cu frică, îi respingi energetic. Dacă îi privești cu recunoștință și respect, creezi un canal deschis.</p>
+      <p>A doua credință este „nu sunt făcută pentru bani" — adică familia mea nu a avut, deci nici eu nu pot. Consecința este sabotajul inconștient: banii vin, apoi pleacă, pentru că sistemul tău de identitate nu te recunoaște ca cineva care are bani. Adevărul este că nu ești ADN-ul tău financiar și nu ești istoria familiei tale. Poți alege să creezi un model nou.</p>
 
-      <p>Asta nu înseamnă că gândindu-te pozitiv la bani îți va crește automat contul bancar. Înseamnă că atunci când îți cureți relația interioară cu conceptul de abundență, deciziile tale financiare se schimbă, oportunitățile devin vizibile, comportamentele se aliniază.</p>
+      <p>A treia credință este că dacă ai bani, vei pierde ceva important — relații, identitate, simplitate. Această frică inconștientă creează un plafon invizibil: destul cât să supraviețuiești, nu destul cât să prosperi. Adevărul este că poți avea bani și rămâne tu. Banii nu schimbă caracterul — amplifică ce există deja.</p>
 
-      <h2>Exercițiu simplu pentru această săptămână</h2>
+      <p>A patra credință, și cea mai profundă, este „nu merit mai mult". Este rușine despre propria valoare, care te face să nu ceri salariu mai mare, să nu pui prețuri corecte pe servicii, să refuzi oportunități financiare. Valoarea ta nu o stabilește piața și nu o stabilește trecutul. O stabilești tu, prin ceea ce alegi să crezi despre tine.</p>
 
-      <p>Observă, fără judecată, de trei ori în această săptămână cum reacționezi când vine vorba de bani — fie că plătești o factură, fie că refuzi ceva pentru tine, fie că cineva îți oferă ceva. Ce simți în corp? Ce gând apare automat?</p>
+      <h2>Cum transformi relația cu banii</h2>
 
-      <p>Acel gând automat este o ușă spre un tipar pe care merită să îl explorezi.</p>
+      <p>Primul pas este să identifici modelul moștenit. Întreabă-te: ce credeau părinții mei despre bani? Ce au spus despre bani când eram copil? Cum se comportau când venea vorba de siguranță financiară? Notează răspunsurile fără să le judeci. Observă care dintre aceste credințe încă trăiesc în tine.</p>
+
+      <p>Al doilea pas este să recunoști sabotajul inconștient. Banii vin și pleacă ciclic — mereu apare „ceva neprevăzut". Oportunități financiare sunt refuzate fără un motiv clar. Venitul crește, dar cheltuielile cresc proporțional și niciodată nu rămâne nimic. Economisești, apoi cheltuiești totul dintr-o dată. Nu ești iresponsabilă — este sistemul tău de credințe care lucrează împotriva ta.</p>
+
+      <p>Al treilea pas este să creezi noi convingeri și să le întrupezi. Nu este suficient să repeți afirmații pozitive. „Sunt abundentă. Banii vin ușor." Dacă sistemul tău de credințe nu este aliniat, afirmația nu funcționează. În schimb, caută dovezi reale din trecut: când au venit bani ușor în viața ta? Când ai primit recunoaștere pentru valoare? Antrenează creierul să vadă ce funcționează, nu doar ce lipsește.</p>
+
+      <p>Și acționează din noua credință. Dacă noua credință este „merit să fiu plătită corect" — cere salariu mai mare, pune prețuri corecte, acceptă oportunități financiare chiar dacă este inconfortabil. Fiecare acțiune reconditionează sistemul nervos.</p>
+
+      <h2>Abundența vine din interior</h2>
+
+      <p>Abundența nu vine din exterior. Vine din starea interioară de siguranță. Când te simți în siguranță emoțional și identitar, nu mai ții strâns de bani din frică, nu mai sabotezi inconștient și fluxul financiar devine natural.</p>
+
+      <p>În metodologia mea bazată pe Legile Universale, transformarea financiară se întâmplă când aliniezi credințele cu acțiunile. Ce crezi despre bani, atragi. Ce dai cu generozitate, revine. Ce recunoști cu recunoștință, se multiplică. Nu este magie — este mecanism interior de aliniere.</p>
+
+      <h2>Semne că relația ta cu banii necesită vindecare</h2>
+
+      <p>Banii vin și pleacă ciclic și niciodată nu rămân. Te simți vinovată când cheltui ceva pentru tine. Nu ceri ce meriți — nici salariu, nici prețuri corecte. Există o frică constantă despre viitorul financiar. Refuzi oportunități fără să știi de ce. Există tensiune cu partenerul în orice conversație despre bani. Simți că „nu ești făcută pentru bani".</p>
+
+      <p>Dacă te regăsești în mai multe dintre acestea, relația ta cu banii necesită lucru profund — nu mai multă muncă, ci schimbare interioară.</p>
+
+      <p>Dacă vrei să explorăm împreună care sunt credințele tale exacte despre bani, de unde provin și ce pattern de sabotaj repeți, <a href="https://calendly.com/olimpiamld/30min" target="_blank" rel="noopener noreferrer">programează o sesiune de claritate</a> cu mine — 30 de minute, fără obligație. Doar claritate.</p>
+
+      <p>Cu căldură,<br/>Olimpia Moldoveanu</p>
     `,
   },
 ];
