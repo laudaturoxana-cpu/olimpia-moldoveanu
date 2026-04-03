@@ -7,6 +7,8 @@ export interface BlogArticle {
   category: string;
   readTime: string;
   featured?: boolean;
+  image?: string; // path in /public
+  imageAlt?: string;
 }
 
 export const articles: BlogArticle[] = [
@@ -19,6 +21,8 @@ export const articles: BlogArticle[] = [
     category: "Anxietate & Emoții",
     readTime: "15 min citire",
     featured: true,
+    image: "/images/blog/liniste-in-cap.jpg",
+    imageAlt: "Femeie meditând în pace și liniște interioară",
     content: `
       <p>Ești în pat, e ora 23:00, și mintea ta e la capacitate maximă. Replămuiești conversații vechi, faci planuri pentru mâine, îți faci griji pentru peste un an, te judeci pentru ce ai spus azi dimineață. Nu există o oprire.</p>
 
@@ -99,6 +103,8 @@ export const articles: BlogArticle[] = [
     category: "Anxietate & Emoții",
     readTime: "16 min citire",
     featured: true,
+    image: "/images/blog/anxietate.jpg",
+    imageAlt: "Femeie gânditoare — anxietate cronică și gestionarea anxietății",
     content: `
       <p>„Am crezut că va trece singură."</p>
 
@@ -183,6 +189,8 @@ export const articles: BlogArticle[] = [
     date: "2026-03-10",
     category: "Legi Universale",
     readTime: "7 min citire",
+    image: "/images/blog/legi-universale.jpg",
+    imageAlt: "Cosmos și stele — Legile Universale și manifestarea",
     content: `
       <p>Probabil că ai auzit de Legea Atracției. Poate ai citit „The Secret", poate ai văzut videoclipuri pe YouTube. Și poate, la un moment dat, ai zis: <em>„Nu funcționează pentru mine."</em></p>
 
@@ -221,6 +229,8 @@ export const articles: BlogArticle[] = [
     date: "2026-02-28",
     category: "Transformare Personală",
     readTime: "6 min citire",
+    image: "/images/blog/rol-victima.jpg",
+    imageAlt: "Femeie liberă în natură — depășirea rolului de victimă și puterea personală",
     content: `
       <p>Când spun „rolul de victimă", prima reacție a multor femei este să se apere: <em>„Eu nu mă plâng, eu nu sunt o victimă."</em></p>
 
@@ -259,6 +269,8 @@ export const articles: BlogArticle[] = [
     date: "2026-02-15",
     category: "Relație & Abundență",
     readTime: "5 min citire",
+    image: "/images/blog/relatie-bani.jpg",
+    imageAlt: "Abundență și relația cu banii — coaching financiar feminin",
     content: `
       <p>Am lucrat cu sute de femei în sesiunile de coaching și un pattern reapare mereu: cele care au dificultăți cu banii au, de obicei, și dificultăți cu a-și permite să primească — iubire, ajutor, recunoaștere.</p>
 

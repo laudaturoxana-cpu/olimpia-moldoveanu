@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { articles, formatDate } from "@/lib/blog";
 
@@ -72,9 +73,21 @@ export default function BlogPage() {
           <div className="mb-14">
             <Link href={`/blog/${featured.slug}`} className="group block">
               <article className="bg-white rounded-card shadow-card overflow-hidden md:grid md:grid-cols-2 hover:shadow-lg transition-shadow duration-300">
-                {/* Color block placeholder */}
-                <div className="h-52 md:h-auto bg-gradient-to-br from-roz-pudrat/40 via-lavanda/30 to-auriu/20 flex items-center justify-center">
-                  <span className="font-cormorant text-5xl text-auriu/60">✦</span>
+                <div className="h-52 md:h-auto relative overflow-hidden">
+                  {featured.image ? (
+                    <Image
+                      src={featured.image}
+                      alt={featured.imageAlt ?? featured.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      priority
+                    />
+                  ) : (
+                    <div className="w-full h-full bg-gradient-to-br from-roz-pudrat/40 via-lavanda/30 to-auriu/20 flex items-center justify-center">
+                      <span className="font-cormorant text-5xl text-auriu/60">✦</span>
+                    </div>
+                  )}
                 </div>
                 <div className="p-8 md:p-10 flex flex-col justify-center">
                   <div className="flex items-center gap-3 mb-4">
@@ -115,8 +128,20 @@ export default function BlogPage() {
             {rest.map((article) => (
               <Link key={article.slug} href={`/blog/${article.slug}`} className="group">
                 <article className="bg-white rounded-card shadow-card overflow-hidden h-full flex flex-col hover:shadow-lg transition-shadow duration-300">
-                  <div className="h-40 bg-gradient-to-br from-roz-pudrat/30 via-lavanda/20 to-verde-sage/20 flex items-center justify-center">
-                    <span className="font-cormorant text-4xl text-auriu/50">✦</span>
+                  <div className="h-40 relative overflow-hidden">
+                    {article.image ? (
+                      <Image
+                        src={article.image}
+                        alt={article.imageAlt ?? article.title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      />
+                    ) : (
+                      <div className="w-full h-full bg-gradient-to-br from-roz-pudrat/30 via-lavanda/20 to-verde-sage/20 flex items-center justify-center">
+                        <span className="font-cormorant text-4xl text-auriu/50">✦</span>
+                      </div>
+                    )}
                   </div>
                   <div className="p-6 flex flex-col flex-1">
                     <div className="flex items-center gap-2 mb-3">

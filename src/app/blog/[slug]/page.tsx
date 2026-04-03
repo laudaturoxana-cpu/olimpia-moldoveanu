@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
 import { articles, getArticleBySlug, getRecentArticles, formatDate } from "@/lib/blog";
 
@@ -82,6 +83,20 @@ export default async function ArticlePage({ params }: Props) {
         <h1 className="font-cormorant text-3xl md:text-5xl text-charcoal leading-tight mb-6">
           {article.title}
         </h1>
+
+        {/* Hero image */}
+        {article.image && (
+          <div className="relative w-full h-64 md:h-96 rounded-card overflow-hidden mb-8">
+            <Image
+              src={article.image}
+              alt={article.imageAlt ?? article.title}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 768px"
+              priority
+            />
+          </div>
+        )}
 
         {/* Gold line */}
         <div className="w-16 h-px bg-auriu mb-8" />
