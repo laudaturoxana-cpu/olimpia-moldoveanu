@@ -121,10 +121,10 @@ function ThankYouContent() {
 
             <div className="space-y-4 max-w-2xl mx-auto">
               {[
-                "Voi citi fiecare răspuns — pentru a înțelege unde te afli și dacă procesul 1 la 1 este potrivit pentru tine",
-                "Îți voi răspunde personal la email — în maxim 48 de ore (luni-vineri)",
-                "Dacă este potrivit — stabilim prima sesiune și discutăm detaliile (pachet, investiție, calendar)",
-                "Dacă nu este potrivit acum — îți voi spune sincer și îți voi recomanda ce ar fi mai potrivit pentru situația ta",
+                "Voi citi fiecare răspuns, pentru a înțelege unde te afli și dacă procesul 1 la 1 este potrivit pentru tine",
+                "Îți voi răspunde personal la email, în maxim 48 de ore (luni-vineri)",
+                "Dacă este potrivit, stabilim prima sesiune și discutăm detaliile (pachet, investiție, calendar)",
+                "Dacă nu este potrivit acum, îți voi spune sincer și îți voi recomanda ce ar fi mai potrivit pentru situația ta",
               ].map((text, i) => (
                 <motion.div key={i} className="flex items-start gap-3" variants={staggerChild}>
                   <span className="text-verde-sage text-xl mt-0.5">✅</span>
@@ -157,7 +157,7 @@ function ThankYouContent() {
               className="font-montserrat text-gri-mediu mb-8"
               variants={fadeInUp}
             >
-              Te invit să te alături comunității noastre pe WhatsApp — unde primești săptămânal:
+              Te invit să te alături comunității noastre pe WhatsApp, unde primești săptămânal:
             </motion.p>
 
             <div className="grid md:grid-cols-2 gap-3 mb-8 text-left">
@@ -209,7 +209,7 @@ function ThankYouContent() {
             </h2>
             <div className="bg-roz-pudrat/20 rounded-card p-8 border-l-4 border-auriu">
               <p className="font-cormorant text-xl md:text-2xl text-charcoal italic">
-                &ldquo;Dacă aș avea claritate completă asupra direcției mele — ce primul pas aș face mâine?&rdquo;
+                &ldquo;Dacă aș avea claritate completă asupra direcției mele, ce primul pas aș face mâine?&rdquo;
               </p>
             </div>
             <p className="font-montserrat text-gri-mediu mt-6">

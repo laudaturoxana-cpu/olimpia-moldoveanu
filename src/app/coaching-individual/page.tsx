@@ -4,7 +4,7 @@ import CoachingIndividualLanding from "@/components/coaching/CoachingIndividualL
 export const metadata: Metadata = {
   title: "Sesiuni Individuale 1 la 1 | Olimpia Moldoveanu",
   description:
-    "Coaching individual 1 la 1: Claritate, direcție și asumare. Un proces ghidat, precis, orientat spre rezultat concret — personalizat pe situația ta.",
+    "Coaching individual 1 la 1: Claritate, direcție și asumare. Un proces ghidat, precis, orientat spre rezultat concret, personalizat pe situația ta.",
   openGraph: {
     title: "Sesiuni Individuale 1 la 1 | Olimpia Moldoveanu",
     description:

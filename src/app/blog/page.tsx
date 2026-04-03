@@ -63,7 +63,7 @@ export default function BlogPage() {
         <div className="w-16 h-px bg-auriu mx-auto mb-6" />
         <p className="font-montserrat text-sm md:text-base text-gri-mediu max-w-xl mx-auto leading-relaxed">
           Scriu despre anxietate, emoții, Legile Universale și transformarea
-          interioară — pentru femeile care vor mai mult decât să supraviețuiască.
+          interioară, pentru femeile care vor mai mult decât să supraviețuiască.
         </p>
       </section>
 

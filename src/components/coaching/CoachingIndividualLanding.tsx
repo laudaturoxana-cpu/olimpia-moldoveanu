@@ -102,11 +102,11 @@ const faqs = [
   },
   {
     q: "Ce se întâmplă dacă realizez că am nevoie de mai multe sesiuni?",
-    a: "Procesul este flexibil. Dacă după 3 sesiuni simți că vrei să continui, extindem pachetul. Dacă după 5 simți că ai nevoie de mai mult timp — construim un plan personalizat.",
+    a: "Procesul este flexibil. Dacă după 3 sesiuni simți că vrei să continui, extindem pachetul. Dacă după 5 simți că ai nevoie de mai mult timp, construim un plan personalizat.",
   },
   {
     q: "Cum știu dacă sunt pregătită?",
-    a: 'Dacă te întrebi asta — probabil ești. Nu trebuie să fii "gata" sau "perfectă". Trebuie doar să fii dispusă să încerci, să te uiți onest și să faci pași, chiar dacă nu știi exact cum.',
+    a: 'Dacă te întrebi asta, probabil ești. Nu trebuie să fii "gata" sau "perfectă". Trebuie doar să fii dispusă să încerci, să te uiți onest și să faci pași, chiar dacă nu știi exact cum.',
   },
 ];
 
@@ -250,7 +250,7 @@ export default function CoachingIndividualLanding() {
               className="font-cormorant text-xl md:text-2xl text-charcoal italic mb-8"
               variants={fadeInUp}
             >
-              Dacă nu mai știi ce e al tău și ce e al altora — hai să clarificăm.
+              Dacă nu mai știi ce e al tău și ce e al altora, hai să clarificăm.
             </motion.p>
             <motion.button
               onClick={scrollToForm}
@@ -276,9 +276,9 @@ export default function CoachingIndividualLanding() {
             className="space-y-5 font-montserrat text-gri-mediu text-base leading-relaxed"
           >
             {[
-              "Te simți capabilă, dar blocată. Știi că poți mai mult, dar nu știi cum să ajungi acolo. Ai început lucruri și nu le-ai dus până la capăt — nu din lipsă de voință, ci pentru că nu ai avut claritate reală asupra direcției.",
+              "Te simți capabilă, dar blocată. Știi că poți mai mult, dar nu știi cum să ajungi acolo. Ai început lucruri și nu le-ai dus până la capăt, nu din lipsă de voință, ci pentru că nu ai avut claritate reală asupra direcției.",
               "Sesiunile individuale 1 la 1 nu sunt consiliere generală.",
-              "Sunt un proces ghidat, precis, orientat spre rezultat concret — în care lucrăm personalizat pe situația ta actuală, într-un cadru structurat.",
+              "Sunt un proces ghidat, precis, orientat spre rezultat concret, în care lucrăm personalizat pe situația ta actuală, într-un cadru structurat.",
             ].map((text, i) => (
               <motion.p key={i} variants={staggerChild} className={i === 1 ? "font-semibold text-charcoal" : ""}>
                 {text}
@@ -351,7 +351,7 @@ export default function CoachingIndividualLanding() {
               className="font-montserrat text-gri-mediu text-center mb-6 md:mb-10"
               variants={fadeInUp}
             >
-              Sesiune Individuală — 60-90 minute • Online, Zoom
+              Sesiune Individuală, 60-90 minute • Online, Zoom
             </motion.p>
             <motion.div className="h-0.5 bg-auriu mx-auto mb-6 md:mb-10 max-w-xs" variants={lineExpand} />
 
@@ -498,7 +498,7 @@ export default function CoachingIndividualLanding() {
                 Nu îți promit că viața ta va fi „perfectă".
               </p>
               <p className="font-cormorant text-xl text-charcoal italic mt-2">
-                Îți promit că vei avea harta — și curajul să mergi pe ea.
+                Îți promit că vei avea harta, și curajul să mergi pe ea.
               </p>
             </motion.div>
           </motion.div>
@@ -835,7 +835,7 @@ export default function CoachingIndividualLanding() {
 
             <motion.div className="text-center mt-8 md:mt-12" variants={fadeInUp}>
               <p className="font-cormorant text-xl text-charcoal italic mb-6">
-                „Dacă simți că este momentul — aplică acum."
+                „Dacă simți că este momentul, aplică acum."
               </p>
               <motion.button
                 onClick={scrollToForm}

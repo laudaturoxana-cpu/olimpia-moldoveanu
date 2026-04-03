@@ -91,7 +91,7 @@ const Services = () => {
       type: "Coaching Individual",
       badge: "Disponibil acum",
       description:
-        "Un proces ghidat, precis, orientat spre rezultat concret — în care lucrăm personalizat pe situația ta actuală. Nu rămânem în teorie. Transformăm conștientizarea în decizie și decizia în acțiune.",
+        "Un proces ghidat, precis, orientat spre rezultat concret, în care lucrăm personalizat pe situația ta actuală. Nu rămânem în teorie. Transformăm conștientizarea în decizie și decizia în acțiune.",
       includes: [
         "Sesiuni 60-90 min pe Zoom (confidențial)",
         "Definirea obiectivului real al tău",
