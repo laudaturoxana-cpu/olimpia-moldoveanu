@@ -409,6 +409,284 @@ export const articles: BlogArticle[] = [
       <p>Cu căldură,<br/>Olimpia Moldoveanu</p>
     `,
   },
+
+  {
+    slug: "de-ce-relatia-ta-s-a-racit",
+    title: "De Ce Relația Ta S-a Răcit și Cum să Reconnectezi Fără Să Cerșești Atenție",
+    excerpt: "E lângă tine, dar te simți singură. Nu mai vorbesc ca înainte. Când s-a întâmplat? Și, mai important, ce poți face acum pentru a reconstrui conectarea.",
+    date: "2026-04-08",
+    category: "Relații & Comunicare",
+    readTime: "15 min citire",
+    featured: true,
+    image: "/images/blog/relatie-rece-featured.jpg",
+    imageAlt: "Relație rece, cuplu deconectat în aceeași cameră",
+    content: `
+      <p>E lângă tine. Dar te simți singură.</p>
+
+      <p>Nu mai vorbesc ca înainte. Nu mai râdeți împreună. Nu mai simți căldura aceea care te făcea să știi că sunteți echipă.</p>
+
+      <p>Te uiți la el și te întrebi: când s-a întâmplat?</p>
+
+      <p>Când a devenit conversația voastră doar despre copii, despre facturile de plătit, despre cine merge la cumpărături? Când ai încetat să mai simți că ești VĂZUTĂ, nu doar ca mamă, nu doar ca parteneră care administrează casa, ci ca FEMEIE, ca PERSOANĂ, ca EA?</p>
+
+      <p>Și înainte să înțelegi cum, relația voastră a devenit <strong>funcțională, dar rece.</strong></p>
+
+      <p>Nu e război. Nu e abuz. Nu e trădare. Dar <strong>lipsa</strong> doare la fel de mult ca prezența toxică. Pentru că poți să fii în aceeași casă, în același pat, și totuși să simți că ești singură.</p>
+
+      <p>În acest articol vei descoperi de ce relațiile se răcesc fără un eveniment major, cum arată răcirea în realitate, ce greșeli faci când încerci să reconnectezi, cum să reconstruiești intimitatea fără să cerșești atenție și când relația poate fi salvată.</p>
+
+      <h2>De ce relațiile se răcesc fără un eveniment major</h2>
+
+      <p>Majoritatea oamenilor cred că o relație se răcește dintr-o cauză clară: o trădare, un conflict major, o criză financiară, o boală. Dar adevărul este mai discret.</p>
+
+      <p><strong>Relațiile se răcesc prin acumularea micilor neglijări zilnice.</strong> Nu dintr-o dată. Ci treptat. Aproape imperceptibil.</p>
+
+      <p>Uite cum arată mecanismul în practică:</p>
+
+      <p><strong>Luna 1.</strong> „Hai să vorbim diseară, după ce pun copiii la culcare." „Sunt prea obosit. Mâine."</p>
+
+      <p><strong>Luna 3.</strong> Nu mai întrebi. Ai învățat că răspunsul e mereu „mâine".</p>
+
+      <p><strong>Luna 6.</strong> Nu mai simți nevoia să spui nimic. Pentru că ați încetat să mai aveți conversații reale.</p>
+
+      <p><strong>Luna 12.</strong> Vă uitați unul la altul și vă întrebați: „Cine este persoana asta?"</p>
+
+      <p>Nu dramatic. Ci tăcut. Constant. Acumulat.</p>
+
+      <h2>Cum arată răcirea în realitate</h2>
+
+      <p>Răcirea nu vine cu o scenă dramatică. Vine cu lucruri mici, aproape banale:</p>
+
+      <p><strong>Conversațiile voastre sunt doar logistice.</strong> „Cine ia copiii?" „Ai plătit factura?" „Ce facem diseară?" Nimic despre voi. Nimic despre cum vă simțiți. Nimic despre ce vă doare, vă bucură, vă sperie.</p>
+
+      <p><strong>Nu mai râdeți împreună.</strong> Râsul este primul care pleacă dintr-o relație rece. Pentru că râsul necesită siguranță, prezență, conexiune. Și când lipsește conexiunea, lipsește și bucuria.</p>
+
+      <p><strong>Nu mai vorbiți despre visuri.</strong> Ai vrut să mergi în Italia. El voia să schimbe jobul. Visurile voastre au fost înlocuite cu supraviețuire.</p>
+
+      <p><strong>Atingerea a dispărut.</strong> Nu vorbim neapărat despre sex. Vorbim despre mâna pe umăr când treci pe lângă el, sărutul de bună dimineața dat cu adevărat, îmbrățișarea din senin. Corpul știe când lipsește conectarea.</p>
+
+      <p><strong>Te simți mai singură în prezența lui decât atunci când ești fizic singură.</strong> Când ești singură acasă, e liniște. Când e el acolo, dar nu e prezent, simți un gol mai mare. Singuratatea în doi doare mai mult decât singuratatea singură.</p>
+
+      <p><strong>Nu mai împarți lucruri mici.</strong> „Astăzi mi s-a întâmplat ceva amuzant..." Dar nu i-ai spus. Pentru că nu mai simți că vrea să audă. Când încetezi să mai împărtășești nimicurile, intimitatea moare.</p>
+
+      <p><strong>Conflictele fie sunt explosive, fie nu mai există deloc.</strong> Fie vă certați urât, pentru că s-a acumulat prea mult. Fie nu mai spuneți nimic, pentru că ați învățat că nu are rost. Ambele sunt semne de deconectare.</p>
+
+      <p><strong>Fiecare își petrece timpul în lumea lui.</strong> El la TV, la telefon, la muncă. Tu la telefon, la citit, la prietene. Nu mai căutați timpul împreună. Îl evitați.</p>
+
+      <p><strong>Simți că te sacrifici constant, dar nu ești văzută.</strong> Faci totul pentru casă, pentru copii, pentru el. Dar nimeni nu te întreabă: „Tu cum ești?"</p>
+
+      <p><strong>Te gândești: „Așa va fi mereu?"</strong> Și acel gând te înspăimântă. Pentru că nu vrei să trăiești așa până la final.</p>
+
+      <p>Dacă te regăsești în mai multe dintre acestea, relația ta este în răcire avansată. Dar nu este prea târziu, dacă amândoi sunteți dispuși să lucrați.</p>
+
+      <h2>Ce greșeli faci când încerci să reconnectezi</h2>
+
+      <p><strong>Greșeala 1: Încerci să repari relația prin mai multă muncă.</strong> „Dacă fac mai mult pentru el, va vedea cât țin la noi." Gătești mai mult, faci curățenie mai bine, îți asumi mai multe responsabilități. Și aștepți ca el să observe. Dar nu se întâmplă. Pentru că nu lipsa de muncă a răcit relația, ci lipsa de prezență. Poți munci cât vrei, dacă nu sunteți prezenți unul pentru celălalt, relația rămâne rece.</p>
+
+      <p><strong>Greșeala 2: Vorbești constant „despre relație".</strong> „Trebuie să vorbim. Nu mai suntem ca înainte. Simți și tu distanța?" Și el evită, se închide, spune „e ok". Conversațiile constante despre relație, când sunt încărcate emoțional, devin presiune. Iar presiunea îndepărtează, nu apropie.</p>
+
+      <p><strong>Greșeala 3: Cerșești atenție.</strong> „De ce nu mai vorbim? De ce nu mă mai întrebi cum sunt?" Și devine plângere. Iar plângerea generează respingere. Nu pentru că nu ai dreptate, ci pentru că cerșitul atenției nu reconstruiește respectul.</p>
+
+      <p><strong>Greșeala 4: Aștepți ca el să facă primul pas.</strong> „Dacă îi pasă, ar face ceva." Și aștepți. Și relația se răcește și mai mult. Adevărul este că cineva trebuie să înceapă. Și dacă tu vezi problema mai clar, tu ești cea care face primul pas. Nu din slăbiciune, ci din putere.</p>
+
+      <p><strong>Greșeala 5: Compari relația voastră cu altele.</strong> „Familia X merge în vacanțe împreună. Cuplul Y încă râde." Comparația devine resentiment. Nu știi ce se întâmplă cu adevărat în relațiile altora. Știi doar ce se întâmplă în a ta. Și numai a ta contează.</p>
+
+      <h2>Cum să reconstruiești intimitatea fără să cerșești atenție</h2>
+
+      <h3>Oprește ciclul de plângere și retragere</h3>
+
+      <p>Ciclul toxic arată așa: tu te plângi, el se retrage, tu te plângi mai mult, el se retrage mai mult. Cum îl oprești? Prin schimbarea abordării.</p>
+
+      <p>În loc de: „De ce nu mai vorbim niciodată?" Încearcă: „Aș vrea să avem o conversație. Nu despre ce nu merge, ci despre ce ne dorim amândoi. Când ai 30 de minute?" Nu presiune. Ci invitație.</p>
+
+      <h3>Reconnectează prin micro-momente, nu prin mari gesturi</h3>
+
+      <p>Nu ai nevoie de o vacanță scumpă sau o seară perfectă. Ai nevoie de micro-momente de prezență zilnică.</p>
+
+      <p>Dimineața: „Cum ai dormit?" și ascultă răspunsul, nu în timp ce te grăbești. La masă: pune telefonul jos, zece minute, doar voi doi. Seara: „Ai avut o zi grea?" și lasă spațiu pentru un răspuns real. În week-end: o cafea împreună, 15 minute, fără telefoane.</p>
+
+      <p>Nu sunt mari gesturi. Dar repetate constant, reconstruiesc intimitatea.</p>
+
+      <h3>Încetează să mai fii managerul relației</h3>
+
+      <p>Probabil ai preluat totul: copiii, casa, programul, relația. Și ai obosit. Iar el s-a retras, pentru că nu mai are spațiu să fie partener, ci doar executant.</p>
+
+      <p>În loc de: „Trebuie să facem X, Y, Z. Când te ocupi?" Încearcă: „Avem nevoie de X. Cum crezi că ar fi mai bine să rezolvăm?" Nu îi spui ce să facă. Îl întrebi cum vede el situația.</p>
+
+      <h3>Reînvață să fii femeie, nu doar mamă sau parteneră</h3>
+
+      <p>Când relația se răcește, identitatea ta devine adesea doar funcțională: mamă, parteneră care administrează casa, angajată. Și femeia din tine dispare.</p>
+
+      <p>Fă ceva DOAR pentru tine. Treizeci de minute citit, o plimbare singură, o cafea cu o prietenă, un curs care te interesează. Nu este egoism. Este hrănire. Și când te hrănești, revii în relație cu energie, nu cu gol.</p>
+
+      <h3>Vorbește despre nevoile tale, clar, fără dramă</h3>
+
+      <p>Nu: „Nu mă mai iubești. Nu îți mai pasă. Nu mă mai vezi."</p>
+
+      <p>Ci: „Am nevoie să simt că suntem echipă. Aș vrea să avem 15 minute seara, doar noi, fără telefoane. Poți face asta?"</p>
+
+      <p>Prima variantă este o acuzație care generează apărare. A doua este o nevoie clară cu o posibilitate reală de schimbare.</p>
+
+      <h3>Acceptă că reconnectarea necesită timp</h3>
+
+      <p>Relația nu s-a răcit într-o săptămână. Nu se va încălzi într-o săptămână.</p>
+
+      <p>Primele două săptămâni: poate nu vezi schimbare. Prima lună: conversații mai multe, mai puțină tensiune. Lunile 2 și 3: începi să simți reconnectarea. Luna 6: relația arată diferit. Nu renunța după două săptămâni. Dă timp procesului.</p>
+
+      <h2>Când relația poate fi salvată și când nu</h2>
+
+      <p>Relația poate fi salvată când amândoi recunoașteți că există o problemă, există dorință de schimbare chiar dacă nu știți cum, nu există trădare repetată sau abuz, mai există respect unul pentru celălalt chiar dacă nu intimitate, și amândoi sunteți dispuși să lucrați.</p>
+
+      <p>Relația nu mai poate fi salvată când unul dintre voi a plecat emoțional complet, există trădare repetată fără regret real, există abuz, unul refuză să lucreze la relație, sau respectul a dispărut și există dispreț constant.</p>
+
+      <p>Diferența dintre rece și terminat: o relație rece înseamnă lipsă de intimitate, dar fundația există. O relație terminată înseamnă că fundația s-a erodat complet.</p>
+
+      <p>Cum știi unde ești? Întreabă-te: „Dacă el ar fi dispus să lucreze, aș vrea să reconstruim?" Dacă răspunsul e da, relația poate fi salvată. Dacă răspunsul e nu, poate e timpul să accepți asta.</p>
+
+      <h2>Pasul următor</h2>
+
+      <p>Dacă te regăsești în ce ai citit și vrei să lucrezi la reconectare, hai să vorbim. <a href="https://calendly.com/olimpiamld/30min" target="_blank" rel="noopener noreferrer">Programează o sesiune individuală de 30 de minute</a> și vom vedea împreună care este pattern-ul exact în relația ta, ce faci inconștient care îndepărtează și cum să reconstruiești intimitatea, dacă relația poate fi salvată, sau cum să te alegi pe tine, dacă relația nu mai e pentru tine.</p>
+
+      <p>Fără presiune. Doar claritate și adevăr.</p>
+
+      <p>Cu căldură,<br/>Olimpia Moldoveanu</p>
+    `,
+  },
+
+  {
+    slug: "cum-sa-te-regasesti-cand-te-ai-pierdut",
+    title: "Cum Să Te Regăsești Când Te-ai Pierdut Pe Tine (Ghid Pas Cu Pas)",
+    excerpt: "Nu mai știi cine ești fără rolurile tale. Mama. Partenera. Angajata. Dar TU, cine ești TU? Cum să te reconectezi cu esența ta, pas cu pas, fără presiune.",
+    date: "2026-04-10",
+    category: "Dezvoltare Personală",
+    readTime: "14 min citire",
+    featured: true,
+    image: "/images/blog/regasire-featured.jpg",
+    imageAlt: "Cum să te regăsești când te-ai pierdut pe tine, femeie contemplativă în natură",
+    content: `
+      <p>„Când m-am pierdut pe mine?"</p>
+
+      <p>Nu a fost un moment. Nu a fost o decizie. A fost un proces tăcut, aproape imperceptibil.</p>
+
+      <p>Ai devenit mamă și o parte din tine a dispărut în grijă. Ai devenit parteneră și o altă parte s-a dizolvat în compromisuri. Ai devenit angajată și timpul pentru tine a devenit „când mai rămâne".</p>
+
+      <p>Și acum te uiți în oglindă și te întrebi: <strong>„Cine sunt EU, fără toate aceste roluri?"</strong></p>
+
+      <p>Și realizezi, cu un nod în gât, că nu mai știi. Nu pentru că ai greșit. Ci pentru că nimeni nu te-a învățat că poți fi și mamă, și parteneră, și profesionistă, și totuși să rămâi TU.</p>
+
+      <p>În acest articol vei descoperi cum te-ai pierdut (mecanism, nu vină), semnele că te-ai pierdut pe tine, de ce întoarcerea la cine erai înainte nu funcționează și cum să te regăsești pas cu pas, fără presiune.</p>
+
+      <h2>Cum te-ai pierdut pe tine</h2>
+
+      <p>Înainte să mergem mai departe, vreau să îți spun ceva clar: <strong>nu este vina ta că te-ai pierdut.</strong></p>
+
+      <p>Nu ești slabă. Nu ești inconștientă. Nu ești greșită. Ești femeie într-o cultură care te-a învățat că valoarea ta vine din cât de mult te sacrifici pentru alții. Și tu ai făcut ce ți s-a spus că este corect: să pui familia pe primul loc, să fii dedicată jobului, să fii femeia puternică care poartă tot pe umeri.</p>
+
+      <p>Iar nimeni nu ți-a spus că poți face toate acestea și să rămâi TU.</p>
+
+      <h3>Cum se întâmplă pierderea de sine</h3>
+
+      <p>Prima etapă este <strong>sacrificiul inconștient,</strong> de obicei între 25 și 35 de ani. Devii mamă, devii parteneră, începi cariera. Fiecare rol cere ceva din tine: copilul cere timp, partenerul cere atenție, jobul cere energie. Și tu dai. Pentru că așa ai învățat că e bine.</p>
+
+      <p>A doua etapă este <strong>funcționarea pe pilot automat,</strong> de obicei între 35 și 42 de ani. Viața devine rutină: dimineața copii, casă, muncă, ziua responsabilități, seara din nou casă, cină, somn. Și undeva în această rutină, TU ai dispărut. Nu dramatic. Ci tăcut.</p>
+
+      <p>A treia etapă este <strong>trezirea,</strong> de obicei între 42 și 50 de ani. Într-o zi te oprești și realizezi: „Nu mai știu ce îmi place. Nu mai știu ce vreau. Nu mai știu cine sunt." Și acel moment te înspăimântă. Pentru că nu e oboseală obișnuită. Este pierdere de identitate.</p>
+
+      <h2>Semne că te-ai pierdut pe tine</h2>
+
+      <p><strong>Nu mai știi ce îți place să faci.</strong> Cineva te întreabă ce îți place în timpul liber și nu ai răspuns. Pentru că nu mai ai timp liber, sau dacă ai, îl petreci recuperând, nu trăind.</p>
+
+      <p><strong>Alegerile tale sunt mereu pentru alții.</strong> „Ce vrei să mâncăm?" „Ce vor ei." „Ce îți dorești de ziua ta?" „Nimic, sunt bine." Identitatea ta a devenit cea care facilitează viața altora.</p>
+
+      <p><strong>Nu mai ai vise personale.</strong> Când ești întrebată ce îți dorești în următorii 5 ani, vorbești despre copii, despre partener, despre job. Dar despre tine? Nimic. Pentru că ai uitat că și tu ai voie să visezi.</p>
+
+      <p><strong>Te simți vinovată când faci ceva doar pentru tine.</strong> Când citești o carte, ai impresia că ar trebui să fii mai productivă. Când te plimbi singură, simți că ar trebui să fii cu familia. Liniștea ta a devenit „egoism" în mintea ta.</p>
+
+      <p><strong>Nu mai știi ce te face fericită.</strong> Fericirea ta a fost mereu legată de alții: când copiii sunt bine, când partenerul e mulțumit, când la job e liniște. Dar fericirea ta independentă? Nu mai știi unde e.</p>
+
+      <p><strong>Corpul tău a devenit un vehicul funcțional.</strong> Nu mai simți plăcere în corp. Ești „obosită", „blocată", „rigidă". Pentru că ai încetat să mai locuiești în corpul tău. Doar îl folosești.</p>
+
+      <p><strong>Simți un gol constant.</strong> Chiar dacă viața ta arată bine din exterior. Chiar dacă „ai tot ce îți trebuie". Există un gol pe care nu-l poți explica. Pentru că golul nu e material. E identitar.</p>
+
+      <p><strong>Te întrebi: „Asta e tot?"</strong> Te uiți la viața ta și simți că lipsește ceva esențial. Și acel gând te înspăimântă, pentru că nu vrei să trăiești așa până la final.</p>
+
+      <p>Dacă te regăsești în mai multe dintre acestea, te-ai pierdut profund pe tine. Dar nu e prea târziu. Niciodată nu e.</p>
+
+      <h2>De ce întoarcerea la cine erai înainte nu funcționează</h2>
+
+      <p>Mulți oameni cred că a te regăsi înseamnă a te întoarce la cine erai înainte de copii, înainte de căsătorie, înainte de job. Dar asta nu funcționează.</p>
+
+      <p>Tu nu mai ești femeia de la 25 de ani. Ai trecut prin naștere, prin provocări, prin pierderi, prin răni, prin creștere. Nu poți nega experiența. Și nici nu ar trebui.</p>
+
+      <p><strong>Adevărata regăsire nu este întoarcere. Este integrare.</strong> Nu „revin la cine eram", ci „devin cine sunt ACUM, cu tot ce am trăit".</p>
+
+      <h2>Cum să te regăsești pas cu pas</h2>
+
+      <h3>Oprește funcționarea pe pilot automat</h3>
+
+      <p>Prima lună: nu schimba nimic. Doar observă. Seara, întreabă-te: „Cât din ziua de azi am trăit conștient? Când am simțit că sunt EU, nu doar un rol? Ce am făcut DOAR pentru mine azi?" Nu te judeca. Doar vezi pattern-ul.</p>
+
+      <h3>Revendică micro-spații de timp doar pentru tine</h3>
+
+      <p>Nu ai nevoie de trei ore. Ai nevoie de 15 minute constante, în fiecare zi.</p>
+
+      <p>Dimineața, 10 minute: cafea singură, fără telefon, fără copii. La prânz, 15 minute: o plimbare fără podcast, fără muzică, doar tu și gândurile tale. Seara, 10 minute: trei propoziții în jurnal despre cum te simți. Week-end, 30 de minute: ceva DOAR pentru tine, citit, dans, plimbare, orice.</p>
+
+      <p>Nu este egoism. Este hrănire. Și când te hrănești, revii în viața ta ca persoană, nu ca funcție.</p>
+
+      <h3>Reconectează-te cu corpul tău</h3>
+
+      <p>Corpul tău știe cine ești. Chiar dacă mintea ta a uitat.</p>
+
+      <p>Mișcă-te conștient, 10 minute pe zi: nu sport „pentru slăbit", ci mișcare ca să simți că locuiești în corpul tău. Dans liber în cameră, stretching lent, plimbare conștientă.</p>
+
+      <p>Respiră conștient, de trei ori pe zi, câte 3 minute: inspiră 4 secunde, ține 4 secunde, expiră 6 secunde. Corpul se calmează, mintea se liniștește, tu revii.</p>
+
+      <p>Și când simți ceva puternic, tristețe, frustrare, bucurie, oprește-te, pune mâna pe piept și întreabă-te: „Ce simt ACUM?" Nu repara. Doar simte.</p>
+
+      <h3>Redescoperă ce îți place</h3>
+
+      <p>Nu trebuie să știi deja. Trebuie doar să explorezi.</p>
+
+      <p>Scrie o listă cu 20 de lucruri care te-au făcut fericită vreodată, indiferent când. Nu judeca. Doar notează. Citit, dansat, desenat, stat în natură, conversații profunde, învățat ceva nou. Apoi alege 3 și încearcă-le în următoarea lună. Nu ca hobby serios, ci ca explorare.</p>
+
+      <h3>Pune limite fără vinovăție</h3>
+
+      <p>Cea mai grea parte: să spui nu rolului de „cea care face tot".</p>
+
+      <p>Înainte: „Mama, poți să...?" și tu răspundeai da, chiar dacă erai epuizată. Acum: „Pot mai târziu. Acum am nevoie de 10 minute pentru mine."</p>
+
+      <p>Nu este egoism. Este echilibru. Și echilibrul te face mai prezentă pentru toți, inclusiv pentru tine.</p>
+
+      <h3>Reconstruiește relația cu tine ca și cum ai reconstrui o prietenie</h3>
+
+      <p>Cum ai trata o prietenă dragă? Ai întreba-o cum e. Ai asculta-o. Ai petrece timp cu ea. Ai respecta-o. Acum fă la fel cu tine.</p>
+
+      <p>Odată pe săptămână, rezervă o oră DOAR cu tine. Faci ceva care îți place. Fără copii, fără partener, fără telefon. Doar tu. La început va fi inconfortabil. După patru săptămâni, va deveni necesar.</p>
+
+      <h3>Acceptă că regăsirea necesită timp</h3>
+
+      <p>Nu te vei regăsi într-o săptămână. Dacă te-ai pierdut în 10 sau 15 ani, reconectarea va dura luni.</p>
+
+      <p>Luna 1: observi pattern-urile și începi micro-spațiile. Lunile 2 și 3: mai multă energie, mai puțină iritare. Lunile 4 și 6: știi ce îți place și înveți să pui limite. Luna 6 până la 12: te simți din ce în ce mai TU, nu cea de dinainte, ci noua versiune integrată.</p>
+
+      <h2>Nu te găsești. Te creezi.</h2>
+
+      <p>„A te găsi" sugerează că există o versiune adevărată de tine undeva ascunsă, pe care trebuie să o descoperi. Dar adevărul e mai frumos:</p>
+
+      <p><strong>Nu te găsești. Te creezi.</strong> Zi de zi. Alegere cu alegere. Experiență cu experiență.</p>
+
+      <p>Nu există o versiune corectă de tine. Există doar versiunea pe care o alegi să o creezi. Și acea putere, puterea de a te crea conștient, este cea mai mare libertate.</p>
+
+      <h2>Pasul următor</h2>
+
+      <p>Dacă te regăsești în ce ai citit și vrei ghidare în procesul de reconectare cu tine, hai să vorbim. <a href="https://calendly.com/olimpiamld/30min" target="_blank" rel="noopener noreferrer">Programează o sesiune individuală de 30 de minute</a> și vom vedea împreună când și cum te-ai pierdut pe tine, ce pattern repeți inconștient și cum să începi procesul de regăsire cu pași concreți.</p>
+
+      <p>Fără presiune. Doar claritate și început.</p>
+
+      <p>Cu căldură,<br/>Olimpia Moldoveanu</p>
+    `,
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
