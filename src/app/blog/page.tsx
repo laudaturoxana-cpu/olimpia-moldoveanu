@@ -21,7 +21,7 @@ const sorted = [...articles].sort(
 
 export default function BlogPage() {
   const featured = sorted.find((a) => a.featured);
-  const rest = sorted.filter((a) => !a.featured);
+  const rest = sorted.filter((a) => a.slug !== featured?.slug);
 
   return (
     <main className="min-h-screen bg-crem">
