@@ -84,12 +84,12 @@ export const articles: BlogArticle[] = [
 
       <ul>
         <li>O credință de bază de tipul „nu sunt suficientă" sau „lumea nu este sigură"</li>
-        <li>Emoții neprocessate, durere, furie, doliu, care nu au avut loc să fie integrate</li>
+        <li>Emoții neprocesate, durere, furie, doliu, care nu au avut loc să fie integrate</li>
         <li>O deconectare de la propriile nevoi și valori reale</li>
         <li>Un sistem nervos care a funcționat în alertă atât de mult timp încât alertă a devenit normalul</li>
       </ul>
 
-      <p>Liniștea reală, nu cea cumpărată cu distrageri sau forțată prin voință, vine din a lucra la acest nivel. Din a înțelege ce transmite mintea ta agitatã, din a dizolva credințele care alimentează spiralele, din a-ți recalibra sistemul nervos.</p>
+      <p>Liniștea reală, nu cea cumpărată cu distrageri sau forțată prin voință, vine din a lucra la acest nivel. Din a înțelege ce transmite mintea ta agitată, din a dizolva credințele care alimentează spiralele, din a-ți recalibra sistemul nervos.</p>
 
       <p>Acesta este exact tipul de muncă pe care o facem împreună în sesiunile de coaching. Dacă simți că ai citit destule articole și vrei un proces ghidat, personalizat pe situația ta, <a href="/#contact">programează o sesiune de explorare</a> cu mine.</p>
     `,
@@ -98,7 +98,7 @@ export const articles: BlogArticle[] = [
     slug: "de-ce-anxietatea-nu-dispare-singura",
     title: "De ce anxietatea nu dispare singură, și ce poți face în schimb",
     excerpt:
-      "Mulți femei speră că anxietatea va trece de la sine. Descoperă de ce această strategie nu funcționează, care este mecanismul real din spatele anxietății cronice și ce schimbare interioară face cu adevărat diferența.",
+      "Multe femei speră că anxietatea va trece de la sine. Descoperă de ce această strategie nu funcționează, care este mecanismul real din spatele anxietății cronice și ce schimbare interioară face cu adevărat diferența.",
     date: "2026-03-28",
     category: "Anxietate & Emoții",
     readTime: "16 min citire",
@@ -412,7 +412,7 @@ export const articles: BlogArticle[] = [
 
   {
     slug: "de-ce-relatia-ta-s-a-racit",
-    title: "De Ce Relația Ta S-a Răcit și Cum să Reconnectezi Fără Să Cerșești Atenție",
+    title: "De Ce Relația Ta S-a Răcit și Cum să Reconectezi Fără Să Cerșești Atenție",
     excerpt: "E lângă tine, dar te simți singură. Nu mai vorbesc ca înainte. Când s-a întâmplat? Și, mai important, ce poți face acum pentru a reconstrui conectarea.",
     date: "2026-04-08",
     category: "Relații & Comunicare",
@@ -433,7 +433,7 @@ export const articles: BlogArticle[] = [
 
       <p>Nu e război. Nu e abuz. Nu e trădare. Dar <strong>lipsa</strong> doare la fel de mult ca prezența toxică. Pentru că poți să fii în aceeași casă, în același pat, și totuși să simți că ești singură.</p>
 
-      <p>În acest articol vei descoperi de ce relațiile se răcesc fără un eveniment major, cum arată răcirea în realitate, ce greșeli faci când încerci să reconnectezi, cum să reconstruiești intimitatea fără să cerșești atenție și când relația poate fi salvată.</p>
+      <p>În acest articol vei descoperi de ce relațiile se răcesc fără un eveniment major, cum arată răcirea în realitate, ce greșeli faci când încerci să reconectezi, cum să reconstruiești intimitatea fără să cerșești atenție și când relația poate fi salvată.</p>
 
       <h2>De ce relațiile se răcesc fără un eveniment major</h2>
 
@@ -465,7 +465,7 @@ export const articles: BlogArticle[] = [
 
       <p><strong>Atingerea a dispărut.</strong> Nu vorbim neapărat despre sex. Vorbim despre mâna pe umăr când treci pe lângă el, sărutul de bună dimineața dat cu adevărat, îmbrățișarea din senin. Corpul știe când lipsește conectarea.</p>
 
-      <p><strong>Te simți mai singură în prezența lui decât atunci când ești fizic singură.</strong> Când ești singură acasă, e liniște. Când e el acolo, dar nu e prezent, simți un gol mai mare. Singuratatea în doi doare mai mult decât singuratatea singură.</p>
+      <p><strong>Te simți mai singură în prezența lui decât atunci când ești fizic singură.</strong> Când ești singură acasă, e liniște. Când e el acolo, dar nu e prezent, simți un gol mai mare. Singurătatea în doi doare mai mult decât singurătatea singură.</p>
 
       <p><strong>Nu mai împarți lucruri mici.</strong> „Astăzi mi s-a întâmplat ceva amuzant..." Dar nu i-ai spus. Pentru că nu mai simți că vrea să audă. Când încetezi să mai împărtășești nimicurile, intimitatea moare.</p>
 
@@ -479,7 +479,7 @@ export const articles: BlogArticle[] = [
 
       <p>Dacă te regăsești în mai multe dintre acestea, relația ta este în răcire avansată. Dar nu este prea târziu, dacă amândoi sunteți dispuși să lucrați.</p>
 
-      <h2>Ce greșeli faci când încerci să reconnectezi</h2>
+      <h2>Ce greșeli faci când încerci să reconectezi</h2>
 
       <p><strong>Greșeala 1: Încerci să repari relația prin mai multă muncă.</strong> „Dacă fac mai mult pentru el, va vedea cât țin la noi." Gătești mai mult, faci curățenie mai bine, îți asumi mai multe responsabilități. Și aștepți ca el să observe. Dar nu se întâmplă. Pentru că nu lipsa de muncă a răcit relația, ci lipsa de prezență. Poți munci cât vrei, dacă nu sunteți prezenți unul pentru celălalt, relația rămâne rece.</p>
 
@@ -499,7 +499,7 @@ export const articles: BlogArticle[] = [
 
       <p>În loc de: „De ce nu mai vorbim niciodată?" Încearcă: „Aș vrea să avem o conversație. Nu despre ce nu merge, ci despre ce ne dorim amândoi. Când ai 30 de minute?" Nu presiune. Ci invitație.</p>
 
-      <h3>Reconnectează prin micro-momente, nu prin mari gesturi</h3>
+      <h3>Reconectează prin micro-momente, nu prin mari gesturi</h3>
 
       <p>Nu ai nevoie de o vacanță scumpă sau o seară perfectă. Ai nevoie de micro-momente de prezență zilnică.</p>
 
@@ -527,11 +527,11 @@ export const articles: BlogArticle[] = [
 
       <p>Prima variantă este o acuzație care generează apărare. A doua este o nevoie clară cu o posibilitate reală de schimbare.</p>
 
-      <h3>Acceptă că reconnectarea necesită timp</h3>
+      <h3>Acceptă că reconectarea necesită timp</h3>
 
       <p>Relația nu s-a răcit într-o săptămână. Nu se va încălzi într-o săptămână.</p>
 
-      <p>Primele două săptămâni: poate nu vezi schimbare. Prima lună: conversații mai multe, mai puțină tensiune. Lunile 2 și 3: începi să simți reconnectarea. Luna 6: relația arată diferit. Nu renunța după două săptămâni. Dă timp procesului.</p>
+      <p>Primele două săptămâni: poate nu vezi schimbare. Prima lună: conversații mai multe, mai puțină tensiune. Lunile 2 și 3: începi să simți reconectarea. Luna 6: relația arată diferit. Nu renunța după două săptămâni. Dă timp procesului.</p>
 
       <h2>Când relația poate fi salvată și când nu</h2>
 
