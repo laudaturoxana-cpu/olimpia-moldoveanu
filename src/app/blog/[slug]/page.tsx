@@ -16,13 +16,30 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const article = getArticleBySlug(slug);
   if (!article) return {};
+
+  const ogImage = article.image
+    ? `https://www.olimpiamoldoveanu.ro${article.image}`
+    : "https://www.olimpiamoldoveanu.ro/olimpia-moldoveanu.jpg";
+
   return {
     title: `${article.title} | Olimpia Moldoveanu`,
     description: article.excerpt,
+    alternates: {
+      canonical: `https://www.olimpiamoldoveanu.ro/blog/${slug}`,
+    },
     openGraph: {
       title: article.title,
       description: article.excerpt,
       type: "article",
+      publishedTime: article.date,
+      authors: ["Olimpia Moldoveanu"],
+      images: [{ url: ogImage, width: 1200, height: 630, alt: article.imageAlt ?? article.title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: article.title,
+      description: article.excerpt,
+      images: [ogImage],
     },
   };
 }
@@ -34,7 +51,39 @@ export default async function ArticlePage({ params }: Props) {
 
   const recent = getRecentArticles(3).filter((a) => a.slug !== slug);
 
+  const articleLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.excerpt,
+    image: article.image
+      ? `https://www.olimpiamoldoveanu.ro${article.image}`
+      : "https://www.olimpiamoldoveanu.ro/olimpia-moldoveanu.jpg",
+    datePublished: article.date,
+    dateModified: article.date,
+    author: {
+      "@type": "Person",
+      name: "Olimpia Moldoveanu",
+      url: "https://www.olimpiamoldoveanu.ro",
+    },
+    publisher: {
+      "@type": "Person",
+      name: "Olimpia Moldoveanu",
+      url: "https://www.olimpiamoldoveanu.ro",
+      image: "https://www.olimpiamoldoveanu.ro/olimpia-moldoveanu.jpg",
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://www.olimpiamoldoveanu.ro/blog/${slug}`,
+    },
+  };
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }}
+      />
     <main className="min-h-screen bg-crem">
       {/* Top nav */}
       <header className="bg-crem border-b border-gri-deschis sticky top-0 z-40">
@@ -171,5 +220,6 @@ export default async function ArticlePage({ params }: Props) {
         </section>
       )}
     </main>
+    </>
   );
 }
