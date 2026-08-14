@@ -149,18 +149,17 @@ const Header = () => {
         </motion.nav>
 
         {/* Desktop CTA */}
-        <motion.div
-          className="hidden lg:block"
+        <motion.button
+          onClick={() => scrollToSection("contact")}
+          className="hidden lg:block btn-primary text-sm"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: DURATION.fast, ease: EASE, delay: 0.8 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <Link href="/ghid-7-blocaje" className="btn-primary text-sm inline-block">
-            Descarcă Ghidul gratuit
-          </Link>
-        </motion.div>
+          Află cum te pot ajuta
+        </motion.button>
 
         {/* Mobile Menu Button */}
         <button
@@ -211,13 +210,12 @@ const Header = () => {
           >
             {blogLink.label}
           </Link>
-          <Link
-            href="/ghid-7-blocaje"
-            onClick={() => setIsMobileMenuOpen(false)}
+          <button
+            onClick={() => scrollToSection("contact")}
             className="btn-primary text-center mt-4"
           >
-            Descarcă Ghidul gratuit
-          </Link>
+            Află cum te pot ajuta
+          </button>
         </nav>
       </div>
     </motion.header>

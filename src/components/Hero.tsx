@@ -6,6 +6,13 @@ import { EASE, DURATION } from "@/lib/animations";
 import SparkleParticles from "@/components/ui/SparkleParticles";
 
 const Hero = () => {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   const trustBadges = [
     { icon: "✓", text: "Liniște în minte, nu doar inspirație" },
     { icon: "✓", text: "Suport constant, nu te las singură" },
@@ -64,22 +71,21 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: DURATION.normal, ease: EASE, delay: 0.7 }}
             >
-              <Link href="/ghid-7-blocaje">
-                <motion.span
-                  className="btn-primary text-base inline-block"
-                  whileHover={{ scale: 1.03 }}
-                  whileTap={{ scale: 0.97 }}
-                >
-                  Descarcă gratuit Ghidul „Știi ce ai de făcut… dar tot nu faci?”
-                </motion.span>
-              </Link>
+              <motion.button
+                onClick={() => scrollToSection("contact")}
+                className="btn-primary text-base"
+                whileHover={{ scale: 1.03 }}
+                whileTap={{ scale: 0.97 }}
+              >
+                Află cum te pot ajuta
+              </motion.button>
               <Link href="/ghid-7-blocaje">
                 <motion.span
                   className="btn-secondary text-base inline-block"
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                 >
-                  Vezi ce conține ghidul
+                  Descarcă gratuit Ghidul „Știi ce ai de făcut… dar tot nu faci?”
                 </motion.span>
               </Link>
             </motion.div>
