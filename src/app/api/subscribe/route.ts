@@ -34,14 +34,16 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Map sources to MailerLite group IDs
-    const groupMap: Record<string, string> = {
+    // Map sources to MailerLite group IDs.
+    // "ghid-7-blocaje" is configured via env so it can be set without a code change.
+    const groupMap: Record<string, string | undefined> = {
       "workshopuri-martie": "180022173186917599",
+      "ghid-7-blocaje": process.env.MAILERLITE_GROUP_GHID,
     };
 
     const groups: string[] = [];
     if (source && groupMap[source]) {
-      groups.push(groupMap[source]);
+      groups.push(groupMap[source] as string);
     }
 
     // Prepare subscriber data for Mailerlite
