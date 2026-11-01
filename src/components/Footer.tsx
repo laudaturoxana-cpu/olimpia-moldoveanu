@@ -212,10 +212,10 @@ const Footer = () => {
           {/* Company Details - Legal Requirement */}
           <div className="text-center mb-4">
             <p className="font-montserrat text-xs text-gri-mediu">
-              <strong className="text-gri-mediu">REVO TEAM TUNARI S.R.L.</strong> | CUI: 50588633 | Nr. Reg. Com.: J2024024687009
+              <strong className="text-gri-mediu">Olimpia Moldoveanu</strong> | Persoană fizică
             </p>
             <p className="font-montserrat text-xs text-gri-mediu mt-1">
-              Tunari, Jud. Ilfov, România
+              România
             </p>
           </div>
 

@@ -42,7 +42,7 @@ const PrivacyPolicy = () => {
               1. Introducere
             </h2>
             <p className="text-gri-mediu leading-relaxed mb-4">
-              REVO TEAM TUNARI S.R.L., cu sediul în Strada 1 Decembrie nr. 97, Tunari, Jud. Ilfov, România, înregistrată la Registrul Comerțului sub nr. J2024024687009, CUI 50588633, (denumită în continuare &quot;Operatorul&quot;, &quot;noi&quot; sau &quot;nostru&quot;), se angajează să protejeze confidențialitatea și securitatea datelor dumneavoastră cu caracter personal.
+              Olimpia Moldoveanu, persoană fizică (denumită în continuare &quot;Operatorul&quot;, &quot;noi&quot; sau &quot;nostru&quot;), se angajează să protejeze confidențialitatea și securitatea datelor dumneavoastră cu caracter personal.
             </p>
             <p className="text-gri-mediu leading-relaxed mb-4">
               Prezenta Politică de Confidențialitate descrie modul în care colectăm, utilizăm, stocăm și protejăm datele dumneavoastră personale atunci când vizitați site-ul nostru web olimpiamoldoveanu.ro sau când utilizați serviciile noastre de coaching transformator.
@@ -61,10 +61,7 @@ const PrivacyPolicy = () => {
               Operatorul de date cu caracter personal este:
             </p>
             <div className="bg-white rounded-lg p-6 border border-gri-deschis mb-4">
-              <p className="text-charcoal mb-2"><strong>Denumire:</strong> REVO TEAM TUNARI S.R.L.</p>
-              <p className="text-charcoal mb-2"><strong>Sediu social:</strong> Strada 1 Decembrie nr. 97, Tunari, Jud. Ilfov, România</p>
-              <p className="text-charcoal mb-2"><strong>CUI:</strong> 50588633</p>
-              <p className="text-charcoal mb-2"><strong>Nr. Reg. Com.:</strong> J2024024687009</p>
+              <p className="text-charcoal mb-2"><strong>Nume:</strong> Olimpia Moldoveanu (persoană fizică)</p>
               <p className="text-charcoal mb-2"><strong>Email:</strong> contact@olimpiamoldoveanu.ro</p>
               <p className="text-charcoal"><strong>Telefon:</strong> +40 720 411 423</p>
             </div>
@@ -275,10 +272,9 @@ const PrivacyPolicy = () => {
               Pentru orice întrebări sau solicitări legate de această Politică de Confidențialitate sau de prelucrarea datelor dumneavoastră personale, ne puteți contacta la:
             </p>
             <div className="bg-white rounded-lg p-6 border border-gri-deschis">
-              <p className="text-charcoal mb-2"><strong>REVO TEAM TUNARI S.R.L.</strong></p>
+              <p className="text-charcoal mb-2"><strong>Olimpia Moldoveanu</strong></p>
               <p className="text-charcoal mb-2"><strong>Email:</strong> contact@olimpiamoldoveanu.ro</p>
               <p className="text-charcoal mb-2"><strong>Telefon:</strong> +40 720 411 423</p>
-              <p className="text-charcoal"><strong>Adresă:</strong> Strada 1 Decembrie nr. 97, Tunari, Jud. Ilfov, România</p>
             </div>
           </section>
 

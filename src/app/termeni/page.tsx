@@ -42,13 +42,10 @@ const TermsAndConditions = () => {
               1. Informații Generale
             </h2>
             <p className="text-gri-mediu leading-relaxed mb-4">
-              Prezentul document stabilește termenii și condițiile generale de utilizare a site-ului web olimpiamoldoveanu.ro (denumit în continuare &quot;Site-ul&quot;) și a serviciilor oferite de REVO TEAM TUNARI S.R.L.
+              Prezentul document stabilește termenii și condițiile generale de utilizare a site-ului web olimpiamoldoveanu.ro (denumit în continuare &quot;Site-ul&quot;) și a serviciilor oferite de Olimpia Moldoveanu.
             </p>
             <div className="bg-white rounded-lg p-6 border border-gri-deschis mb-4">
-              <p className="text-charcoal mb-2"><strong>Denumirea operatorului:</strong> REVO TEAM TUNARI S.R.L.</p>
-              <p className="text-charcoal mb-2"><strong>Sediul social:</strong> Strada 1 Decembrie nr. 97, Tunari, Jud. Ilfov, România</p>
-              <p className="text-charcoal mb-2"><strong>CUI:</strong> 50588633</p>
-              <p className="text-charcoal mb-2"><strong>Nr. Registrul Comerțului:</strong> J2024024687009</p>
+              <p className="text-charcoal mb-2"><strong>Prestator:</strong> Olimpia Moldoveanu (persoană fizică)</p>
               <p className="text-charcoal mb-2"><strong>Email:</strong> contact@olimpiamoldoveanu.ro</p>
               <p className="text-charcoal"><strong>Telefon:</strong> +40 720 411 423</p>
             </div>
@@ -63,7 +60,7 @@ const TermsAndConditions = () => {
               2. Definiții
             </h2>
             <ul className="list-disc pl-6 text-gri-mediu space-y-2">
-              <li><strong>&quot;Prestator&quot;</strong> - REVO TEAM TUNARI S.R.L., persoană juridică română</li>
+              <li><strong>&quot;Prestator&quot;</strong> - Olimpia Moldoveanu, persoană fizică</li>
               <li><strong>&quot;Client&quot; / &quot;Utilizator&quot;</strong> - persoana fizică sau juridică care accesează Site-ul sau achiziționează servicii</li>
               <li><strong>&quot;Servicii&quot;</strong> - serviciile de coaching transformator, consultanță, programe de grup și materiale digitale oferite de Prestator</li>
               <li><strong>&quot;Conținut&quot;</strong> - toate materialele, textele, imaginile, video-urile și resursele disponibile pe Site</li>
@@ -77,7 +74,7 @@ const TermsAndConditions = () => {
               3. Descrierea Serviciilor
             </h2>
             <p className="text-gri-mediu leading-relaxed mb-4">
-              REVO TEAM TUNARI S.R.L., prin marca Olimpia Moldoveanu Coaching, oferă servicii de coaching transformator prin aplicarea Legilor Universale, incluzând, dar fără a se limita la:
+              Olimpia Moldoveanu, prin marca Olimpia Moldoveanu Coaching, oferă servicii de coaching transformator prin aplicarea Legilor Universale, incluzând, dar fără a se limita la:
             </p>
             <ul className="list-disc pl-6 text-gri-mediu space-y-2 mb-4">
               <li>Sesiuni individuale de coaching (online sau față-în-față)</li>
@@ -207,7 +204,7 @@ const TermsAndConditions = () => {
               8. Proprietate Intelectuală
             </h2>
             <p className="text-gri-mediu leading-relaxed mb-4">
-              Toate drepturile de proprietate intelectuală asupra conținutului Site-ului și materialelor furnizate (texte, grafice, logo-uri, imagini, video-uri, exerciții, meditații, metodologii) aparțin exclusiv REVO TEAM TUNARI S.R.L. sau licențiatorilor săi.
+              Toate drepturile de proprietate intelectuală asupra conținutului Site-ului și materialelor furnizate (texte, grafice, logo-uri, imagini, video-uri, exerciții, meditații, metodologii) aparțin exclusiv Olimpia Moldoveanu sau licențiatorilor săi.
             </p>
             <p className="text-gri-mediu leading-relaxed mb-4">
               <strong>Este interzis:</strong>
@@ -247,7 +244,7 @@ const TermsAndConditions = () => {
               10. Limitarea Răspunderii
             </h2>
             <p className="text-gri-mediu leading-relaxed mb-4">
-              REVO TEAM TUNARI S.R.L. își asumă responsabilitatea pentru furnizarea serviciilor conform descrierii, însă:
+              Olimpia Moldoveanu își asumă responsabilitatea pentru furnizarea serviciilor conform descrierii, însă:
             </p>
             <ul className="list-disc pl-6 text-gri-mediu space-y-2 mb-4">
               <li>Nu garantează rezultate specifice, întrucât succesul depinde în mare măsură de implicarea și acțiunile Clientului</li>
@@ -289,7 +286,7 @@ const TermsAndConditions = () => {
               13. Modificarea Termenilor
             </h2>
             <p className="text-gri-mediu leading-relaxed">
-              REVO TEAM TUNARI S.R.L. își rezervă dreptul de a modifica acești Termeni și Condiții în orice moment. Modificările vor fi publicate pe Site și vor intra în vigoare la data publicării. Continuarea utilizării Site-ului sau serviciilor după publicarea modificărilor constituie acceptarea noilor termeni.
+              Olimpia Moldoveanu își rezervă dreptul de a modifica acești Termeni și Condiții în orice moment. Modificările vor fi publicate pe Site și vor intra în vigoare la data publicării. Continuarea utilizării Site-ului sau serviciilor după publicarea modificărilor constituie acceptarea noilor termeni.
             </p>
           </section>
 
@@ -353,10 +350,9 @@ const TermsAndConditions = () => {
               Pentru orice întrebări referitoare la acești Termeni și Condiții:
             </p>
             <div className="bg-white rounded-lg p-6 border border-gri-deschis">
-              <p className="text-charcoal mb-2"><strong>REVO TEAM TUNARI S.R.L.</strong></p>
+              <p className="text-charcoal mb-2"><strong>Olimpia Moldoveanu</strong></p>
               <p className="text-charcoal mb-2"><strong>Email:</strong> contact@olimpiamoldoveanu.ro</p>
               <p className="text-charcoal mb-2"><strong>Telefon:</strong> +40 720 411 423</p>
-              <p className="text-charcoal"><strong>Adresă:</strong> Strada 1 Decembrie nr. 97, Tunari, Jud. Ilfov, România</p>
             </div>
           </section>
         </div>
