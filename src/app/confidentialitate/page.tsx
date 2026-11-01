@@ -144,10 +144,6 @@ const PrivacyPolicy = () => {
                     <td className="border border-gri-deschis p-3">Conformitatea cu obligațiile legale</td>
                     <td className="border border-gri-deschis p-3">Obligație legală (Art. 6(1)(c) GDPR)</td>
                   </tr>
-                  <tr>
-                    <td className="border border-gri-deschis p-3">Facturare și contabilitate</td>
-                    <td className="border border-gri-deschis p-3">Obligație legală și executarea contractului</td>
-                  </tr>
                 </tbody>
               </table>
             </div>

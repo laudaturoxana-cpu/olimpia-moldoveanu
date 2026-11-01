@@ -118,7 +118,7 @@ const TermsAndConditions = () => {
             </h2>
             <h3 className="font-cormorant text-xl text-charcoal mb-3 mt-6">5.1. Prețuri</h3>
             <p className="text-gri-mediu leading-relaxed mb-4">
-              Prețurile serviciilor sunt cele afișate pe Site la momentul achiziției. Toate prețurile sunt exprimate în RON (Lei românești) și includ TVA, dacă este cazul, conform legislației în vigoare.
+              Prețurile serviciilor sunt cele afișate pe Site la momentul achiziției. Toate prețurile sunt exprimate în RON (Lei românești).
             </p>
 
             <h3 className="font-cormorant text-xl text-charcoal mb-3 mt-6">5.2. Modalități de plată</h3>
@@ -130,11 +130,6 @@ const TermsAndConditions = () => {
               <li>Plată online cu cardul (prin procesator de plăți securizat)</li>
               <li>Plată în rate (conform opțiunilor disponibile pentru fiecare program)</li>
             </ul>
-
-            <h3 className="font-cormorant text-xl text-charcoal mb-3 mt-6">5.3. Facturare</h3>
-            <p className="text-gri-mediu leading-relaxed">
-              Factura fiscală va fi emisă în conformitate cu legislația română și transmisă electronic pe adresa de email indicată de Client în maximum 5 zile lucrătoare de la încasarea plății.
-            </p>
           </section>
 
           {/* Section 6 */}

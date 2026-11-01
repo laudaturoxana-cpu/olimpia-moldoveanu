@@ -311,7 +311,7 @@ const GDPRCookies = () => {
             <ul className="list-disc pl-6 text-gri-mediu space-y-3">
               <li><strong>Consimțământul (Art. 6(1)(a)):</strong> Ați fost de acord cu prelucrarea pentru scopuri specifice (ex: newsletter, cookie-uri de marketing)</li>
               <li><strong>Executarea contractului (Art. 6(1)(b)):</strong> Prelucrarea este necesară pentru furnizarea serviciilor solicitate</li>
-              <li><strong>Obligație legală (Art. 6(1)(c)):</strong> Trebuie să respectăm obligații legale (ex: păstrarea facturilor)</li>
+              <li><strong>Obligație legală (Art. 6(1)(c)):</strong> Trebuie să respectăm obligații legale</li>
               <li><strong>Interese legitime (Art. 6(1)(f)):</strong> Avem un interes legitim de afaceri care nu prevalează asupra drepturilor dumneavoastră</li>
             </ul>
           </section>
